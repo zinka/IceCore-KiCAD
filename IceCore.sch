@@ -1,0 +1,5543 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A2 23386 16535
+encoding utf-8
+Sheet 1 1
+Title "IceCore Lattice FPGA Board"
+Date "2020-12-19"
+Rev "0.0.1"
+Comp ""
+Comment1 "Created by : S. R. Zinka"
+Comment2 "Reviewed by : "
+Comment3 "Approved by : "
+Comment4 "Sch No : SCH-XXXXXX"
+$EndDescr
+Wire Wire Line
+	10750 7200 10850 7200
+Text Label 11150 7200 0    50   ~ 0
++3V3
+Wire Wire Line
+	11100 9600 11550 9600
+Text Label 11150 9600 0    50   ~ 0
++3V3
+Wire Wire Line
+	14350 11300 14350 11000
+Text Label 14350 11250 1    50   ~ 0
++3V3
+Wire Wire Line
+	15850 11000 15850 11050
+Text Label 15850 11400 1    50   ~ 0
++3V3
+Wire Wire Line
+	17050 7500 16650 7500
+Text Label 16750 7500 0    50   ~ 0
++3V3
+Wire Wire Line
+	14450 5500 14450 5900
+Text Label 14450 5800 1    50   ~ 0
++3V3
+Wire Wire Line
+	13650 5500 13650 5900
+Text Label 13650 5800 1    50   ~ 0
++3V3
+Wire Wire Line
+	6650 10450 6350 10450
+Text Label 6350 10450 0    50   ~ 0
++3V3
+Wire Wire Line
+	7050 10550 6350 10550
+Text Label 6350 10550 0    50   ~ 0
++3V3
+Wire Wire Line
+	10800 3700 10800 3750
+Wire Wire Line
+	10800 3750 10850 3750
+Wire Wire Line
+	17350 6400 17350 6700
+Wire Wire Line
+	7450 10650 6350 10650
+Text Label 6350 10650 0    50   ~ 0
++3V3
+Wire Wire Line
+	7450 10350 6350 10350
+Text Label 6350 10350 0    50   ~ 0
++3V3
+Wire Wire Line
+	17050 8600 16650 8600
+Text Label 16750 8600 0    50   ~ 0
++3V3
+Wire Wire Line
+	1800 2450 1850 2450
+Wire Wire Line
+	1800 2750 1800 2450
+Wire Wire Line
+	1800 2750 1850 2750
+Wire Wire Line
+	1850 3350 1800 3350
+Wire Wire Line
+	1800 3350 1800 3050
+Wire Wire Line
+	1800 3050 1800 2750
+Wire Wire Line
+	1850 3050 1800 3050
+Wire Wire Line
+	1850 4650 1800 4650
+Wire Wire Line
+	1800 4650 1800 4350
+Wire Wire Line
+	1800 4350 1800 4050
+Wire Wire Line
+	1800 4050 1800 3750
+Wire Wire Line
+	1800 3750 1800 3350
+Wire Wire Line
+	1850 3750 1800 3750
+Wire Wire Line
+	1850 4050 1800 4050
+Wire Wire Line
+	1850 4350 1800 4350
+Connection ~ 1800 2750
+Connection ~ 1800 3050
+Connection ~ 1800 3350
+Connection ~ 1800 3750
+Connection ~ 1800 4050
+Connection ~ 1800 4350
+Wire Wire Line
+	12250 2750 12650 2750
+Connection ~ 12650 2750
+Wire Wire Line
+	15450 13400 15050 13400
+Wire Wire Line
+	15050 13300 15050 13200
+Wire Wire Line
+	15450 13300 15050 13300
+Wire Wire Line
+	15050 13300 15050 13400
+Wire Wire Line
+	15050 13400 14850 13400
+Wire Wire Line
+	14850 13400 14550 13400
+Wire Wire Line
+	14550 13400 14350 13400
+Wire Wire Line
+	14350 13400 14150 13400
+Wire Wire Line
+	14150 13400 13750 13400
+Wire Wire Line
+	13750 13400 13750 13500
+Wire Wire Line
+	14350 13900 14350 13400
+Wire Wire Line
+	14150 13500 14150 13400
+Wire Wire Line
+	14550 13900 14550 13400
+Wire Wire Line
+	13750 13400 13350 13400
+Wire Wire Line
+	13350 13400 13350 13500
+Connection ~ 14350 13400
+Connection ~ 15050 13300
+Connection ~ 15050 13400
+Connection ~ 14850 13400
+Connection ~ 14150 13400
+Connection ~ 14550 13400
+Connection ~ 13750 13400
+Wire Wire Line
+	1850 6350 1850 6450
+Wire Wire Line
+	1850 6450 1850 6550
+Wire Wire Line
+	1850 6750 1850 6950
+Wire Wire Line
+	1850 6950 1850 7050
+Connection ~ 1850 6350
+Connection ~ 1850 6450
+Connection ~ 1850 6550
+Connection ~ 1850 6750
+Connection ~ 1850 6950
+Connection ~ 1850 7050
+Wire Wire Line
+	12300 14450 12300 14350
+Wire Wire Line
+	12300 14350 12300 14250
+Wire Wire Line
+	12300 14250 12300 14150
+Wire Wire Line
+	12300 14150 12300 13950
+Connection ~ 12300 14150
+Connection ~ 12300 14250
+Connection ~ 12300 14350
+Wire Wire Line
+	9800 14250 9800 14350
+Wire Wire Line
+	9800 14250 9800 14150
+Connection ~ 9800 14250
+Wire Wire Line
+	6650 10850 6350 10850
+Text Label 6350 10850 0    50   ~ 0
++3V3
+Wire Wire Line
+	16650 8900 17350 8900
+Wire Wire Line
+	16650 7200 17350 7200
+Wire Wire Line
+	17350 7200 17350 7500
+Wire Wire Line
+	17350 7500 17350 8300
+Wire Wire Line
+	17350 8300 17350 8600
+Wire Wire Line
+	17350 8600 17350 8900
+Connection ~ 17350 7500
+Connection ~ 17350 8300
+Connection ~ 17350 8600
+Wire Wire Line
+	15550 11000 15550 11700
+Wire Wire Line
+	15850 11700 15550 11700
+Wire Wire Line
+	14550 11000 14550 11700
+Wire Wire Line
+	14350 11700 14350 11600
+Wire Wire Line
+	14350 11700 14550 11700
+Wire Wire Line
+	6350 14550 6450 14550
+Wire Wire Line
+	6450 14550 6450 14650
+Wire Wire Line
+	6450 14650 6450 14750
+Wire Wire Line
+	6450 14750 6450 14850
+Wire Wire Line
+	6450 14850 6450 14950
+Wire Wire Line
+	6450 14950 6450 15050
+Wire Wire Line
+	6350 14650 6450 14650
+Wire Wire Line
+	6350 14750 6450 14750
+Wire Wire Line
+	6350 14950 6450 14950
+Wire Wire Line
+	6350 14850 6450 14850
+Connection ~ 6450 14650
+Connection ~ 6450 14750
+Connection ~ 6450 14950
+Connection ~ 6450 14850
+Wire Wire Line
+	11550 7900 10850 7900
+Wire Wire Line
+	10850 7900 10850 8000
+Wire Wire Line
+	10850 8000 10850 8100
+Wire Wire Line
+	11550 8000 10850 8000
+Connection ~ 10850 8000
+Wire Wire Line
+	11550 7100 10450 7100
+Wire Wire Line
+	10450 7100 10350 7100
+Wire Wire Line
+	10350 7100 10350 7300
+Wire Wire Line
+	10450 7200 10450 7100
+Connection ~ 10450 7100
+Wire Wire Line
+	14550 14200 14350 14200
+Wire Wire Line
+	13750 13800 13750 14250
+Wire Wire Line
+	14150 13800 13750 13800
+Wire Wire Line
+	13350 13800 13750 13800
+Connection ~ 13750 13800
+Wire Wire Line
+	12750 5900 12750 5200
+Wire Wire Line
+	12150 5300 12150 5200
+Wire Wire Line
+	12150 5200 12750 5200
+Wire Wire Line
+	12750 5200 13550 5200
+Wire Wire Line
+	13550 5200 13650 5200
+Wire Wire Line
+	13550 5900 13550 5200
+Connection ~ 13550 5200
+Connection ~ 12750 5200
+Wire Wire Line
+	6950 10850 7950 10850
+Wire Wire Line
+	7950 10850 7950 10650
+Wire Wire Line
+	7950 10650 7950 10550
+Wire Wire Line
+	7350 10550 7950 10550
+Wire Wire Line
+	7950 10550 7950 10450
+Wire Wire Line
+	7950 10450 7950 10350
+Wire Wire Line
+	7750 10650 7950 10650
+Wire Wire Line
+	6950 10450 7950 10450
+Wire Wire Line
+	7350 10250 7950 10250
+Wire Wire Line
+	7950 10250 7950 10350
+Wire Wire Line
+	7950 10350 7750 10350
+Connection ~ 7950 10550
+Connection ~ 7950 10650
+Connection ~ 7950 10450
+Connection ~ 7950 10350
+Connection ~ 7950 10250
+Wire Wire Line
+	2600 8450 3000 8450
+Wire Wire Line
+	3000 8350 3000 8450
+Wire Wire Line
+	2600 8350 2600 8450
+Wire Wire Line
+	14450 5200 15650 5200
+Wire Wire Line
+	15650 5200 16150 5200
+Wire Wire Line
+	16150 5200 16150 5300
+Connection ~ 15650 5200
+Wire Wire Line
+	10750 3150 10550 3150
+Wire Wire Line
+	2500 3350 2750 3350
+Wire Wire Line
+	6500 6550 6600 6550
+Wire Wire Line
+	6600 6550 6600 6850
+Wire Wire Line
+	6600 6850 6600 7150
+Wire Wire Line
+	6600 7150 6600 7450
+Wire Wire Line
+	6600 7450 6600 7650
+Wire Wire Line
+	6600 7650 6600 8350
+Wire Wire Line
+	6500 6850 6600 6850
+Wire Wire Line
+	6500 7150 6600 7150
+Wire Wire Line
+	6500 7450 6600 7450
+Wire Wire Line
+	6500 7650 6600 7650
+Connection ~ 6600 6850
+Connection ~ 6600 7150
+Connection ~ 6600 7450
+Connection ~ 6600 7650
+Wire Wire Line
+	16550 13300 16550 13400
+Wire Wire Line
+	16550 13300 17050 13300
+Wire Wire Line
+	17050 13300 17050 13400
+Connection ~ 16550 13300
+Wire Wire Line
+	2650 6850 2500 6850
+Wire Wire Line
+	2500 6850 2500 7250
+Wire Wire Line
+	10750 2750 10550 2750
+Wire Wire Line
+	10750 2950 10550 2950
+Wire Wire Line
+	10550 2950 10550 2750
+Connection ~ 10550 2750
+Wire Wire Line
+	14850 2750 14300 2750
+Wire Wire Line
+	14300 2750 14300 2850
+Wire Wire Line
+	14300 2750 14100 2750
+Connection ~ 14300 2750
+Wire Wire Line
+	11100 9300 11550 9300
+Text Label 11150 9300 0    50   ~ 0
+VCC
+Wire Wire Line
+	12650 11400 12650 11000
+Text Label 12650 11400 1    50   ~ 0
+VCC
+Wire Wire Line
+	17050 8300 16650 8300
+Text Label 16750 8300 0    50   ~ 0
+VCC
+Wire Wire Line
+	14750 4700 14750 4900
+Wire Wire Line
+	14750 4900 14650 4900
+Wire Wire Line
+	15650 5500 15650 5900
+Text Label 15650 5800 1    50   ~ 0
+VCC
+Wire Wire Line
+	16750 2750 16350 2750
+Connection ~ 16750 2750
+Wire Wire Line
+	15450 14400 15250 14400
+Text Label 15250 14400 0    50   ~ 0
+A1
+Wire Wire Line
+	14850 5900 14850 5600
+Text Label 14850 5600 1    50   ~ 0
+A1
+Wire Wire Line
+	15450 14500 15250 14500
+Text Label 15250 14500 0    50   ~ 0
+A2
+Wire Wire Line
+	14650 5900 14650 5600
+Text Label 14650 5600 1    50   ~ 0
+A2
+Wire Wire Line
+	15450 14600 15250 14600
+Text Label 15250 14600 0    50   ~ 0
+A3
+Wire Wire Line
+	14350 5900 14350 5600
+Text Label 14350 5600 1    50   ~ 0
+A3
+Wire Wire Line
+	15450 14700 15250 14700
+Text Label 15250 14700 0    50   ~ 0
+A4
+Wire Wire Line
+	13750 5900 13750 5500
+Text Label 13750 5500 1    50   ~ 0
+A4
+Wire Wire Line
+	15450 14800 15250 14800
+Text Label 15250 14800 0    50   ~ 0
+A5
+Wire Wire Line
+	14250 5900 14250 5600
+Text Label 14250 5600 1    50   ~ 0
+A5
+Wire Wire Line
+	15450 14900 15250 14900
+Text Label 15250 14900 0    50   ~ 0
+A6
+Wire Wire Line
+	14550 5900 14550 5600
+Text Label 14550 5600 1    50   ~ 0
+A6
+Wire Wire Line
+	15450 15000 15250 15000
+Text Label 15250 15000 0    50   ~ 0
+A7
+Wire Wire Line
+	14750 5900 14750 5600
+Text Label 14750 5600 1    50   ~ 0
+A7
+Wire Wire Line
+	15450 15100 15250 15100
+Text Label 15250 15100 0    50   ~ 0
+A8
+Wire Wire Line
+	14950 5900 14950 5600
+Text Label 14950 5600 1    50   ~ 0
+A8
+Wire Wire Line
+	15450 15200 15250 15200
+Text Label 15250 15200 0    50   ~ 0
+A9
+Wire Wire Line
+	15150 5900 15150 5600
+Text Label 15150 5600 1    50   ~ 0
+A9
+Wire Wire Line
+	15450 15300 15250 15300
+Text Label 15250 15300 0    50   ~ 0
+A10
+Wire Wire Line
+	15250 5900 15250 5600
+Text Label 15250 5600 1    50   ~ 0
+A10
+Wire Wire Line
+	15450 15400 15250 15400
+Text Label 15250 15400 0    50   ~ 0
+A11
+Wire Wire Line
+	15350 5900 15350 5600
+Text Label 15350 5600 1    50   ~ 0
+A11
+Wire Wire Line
+	11550 8100 11150 8100
+Text Label 11150 8100 0    50   ~ 0
+P27
+Wire Wire Line
+	11150 8200 11550 8200
+Text Label 11150 8200 0    50   ~ 0
+P26
+Wire Wire Line
+	11550 7500 11150 7500
+Text Label 11150 7500 0    50   ~ 0
+P31
+Wire Wire Line
+	11550 7600 11150 7600
+Text Label 11150 7600 0    50   ~ 0
+P30
+Wire Wire Line
+	11550 7700 11150 7700
+Text Label 11150 7700 0    50   ~ 0
+P29
+Wire Wire Line
+	11550 7800 11150 7800
+Text Label 11150 7800 0    50   ~ 0
+P28
+Wire Wire Line
+	11550 8300 11150 8300
+Text Label 11150 8300 0    50   ~ 0
+P25
+Wire Wire Line
+	11550 8400 11150 8400
+Text Label 11150 8400 0    50   ~ 0
+P24
+Wire Wire Line
+	13550 11000 13550 11400
+Text Label 13550 11400 1    50   ~ 0
+L0
+Wire Wire Line
+	2500 3750 2800 3750
+Text Label 2800 3750 2    50   ~ 0
+L0
+Wire Wire Line
+	2600 7950 2600 7850
+Text Label 2600 7850 0    50   ~ 0
+L0
+Wire Wire Line
+	11550 9200 11150 9200
+Text Label 11150 9200 0    50   ~ 0
+P16
+Wire Wire Line
+	11550 8800 11150 8800
+Text Label 11150 8800 0    50   ~ 0
+P20
+Wire Wire Line
+	11550 9500 11150 9500
+Text Label 11150 9500 0    50   ~ 0
+P14
+Wire Wire Line
+	11550 10000 11150 10000
+Text Label 11150 10000 0    50   ~ 0
+P10
+Wire Wire Line
+	11550 9700 11150 9700
+Text Label 11150 9700 0    50   ~ 0
+P13
+Wire Wire Line
+	12350 11000 12350 11400
+Text Label 12350 11400 1    50   ~ 0
+P9
+Wire Wire Line
+	11550 9800 11150 9800
+Text Label 11150 9800 0    50   ~ 0
+P12
+Wire Wire Line
+	12450 11000 12450 11400
+Text Label 12450 11400 1    50   ~ 0
+P8
+Wire Wire Line
+	11550 8500 11150 8500
+Text Label 11150 8500 0    50   ~ 0
+P23
+Wire Wire Line
+	11550 8900 11150 8900
+Text Label 11150 8900 0    50   ~ 0
+P19
+Wire Wire Line
+	11550 8600 11150 8600
+Text Label 11150 8600 0    50   ~ 0
+P22
+Wire Wire Line
+	11550 9000 11150 9000
+Text Label 11150 9000 0    50   ~ 0
+P18
+Wire Wire Line
+	11550 8700 11150 8700
+Text Label 11150 8700 0    50   ~ 0
+P21
+Wire Wire Line
+	11550 9100 11150 9100
+Text Label 11150 9100 0    50   ~ 0
+P17
+Wire Wire Line
+	14750 11000 14750 11400
+Text Label 14750 11400 1    50   ~ 0
+TX
+Wire Wire Line
+	6350 12050 6450 12050
+Text Label 6450 12050 0    50   ~ 0
+TX
+Wire Wire Line
+	14850 11000 14850 11400
+Text Label 14850 11400 1    50   ~ 0
+RX
+Wire Wire Line
+	6350 12150 6450 12150
+Text Label 6450 12150 0    50   ~ 0
+RX
+Wire Wire Line
+	13450 11000 13450 11400
+Text Label 13450 11400 1    50   ~ 0
+P0
+Wire Wire Line
+	7300 6450 7800 6450
+Text Label 7800 6450 0    50   ~ 0
+P0
+Wire Wire Line
+	12950 11000 12950 11400
+Text Label 12950 11400 1    50   ~ 0
+P4
+Text Label 7800 7050 0    50   ~ 0
+P4
+Wire Wire Line
+	12850 11000 12850 11400
+Text Label 12850 11400 1    50   ~ 0
+P5
+Wire Wire Line
+	7600 7250 7800 7250
+Text Label 7800 7250 0    50   ~ 0
+P5
+Wire Wire Line
+	3950 10250 3350 10250
+Text Label 3750 10250 0    50   ~ 0
+~SRST
+Wire Wire Line
+	13150 11000 13150 11400
+Text Label 13150 11400 1    50   ~ 0
+P2
+Text Label 7800 6750 0    50   ~ 0
+P2
+Wire Wire Line
+	13050 11000 13050 11400
+Text Label 13050 11400 1    50   ~ 0
+P3
+Text Label 7800 6950 0    50   ~ 0
+P3
+Wire Wire Line
+	13350 11000 13350 11400
+Text Label 13350 11400 1    50   ~ 0
+P1
+Text Label 7800 6650 0    50   ~ 0
+P1
+Wire Wire Line
+	12750 11000 12750 11400
+Text Label 12750 11400 1    50   ~ 0
+P6
+Text Label 7800 7350 0    50   ~ 0
+P6
+Wire Wire Line
+	12550 11000 12550 11400
+Text Label 12550 11400 1    50   ~ 0
+P7
+Text Label 7800 7550 0    50   ~ 0
+P7
+Wire Wire Line
+	15450 14300 15250 14300
+Text Label 15250 14300 0    50   ~ 0
+A0
+Wire Wire Line
+	15050 5900 15050 5600
+Text Label 15050 5600 1    50   ~ 0
+A0
+Wire Wire Line
+	3950 10950 3750 10950
+Text Label 3750 10950 0    50   ~ 0
+AN0
+Wire Wire Line
+	3950 10850 3750 10850
+Text Label 3750 10850 0    50   ~ 0
+AN1
+Wire Wire Line
+	3750 11050 3950 11050
+Text Label 3750 11050 0    50   ~ 0
+AN2
+Wire Wire Line
+	3750 11150 3950 11150
+Text Label 3750 11150 0    50   ~ 0
+AN3
+Wire Wire Line
+	6350 12250 6450 12250
+Text Label 6450 12250 0    50   ~ 0
+PD_N
+Text Label 2200 14350 0    50   ~ 0
+PD_N
+Wire Wire Line
+	6350 12350 6450 12350
+Text Label 6450 12350 0    50   ~ 0
+PD_P
+Text Label 2200 14450 0    50   ~ 0
+PD_P
+Wire Wire Line
+	7150 10950 6350 10950
+Text Label 6450 13550 0    50   ~ 0
+MODE-BOOT
+Text Label 7150 10950 0    50   ~ 0
+MODE-BOOT
+Wire Wire Line
+	15750 11000 15750 11400
+Text Label 15750 11400 1    50   ~ 0
+~SS
+Wire Wire Line
+	11600 14250 11900 14250
+Text Label 11600 14250 0    50   ~ 0
+~SS
+Wire Wire Line
+	3950 10650 3750 10650
+Text Label 3750 10650 0    50   ~ 0
+~SS
+Wire Wire Line
+	10350 1700 10550 1700
+Text Label 10350 1700 0    50   ~ 0
+VBUS1
+Wire Wire Line
+	2500 2750 2800 2750
+Text Label 2800 2750 2    50   ~ 0
+STATUS
+Wire Wire Line
+	6650 14150 6350 14150
+Text Label 6650 14150 0    50   ~ 0
+STATUS
+Wire Wire Line
+	11550 9400 11150 9400
+Text Label 11150 9400 0    50   ~ 0
+P15
+Wire Wire Line
+	11550 9900 11150 9900
+Text Label 11150 9900 0    50   ~ 0
+P11
+Wire Wire Line
+	6350 13150 6450 13150
+Text Label 6450 13150 0    50   ~ 0
+SCK
+Wire Wire Line
+	15650 11000 15650 11400
+Text Label 15650 11400 1    50   ~ 0
+SCK
+Wire Wire Line
+	11600 14350 11900 14350
+Text Label 11600 14350 0    50   ~ 0
+SCK
+Wire Wire Line
+	6350 13250 6450 13250
+Text Label 6450 13250 0    50   ~ 0
+MISO
+Wire Wire Line
+	11600 14150 11900 14150
+Text Label 11600 14150 0    50   ~ 0
+MISO
+Wire Wire Line
+	15450 11000 15450 11400
+Text Label 15450 11400 1    50   ~ 0
+MISO
+Wire Wire Line
+	6350 13350 6450 13350
+Text Label 6450 13350 0    50   ~ 0
+MOSI
+Wire Wire Line
+	11600 14450 11900 14450
+Text Label 11600 14450 0    50   ~ 0
+MOSI
+Wire Wire Line
+	15350 11000 15350 11400
+Text Label 15350 11400 1    50   ~ 0
+MOSI
+Wire Wire Line
+	15250 11000 15250 11400
+Text Label 15250 11400 1    50   ~ 0
+RESET
+Wire Wire Line
+	3750 12250 3950 12250
+Text Label 3750 12250 0    50   ~ 0
+RESET
+Wire Wire Line
+	15150 11000 15150 11400
+Text Label 15150 11400 1    50   ~ 0
+DONE
+Wire Wire Line
+	2500 2450 2600 2450
+Text Label 2600 2450 0    50   ~ 0
+DONE
+Wire Wire Line
+	3950 11650 3750 11650
+Text Label 3750 11650 0    50   ~ 0
+DONE
+Wire Wire Line
+	6500 7950 7000 7950
+Text Label 6650 7950 0    50   ~ 0
+VSDA
+Wire Wire Line
+	6350 13850 6550 13850
+Text Label 6550 13850 0    50   ~ 0
+VSDA
+Wire Wire Line
+	14050 11000 14050 12000
+Wire Wire Line
+	13600 12000 13650 12000
+Wire Wire Line
+	13650 12000 13850 12000
+Wire Wire Line
+	13850 12000 14050 12000
+Connection ~ 13850 12000
+Connection ~ 13650 12000
+Wire Wire Line
+	14050 4900 14150 4900
+Wire Wire Line
+	14150 4900 14150 5900
+Wire Wire Line
+	14250 4900 14150 4900
+Wire Wire Line
+	14050 4900 13850 4900
+Connection ~ 14150 4900
+Connection ~ 14050 4900
+Text Label 11300 3750 0    50   ~ 0
+VDD_ADC
+Wire Wire Line
+	7050 10250 6350 10250
+Text Label 6350 10250 0    50   ~ 0
+VDD_ADC
+Wire Wire Line
+	16650 6700 17050 6700
+Text Label 16750 6700 0    50   ~ 0
+2V5
+Wire Wire Line
+	6350 12850 6450 12850
+Text Label 6450 12850 0    50   ~ 0
+AN4
+Wire Wire Line
+	3950 11350 3750 11350
+Text Label 3750 11350 0    50   ~ 0
+AN5
+Wire Wire Line
+	2100 2450 2150 2450
+Wire Wire Line
+	2100 2750 2150 2750
+Wire Wire Line
+	13850 11700 13950 11700
+Wire Wire Line
+	13950 11000 13950 11700
+Wire Wire Line
+	13650 11700 13850 11700
+Connection ~ 13850 11700
+Wire Wire Line
+	14050 5900 14050 5200
+Wire Wire Line
+	13850 5200 14050 5200
+Connection ~ 14050 5200
+Wire Wire Line
+	3950 11250 3750 11250
+Text Label 3750 11250 0    50   ~ 0
+AN6
+Wire Wire Line
+	6350 11850 6650 11850
+Text Label 6650 11850 0    50   ~ 0
+AN7
+Wire Wire Line
+	6350 11150 6650 11150
+Text Label 6650 11150 0    50   ~ 0
+AN8
+Wire Wire Line
+	6350 11250 6650 11250
+Wire Wire Line
+	6350 11950 6450 11950
+Text Label 6450 11950 0    50   ~ 0
+MCLK
+Wire Wire Line
+	14650 11000 14650 11400
+Text Label 14650 11400 1    50   ~ 0
+MCLK
+Wire Wire Line
+	6350 11350 6650 11350
+Text Label 6650 11350 0    50   ~ 0
+AN10
+Wire Wire Line
+	6350 11750 6650 11750
+Text Label 6650 11750 0    50   ~ 0
+AN11
+Wire Wire Line
+	2650 6550 2250 6550
+Text Label 2250 6550 0    50   ~ 0
+SDCMD
+Wire Wire Line
+	16650 7300 16950 7300
+Text Label 16950 7300 0    50   ~ 0
+SDCMD
+Wire Wire Line
+	2650 6750 2250 6750
+Text Label 2250 6750 0    50   ~ 0
+SDCLK
+Wire Wire Line
+	16650 7100 16950 7100
+Text Label 16950 7100 0    50   ~ 0
+SDCLK
+Wire Wire Line
+	12450 5900 12450 5500
+Text Label 12450 5500 1    50   ~ 0
+P39
+Wire Wire Line
+	12550 5900 12550 5500
+Text Label 12550 5500 1    50   ~ 0
+P40
+Wire Wire Line
+	12650 5900 12650 5500
+Text Label 12650 5500 1    50   ~ 0
+P41
+Wire Wire Line
+	12850 5900 12850 5500
+Text Label 12850 5500 1    50   ~ 0
+P42
+Wire Wire Line
+	12950 5900 12950 5500
+Text Label 12950 5500 1    50   ~ 0
+P43
+Wire Wire Line
+	13050 5900 13050 5500
+Text Label 13050 5500 1    50   ~ 0
+P44
+Wire Wire Line
+	13150 5900 13150 5500
+Text Label 13150 5500 1    50   ~ 0
+P45
+Wire Wire Line
+	13250 5900 13250 5500
+Text Label 13250 5500 1    50   ~ 0
+P46
+Wire Wire Line
+	13350 5900 13350 5500
+Text Label 13350 5500 1    50   ~ 0
+P47
+Wire Wire Line
+	2650 6950 2250 6950
+Text Label 2250 6950 0    50   ~ 0
+SD0
+Wire Wire Line
+	16650 7000 16950 7000
+Text Label 16950 7000 0    50   ~ 0
+SD0
+Wire Wire Line
+	2650 7050 2250 7050
+Text Label 2250 7050 0    50   ~ 0
+SD1
+Wire Wire Line
+	16650 6900 16950 6900
+Text Label 16950 6900 0    50   ~ 0
+SD1
+Wire Wire Line
+	2650 6350 2250 6350
+Text Label 2250 6350 0    50   ~ 0
+SD2
+Wire Wire Line
+	16650 7600 16950 7600
+Text Label 16950 7600 0    50   ~ 0
+SD2
+Wire Wire Line
+	2650 6450 2250 6450
+Text Label 2250 6450 0    50   ~ 0
+SD3
+Wire Wire Line
+	16650 7400 16950 7400
+Text Label 16950 7400 0    50   ~ 0
+SD3
+Wire Wire Line
+	10400 14250 10200 14250
+Text Label 10200 14250 0    50   ~ 0
+HOLD
+Wire Wire Line
+	14950 11000 14950 11400
+Text Label 14950 11400 1    50   ~ 0
+HOLD
+Wire Wire Line
+	3950 11950 3750 11950
+Text Label 3750 11950 0    50   ~ 0
+HOLD
+Wire Wire Line
+	10400 14350 10200 14350
+Text Label 10200 14350 0    50   ~ 0
+WP
+Wire Wire Line
+	15050 11000 15050 11400
+Text Label 15050 11400 1    50   ~ 0
+WP
+Wire Wire Line
+	3950 12050 3750 12050
+Text Label 3750 12050 0    50   ~ 0
+WP
+Connection ~ 16750 3150
+Wire Wire Line
+	14550 2700 14550 2850
+Wire Wire Line
+	14550 2850 14850 2850
+Wire Wire Line
+	14850 2950 14850 2850
+Wire Wire Line
+	6500 7750 7800 7750
+Text Label 7800 7750 0    50   ~ 0
+CEC
+Wire Wire Line
+	3950 11550 3750 11550
+Text Label 3750 11550 0    50   ~ 0
+CEC
+Wire Wire Line
+	7000 6450 6500 6450
+Text Label 6850 6450 2    50   ~ 0
+TD2+
+Wire Wire Line
+	7300 6650 6500 6650
+Text Label 6850 6650 2    50   ~ 0
+TD2-
+Wire Wire Line
+	7000 6750 6500 6750
+Text Label 6850 6750 2    50   ~ 0
+TD1+
+Wire Wire Line
+	7300 6950 6500 6950
+Text Label 6850 6950 2    50   ~ 0
+TD1-
+Wire Wire Line
+	7000 7050 6500 7050
+Text Label 6850 7050 2    50   ~ 0
+TD0+
+Text Label 6850 7250 2    50   ~ 0
+TD0-
+Wire Wire Line
+	7000 7350 6500 7350
+Text Label 6850 7350 2    50   ~ 0
+TCK+
+Wire Wire Line
+	7300 7550 6500 7550
+Text Label 6850 7550 2    50   ~ 0
+TCK-
+Wire Wire Line
+	11550 7400 11150 7400
+Text Label 11150 7400 0    50   ~ 0
+P32
+Wire Wire Line
+	11550 7300 11150 7300
+Text Label 11150 7300 0    50   ~ 0
+P33
+Wire Wire Line
+	11550 7000 11150 7000
+Text Label 11150 7000 0    50   ~ 0
+P34
+Wire Wire Line
+	11550 6900 11150 6900
+Text Label 11150 6900 0    50   ~ 0
+P35
+Wire Wire Line
+	11550 6800 11150 6800
+Text Label 11150 6800 0    50   ~ 0
+P36
+Wire Wire Line
+	11550 6700 11150 6700
+Text Label 11150 6700 0    50   ~ 0
+P37
+Wire Wire Line
+	12350 5900 12350 5500
+Text Label 12350 5500 1    50   ~ 0
+P38
+Wire Wire Line
+	16550 15400 16750 15400
+Text Label 16750 15400 0    50   ~ 0
+DQ15
+Wire Wire Line
+	16650 7700 16950 7700
+Text Label 16950 7700 0    50   ~ 0
+DQ15
+Wire Wire Line
+	16550 15300 16750 15300
+Text Label 16750 15300 0    50   ~ 0
+DQ14
+Wire Wire Line
+	16650 7800 16950 7800
+Text Label 16950 7800 0    50   ~ 0
+DQ14
+Wire Wire Line
+	16550 15200 16750 15200
+Text Label 16750 15200 0    50   ~ 0
+DQ13
+Wire Wire Line
+	16650 7900 16950 7900
+Text Label 16950 7900 0    50   ~ 0
+DQ13
+Wire Wire Line
+	16550 15100 16750 15100
+Text Label 16750 15100 0    50   ~ 0
+DQ12
+Wire Wire Line
+	16650 8000 16950 8000
+Text Label 16950 8000 0    50   ~ 0
+DQ12
+Wire Wire Line
+	16550 15000 16750 15000
+Text Label 16750 15000 0    50   ~ 0
+DQ11
+Wire Wire Line
+	16650 8400 16950 8400
+Text Label 16950 8400 0    50   ~ 0
+DQ11
+Wire Wire Line
+	16550 14900 16750 14900
+Text Label 16750 14900 0    50   ~ 0
+DQ10
+Wire Wire Line
+	16650 8500 16950 8500
+Text Label 16950 8500 0    50   ~ 0
+DQ10
+Wire Wire Line
+	16550 14800 16750 14800
+Text Label 16750 14800 0    50   ~ 0
+DQ9
+Wire Wire Line
+	16650 8700 16950 8700
+Text Label 16950 8700 0    50   ~ 0
+DQ9
+Wire Wire Line
+	16550 14700 16750 14700
+Text Label 16750 14700 0    50   ~ 0
+DQ8
+Wire Wire Line
+	16650 8800 16950 8800
+Text Label 16950 8800 0    50   ~ 0
+DQ8
+Wire Wire Line
+	16550 13700 16750 13700
+Text Label 16750 13700 0    50   ~ 0
+UDQM
+Wire Wire Line
+	16650 8100 16950 8100
+Text Label 16950 8100 0    50   ~ 0
+UDQM
+Wire Wire Line
+	16550 13600 16750 13600
+Text Label 16750 13600 0    50   ~ 0
+LDQM
+Wire Wire Line
+	16650 8200 16950 8200
+Text Label 16950 8200 0    50   ~ 0
+LDQM
+Wire Wire Line
+	16550 14600 16750 14600
+Text Label 16750 14600 0    50   ~ 0
+DQ7
+Wire Wire Line
+	16650 9000 16950 9000
+Text Label 16950 9000 0    50   ~ 0
+DQ7
+Wire Wire Line
+	16550 14500 16750 14500
+Text Label 16750 14500 0    50   ~ 0
+DQ6
+Wire Wire Line
+	16650 9100 16950 9100
+Text Label 16950 9100 0    50   ~ 0
+DQ6
+Wire Wire Line
+	15450 13600 15250 13600
+Text Label 15250 13600 0    50   ~ 0
+CLK
+Wire Wire Line
+	13850 5900 13850 5600
+Text Label 13850 5600 1    50   ~ 0
+CLK
+Wire Wire Line
+	15450 13700 15250 13700
+Text Label 15250 13700 0    50   ~ 0
+CKE
+Wire Wire Line
+	13950 5900 13950 5600
+Text Label 13950 5600 1    50   ~ 0
+CKE
+Wire Wire Line
+	16550 14400 16750 14400
+Text Label 16750 14400 0    50   ~ 0
+DQ5
+Wire Wire Line
+	16650 9200 16950 9200
+Text Label 16950 9200 0    50   ~ 0
+DQ5
+Wire Wire Line
+	16550 14300 16750 14300
+Text Label 16750 14300 0    50   ~ 0
+DQ4
+Wire Wire Line
+	16650 9300 16950 9300
+Text Label 16950 9300 0    50   ~ 0
+DQ4
+Wire Wire Line
+	16550 14200 16750 14200
+Text Label 16750 14200 0    50   ~ 0
+DQ3
+Wire Wire Line
+	16650 9400 16950 9400
+Text Label 16950 9400 0    50   ~ 0
+DQ3
+Wire Wire Line
+	16550 14100 16750 14100
+Text Label 16750 14100 0    50   ~ 0
+DQ2
+Wire Wire Line
+	16650 9500 16950 9500
+Text Label 16950 9500 0    50   ~ 0
+DQ2
+Wire Wire Line
+	16550 14000 16750 14000
+Text Label 16750 14000 0    50   ~ 0
+DQ1
+Wire Wire Line
+	16650 9600 16950 9600
+Text Label 16950 9600 0    50   ~ 0
+DQ1
+Wire Wire Line
+	16550 13900 16750 13900
+Text Label 16750 13900 0    50   ~ 0
+DQ0
+Wire Wire Line
+	16650 9700 16950 9700
+Text Label 16950 9700 0    50   ~ 0
+DQ0
+Wire Wire Line
+	15450 13900 15250 13900
+Text Label 15250 13900 0    50   ~ 0
+~RAS
+Wire Wire Line
+	15550 5900 15550 5600
+Text Label 15550 5600 1    50   ~ 0
+~RAS
+Wire Wire Line
+	15450 14000 15250 14000
+Text Label 15250 14000 0    50   ~ 0
+~CAS
+Wire Wire Line
+	15750 5900 15750 5600
+Text Label 15750 5600 1    50   ~ 0
+~CAS
+Wire Wire Line
+	15450 14100 15250 14100
+Text Label 15250 14100 0    50   ~ 0
+~WE
+Wire Wire Line
+	16650 6800 16950 6800
+Text Label 16950 6800 0    50   ~ 0
+~WE
+Wire Wire Line
+	2500 4050 2800 4050
+Text Label 2800 4050 2    50   ~ 0
+L1
+Wire Wire Line
+	13850 11000 13850 11400
+Text Label 13850 11400 1    50   ~ 0
+L1
+Wire Wire Line
+	3000 7950 3000 7850
+Text Label 3000 7850 0    50   ~ 0
+L1
+Wire Wire Line
+	6350 11650 6650 11650
+Text Label 6650 11650 0    50   ~ 0
+AN12
+Wire Wire Line
+	6350 11450 6650 11450
+Text Label 6650 11450 0    50   ~ 0
+AN14
+Wire Wire Line
+	6350 11550 6650 11550
+Text Label 6650 11550 0    50   ~ 0
+AN13
+Wire Wire Line
+	6350 13950 7250 13950
+Text Label 6450 13950 0    50   ~ 0
+VCAP
+Wire Wire Line
+	2100 3350 2150 3350
+Wire Wire Line
+	15450 13800 14850 13800
+Text Label 15250 13800 0    50   ~ 0
+~MCS
+Wire Wire Line
+	15450 5900 15450 5600
+Text Label 15450 5600 1    50   ~ 0
+~MCS
+Wire Wire Line
+	3950 11450 3750 11450
+Text Label 3750 11450 0    50   ~ 0
+HPD
+Wire Wire Line
+	6500 8250 7800 8250
+Text Label 7800 8250 0    50   ~ 0
+HPD
+Wire Wire Line
+	6500 7850 7000 7850
+Text Label 6650 7850 0    50   ~ 0
+VSCL
+Wire Wire Line
+	6350 12950 6450 12950
+Text Label 6450 12950 0    50   ~ 0
+VSCL
+Wire Wire Line
+	11200 1700 10850 1700
+Wire Wire Line
+	7400 7950 7400 7850
+Wire Wire Line
+	7400 8150 7400 7950
+Connection ~ 7400 8150
+Connection ~ 7400 7950
+Text Label 7800 8150 0    50   ~ 0
+VUSB
+Text Label 3450 14250 0    50   ~ 0
+VBUS2
+Text Label 3450 14550 0    50   ~ 0
+OID
+Wire Wire Line
+	3950 11750 3750 11750
+Text Label 3750 11750 0    50   ~ 0
+IO0
+Wire Wire Line
+	16650 10200 16950 10200
+Text Label 16950 10200 0    50   ~ 0
+IO0
+Wire Wire Line
+	6350 13050 6450 13050
+Text Label 6450 13050 0    50   ~ 0
+DSCK
+Wire Wire Line
+	16650 9900 16950 9900
+Text Label 16950 9900 0    50   ~ 0
+DSCK
+Wire Wire Line
+	3950 11850 3750 11850
+Text Label 3750 11850 0    50   ~ 0
+IO1
+Wire Wire Line
+	16650 10100 16950 10100
+Text Label 16950 10100 0    50   ~ 0
+IO1
+Wire Wire Line
+	6350 13450 6450 13450
+Text Label 6450 13450 0    50   ~ 0
+~DCS
+Wire Wire Line
+	16650 10000 16950 10000
+Text Label 16950 10000 0    50   ~ 0
+~DCS
+Wire Wire Line
+	6350 14250 6450 14250
+Text Label 6450 14250 0    50   ~ 0
+OD_N
+Wire Wire Line
+	6350 14350 6450 14350
+Text Label 6450 14350 0    50   ~ 0
+OD_P
+Wire Wire Line
+	2100 3050 2150 3050
+Text Label 2600 3050 0    50   ~ 0
+MODE
+Wire Wire Line
+	6650 14050 6350 14050
+Text Label 6650 14050 0    50   ~ 0
+MODE
+Wire Wire Line
+	2500 4350 2800 4350
+Text Label 2800 4350 2    50   ~ 0
+L3
+Wire Wire Line
+	14150 11000 14150 11200
+Text Label 14150 11200 1    50   ~ 0
+L3
+Wire Wire Line
+	6350 12650 6450 12650
+Text Label 6450 12650 0    50   ~ 0
+~CS
+Wire Wire Line
+	2500 4650 2800 4650
+Text Label 2800 4650 2    50   ~ 0
+~CS
+Wire Wire Line
+	14250 11000 14250 11200
+Text Label 14250 11200 1    50   ~ 0
+~CS
+Wire Wire Line
+	6350 13750 6550 13750
+Text Label 6550 13750 0    50   ~ 0
+CTX-SDA
+Wire Wire Line
+	6350 12450 6450 12450
+Text Label 6450 12450 0    50   ~ 0
+~RST-SWDIO
+Wire Wire Line
+	6350 13650 6550 13650
+Text Label 6550 13650 0    50   ~ 0
+CRX-SCL
+Wire Wire Line
+	2150 3750 2100 3750
+Wire Wire Line
+	2150 4050 2100 4050
+Wire Wire Line
+	2150 4350 2100 4350
+Wire Wire Line
+	2150 4650 2100 4650
+Wire Wire Line
+	6350 12550 6450 12550
+Text Label 6450 12550 0    50   ~ 0
+EN-SWCLK
+$Comp
+L IceCore-rescue:CAP-000004-00-2_HCS_Verified C41
+U 1 1 056508EB
+P 13750 13650
+F 0 "C41" V 13700 13500 50  0000 C BNN
+F 1 "CAP-000004-00" H 13750 13150 59  0001 L BNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 13750 12850 50  0001 C CNN
+F 3 "http://www.heaviside.in:8000/part/4/" H 13750 12500 50  0001 C CNN
+F 4 "0.1µF" V 13850 13500 50  0000 C CNN "Capacitance (Farad)"
+F 5 "-" H 13950 13400 50  0001 C CNN "ESR (Ohm)"
+F 6 "Murata Electronics" H 13750 13050 50  0001 C CNN "Manufacturer"
+F 7 "GRM155R71C104KA88D" H 13750 12950 50  0001 C CNN "Manufacturer Part Number"
+F 8 "1.00x0.50mm" H 13750 13300 50  0001 C CNN "Package Size"
+F 9 "0402" H 13750 13300 50  0001 C CNN "Package Type"
+F 10 "±10%" H 13950 13500 50  0001 C CNN "Tolerance (%)"
+F 11 "16V" H 13750 13400 50  0001 C CNN "Voltage Rated (Volt)"
+	1    13750 13650
+	0    1    1    0   
+$EndComp
+$Comp
+L IceCore-rescue:CAP-000004-00-2_HCS_Verified C54
+U 1 1 C4DC6444
+P 15850 11550
+F 0 "C54" V 15850 11650 50  0000 L BNN
+F 1 "CAP-000004-00" H 15850 11050 59  0001 L BNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 15850 10750 50  0001 C CNN
+F 3 "http://www.heaviside.in:8000/part/4/" H 15850 10400 50  0001 C CNN
+F 4 "0.1µF" V 15900 11650 50  0000 L CNN "Capacitance (Farad)"
+F 5 "-" H 16050 11300 50  0001 C CNN "ESR (Ohm)"
+F 6 "Murata Electronics" H 15850 10950 50  0001 C CNN "Manufacturer"
+F 7 "GRM155R71C104KA88D" H 15850 10850 50  0001 C CNN "Manufacturer Part Number"
+F 8 "1.00x0.50mm" H 15850 11200 50  0001 C CNN "Package Size"
+F 9 "0402" H 15850 11200 50  0001 C CNN "Package Type"
+F 10 "±10%" H 16050 11400 50  0001 C CNN "Tolerance (%)"
+F 11 "16V" H 15850 11300 50  0001 C CNN "Voltage Rated (Volt)"
+	1    15850 11550
+	0    1    1    0   
+$EndComp
+$Comp
+L IceCore-rescue:CAP-000004-00-2_HCS_Verified C36
+U 1 1 54ACBF96
+P 13250 11550
+F 0 "C36" V 13250 11300 50  0000 L BNN
+F 1 "CAP-000004-00" H 13250 11050 59  0001 L BNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 13250 10750 50  0001 C CNN
+F 3 "http://www.heaviside.in:8000/part/4/" H 13250 10400 50  0001 C CNN
+F 4 "0.1µF" V 13300 11350 50  0000 C CNN "Capacitance (Farad)"
+F 5 "-" H 13450 11300 50  0001 C CNN "ESR (Ohm)"
+F 6 "Murata Electronics" H 13250 10950 50  0001 C CNN "Manufacturer"
+F 7 "GRM155R71C104KA88D" H 13250 10850 50  0001 C CNN "Manufacturer Part Number"
+F 8 "1.00x0.50mm" H 13250 11200 50  0001 C CNN "Package Size"
+F 9 "0402" H 13250 11200 50  0001 C CNN "Package Type"
+F 10 "±10%" H 13450 11400 50  0001 C CNN "Tolerance (%)"
+F 11 "16V" H 13250 11300 50  0001 C CNN "Voltage Rated (Volt)"
+	1    13250 11550
+	0    1    1    0   
+$EndComp
+$Comp
+L IceCore-rescue:CAP-000004-00-2_HCS_Verified C48
+U 1 1 310AB729
+P 14350 14050
+F 0 "C48" V 14300 13900 50  0000 C BNN
+F 1 "CAP-000004-00" H 14350 13550 59  0001 L BNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 14350 13250 50  0001 C CNN
+F 3 "http://www.heaviside.in:8000/part/4/" H 14350 12900 50  0001 C CNN
+F 4 "0.1µF" V 14450 13900 50  0000 C CNN "Capacitance (Farad)"
+F 5 "-" H 14550 13800 50  0001 C CNN "ESR (Ohm)"
+F 6 "Murata Electronics" H 14350 13450 50  0001 C CNN "Manufacturer"
+F 7 "GRM155R71C104KA88D" H 14350 13350 50  0001 C CNN "Manufacturer Part Number"
+F 8 "1.00x0.50mm" H 14350 13700 50  0001 C CNN "Package Size"
+F 9 "0402" H 14350 13700 50  0001 C CNN "Package Type"
+F 10 "±10%" H 14550 13900 50  0001 C CNN "Tolerance (%)"
+F 11 "16V" H 14350 13800 50  0001 C CNN "Voltage Rated (Volt)"
+	1    14350 14050
+	0    1    1    0   
+$EndComp
+$Comp
+L IceCore-rescue:CAP-000004-00-2_HCS_Verified C47
+U 1 1 2D186710
+P 14350 11450
+F 0 "C47" V 14400 11200 50  0000 L BNN
+F 1 "CAP-000004-00" H 14350 10950 59  0001 L BNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 14350 10650 50  0001 C CNN
+F 3 "http://www.heaviside.in:8000/part/4/" H 14350 10300 50  0001 C CNN
+F 4 "0.1µF" V 14450 11300 50  0000 C CNN "Capacitance (Farad)"
+F 5 "-" H 14550 11200 50  0001 C CNN "ESR (Ohm)"
+F 6 "Murata Electronics" H 14350 10850 50  0001 C CNN "Manufacturer"
+F 7 "GRM155R71C104KA88D" H 14350 10750 50  0001 C CNN "Manufacturer Part Number"
+F 8 "1.00x0.50mm" H 14350 11100 50  0001 C CNN "Package Size"
+F 9 "0402" H 14350 11100 50  0001 C CNN "Package Type"
+F 10 "±10%" H 14550 11300 50  0001 C CNN "Tolerance (%)"
+F 11 "16V" H 14350 11200 50  0001 C CNN "Voltage Rated (Volt)"
+	1    14350 11450
+	0    1    1    0   
+$EndComp
+$Comp
+L IceCore-rescue:CAP-000178-00-2_HCS_Verified C44
+U 1 1 8B7D34D4
+P 14050 5050
+F 0 "C44" V 14050 4950 50  0000 R TNN
+F 1 "CAP-000178-00" H 14050 4450 59  0001 R TNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 14050 4150 50  0001 C CNN
+F 3 "http://www.heaviside.in:8000/part/178/" H 14050 4500 50  0001 C CNN
+F 4 "10µF" V 14000 4850 50  0000 C CNN "Capacitance (Farad)"
+F 5 "Samsung Electro-Mechanics" H 14050 4350 50  0001 C CNN "Manufacturer"
+F 6 "CL10X106MO8NRNC" H 14050 4250 50  0001 C CNN "Manufacturer Part Number"
+F 7 "0603" H 14050 4700 50  0001 C CNN "Package Type"
+F 8 "16V" H 14050 4800 50  0001 C CNN "Rated Voltage (Volt)"
+F 9 "X6S" H 14050 4600 50  0001 C CNN "Temperature Grade"
+F 10 "±20%" H 14350 4900 50  0001 C CNN "Tolerance (%)"
+	1    14050 5050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L IceCore-rescue:CAP-000004-00-2_HCS_Verified C50
+U 1 1 1CEAE6CF
+P 14450 5350
+F 0 "C50" V 14450 5450 50  0000 L BNN
+F 1 "CAP-000004-00" H 14450 4850 59  0001 L BNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 14450 4550 50  0001 C CNN
+F 3 "http://www.heaviside.in:8000/part/4/" H 14450 4200 50  0001 C CNN
+F 4 "0.1µF" V 14500 5550 50  0000 C CNN "Capacitance (Farad)"
+F 5 "-" H 14650 5100 50  0001 C CNN "ESR (Ohm)"
+F 6 "Murata Electronics" H 14450 4750 50  0001 C CNN "Manufacturer"
+F 7 "GRM155R71C104KA88D" H 14450 4650 50  0001 C CNN "Manufacturer Part Number"
+F 8 "1.00x0.50mm" H 14450 5000 50  0001 C CNN "Package Size"
+F 9 "0402" H 14450 5000 50  0001 C CNN "Package Type"
+F 10 "±10%" H 14650 5200 50  0001 C CNN "Tolerance (%)"
+F 11 "16V" H 14450 5100 50  0001 C CNN "Voltage Rated (Volt)"
+	1    14450 5350
+	0    1    1    0   
+$EndComp
+$Comp
+L IceCore-rescue:CAP-000004-00-2_HCS_Verified C59
+U 1 1 CD69D27A
+P 17200 8600
+F 0 "C59" H 17200 8750 50  0000 C TNN
+F 1 "CAP-000004-00" H 17200 8100 59  0001 R TNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 17200 7800 50  0001 C CNN
+F 3 "http://www.heaviside.in:8000/part/4/" H 17200 7450 50  0001 C CNN
+F 4 "0.1µF" H 17200 8500 50  0000 C CNN "Capacitance (Farad)"
+F 5 "-" H 17400 8350 50  0001 C CNN "ESR (Ohm)"
+F 6 "Murata Electronics" H 17200 8000 50  0001 C CNN "Manufacturer"
+F 7 "GRM155R71C104KA88D" H 17200 7900 50  0001 C CNN "Manufacturer Part Number"
+F 8 "1.00x0.50mm" H 17200 8250 50  0001 C CNN "Package Size"
+F 9 "0402" H 17200 8250 50  0001 C CNN "Package Type"
+F 10 "±10%" H 17400 8450 50  0001 C CNN "Tolerance (%)"
+F 11 "16V" H 17200 8350 50  0001 C CNN "Voltage Rated (Volt)"
+	1    17200 8600
+	1    0    0    -1  
+$EndComp
+$Comp
+L IceCore-rescue:CAP-000004-00-2_HCS_Verified C58
+U 1 1 0D8C3DB3
+P 17200 8300
+F 0 "C58" H 17200 8450 50  0000 C TNN
+F 1 "CAP-000004-00" H 17200 7800 59  0001 R TNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 17200 7500 50  0001 C CNN
+F 3 "http://www.heaviside.in:8000/part/4/" H 17200 7150 50  0001 C CNN
+F 4 "0.1µF" H 17200 8200 50  0000 C CNN "Capacitance (Farad)"
+F 5 "-" H 17400 8050 50  0001 C CNN "ESR (Ohm)"
+F 6 "Murata Electronics" H 17200 7700 50  0001 C CNN "Manufacturer"
+F 7 "GRM155R71C104KA88D" H 17200 7600 50  0001 C CNN "Manufacturer Part Number"
+F 8 "1.00x0.50mm" H 17200 7950 50  0001 C CNN "Package Size"
+F 9 "0402" H 17200 7950 50  0001 C CNN "Package Type"
+F 10 "±10%" H 17400 8150 50  0001 C CNN "Tolerance (%)"
+F 11 "16V" H 17200 8050 50  0001 C CNN "Voltage Rated (Volt)"
+	1    17200 8300
+	1    0    0    -1  
+$EndComp
+$Comp
+L IceCore-rescue:CAP-000004-00-2_HCS_Verified C27
+U 1 1 6406DB36
+P 10950 9300
+F 0 "C27" H 11250 9300 50  0000 C CNN
+F 1 "CAP-000004-00" H 10950 8800 59  0001 L BNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 10950 8500 50  0001 C CNN
+F 3 "http://www.heaviside.in:8000/part/4/" H 10950 8150 50  0001 C CNN
+F 4 "0.1µF" H 11450 9300 50  0000 C CNN "Capacitance (Farad)"
+F 5 "-" H 11150 9050 50  0001 C CNN "ESR (Ohm)"
+F 6 "Murata Electronics" H 10950 8700 50  0001 C CNN "Manufacturer"
+F 7 "GRM155R71C104KA88D" H 10950 8600 50  0001 C CNN "Manufacturer Part Number"
+F 8 "1.00x0.50mm" H 10950 8950 50  0001 C CNN "Package Size"
+F 9 "0402" H 10950 8950 50  0001 C CNN "Package Type"
+F 10 "±10%" H 11150 9150 50  0001 C CNN "Tolerance (%)"
+F 11 "16V" H 10950 9050 50  0001 C CNN "Voltage Rated (Volt)"
+	1    10950 9300
+	-1   0    0    1   
+$EndComp
+$Comp
+L IceCore-rescue:RES-000092-00-2_HCS_Verified R14
+U 1 1 2724FC92
+P 2300 4350
+F 0 "R14" H 2300 4250 50  0000 C BNN
+F 1 "RES-000092-00" H 2300 3900 59  0001 L BNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 2300 3600 50  0001 C CNN
+F 3 "" H 2300 4000 50  0001 C CNN
+F 4 "Yageo" H 2300 3800 50  0001 C CNN "Manufacturer"
+F 5 "RC0402FR-071KL" H 2300 3700 50  0001 C CNN "Manufacturer Part Number"
+F 6 "0402" H 2300 4150 50  0001 C CNN "Package Type"
+F 7 "1/16W" H 2300 4050 50  0001 C CNN "Power (Watts)"
+F 8 "1K" H 2300 4450 50  0000 C TNN "Resistance (Ohms)"
+F 9 "±1%" H 2450 4250 50  0001 C CNN "Tolerance (%)"
+	1    2300 4350
+	1    0    0    1   
+$EndComp
+$Comp
+L IceCore-rescue:RES-000092-00-2_HCS_Verified R12
+U 1 1 01C676F9
+P 2300 3750
+F 0 "R12" H 2300 3650 50  0000 C BNN
+F 1 "RES-000092-00" H 2300 3300 59  0001 L BNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 2300 3000 50  0001 C CNN
+F 3 "" H 2300 3400 50  0001 C CNN
+F 4 "Yageo" H 2300 3200 50  0001 C CNN "Manufacturer"
+F 5 "RC0402FR-071KL" H 2300 3100 50  0001 C CNN "Manufacturer Part Number"
+F 6 "0402" H 2300 3550 50  0001 C CNN "Package Type"
+F 7 "1/16W" H 2300 3450 50  0001 C CNN "Power (Watts)"
+F 8 "1K" H 2300 3850 50  0000 C TNN "Resistance (Ohms)"
+F 9 "±1%" H 2450 3650 50  0001 C CNN "Tolerance (%)"
+	1    2300 3750
+	1    0    0    1   
+$EndComp
+$Comp
+L IceCore-rescue:RES-000092-00-2_HCS_Verified R13
+U 1 1 8AC4E48F
+P 2300 4050
+F 0 "R13" H 2300 3950 50  0000 C BNN
+F 1 "RES-000092-00" H 2300 3600 59  0001 L BNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 2300 3300 50  0001 C CNN
+F 3 "" H 2300 3700 50  0001 C CNN
+F 4 "Yageo" H 2300 3500 50  0001 C CNN "Manufacturer"
+F 5 "RC0402FR-071KL" H 2300 3400 50  0001 C CNN "Manufacturer Part Number"
+F 6 "0402" H 2300 3850 50  0001 C CNN "Package Type"
+F 7 "1/16W" H 2300 3750 50  0001 C CNN "Power (Watts)"
+F 8 "1K" H 2300 4150 50  0000 C TNN "Resistance (Ohms)"
+F 9 "±1%" H 2450 3950 50  0001 C CNN "Tolerance (%)"
+	1    2300 4050
+	1    0    0    1   
+$EndComp
+$Comp
+L IceCore-rescue:RES-000076-00-2_HCS_Verified R16
+U 1 1 49EEB110
+P 3350 10000
+F 0 "R16" V 3450 9800 50  0000 L BNN
+F 1 "RES-000076-00" H 3350 9550 59  0001 L BNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 3350 9250 50  0001 C CNN
+F 3 "" H 3350 9650 50  0001 C CNN
+F 4 "Yageo" H 3350 9450 50  0001 C CNN "Manufacturer"
+F 5 "RC0402FR-1310KL" H 3350 9350 50  0001 C CNN "Manufacturer Part Number"
+F 6 "0402" H 3350 9800 50  0001 C CNN "Package Type"
+F 7 "1/16W" H 3350 9700 50  0001 C CNN "Power (Watts)"
+F 8 "10K" V 3250 9800 50  0000 L CNN "Resistance (Ohms)"
+F 9 "±1%" H 3500 9900 50  0001 C CNN "Tolerance (%)"
+	1    3350 10000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L IceCore-rescue:CAP-000004-00-2_HCS_Verified C25
+U 1 1 F87E23CA
+P 10600 7200
+F 0 "C25" H 10550 7000 50  0000 L BNN
+F 1 "CAP-000004-00" H 10600 6700 59  0001 L BNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 10600 6400 50  0001 C CNN
+F 3 "http://www.heaviside.in:8000/part/4/" H 10600 6050 50  0001 C CNN
+F 4 "0.1µF" H 10600 7350 50  0000 C CNN "Capacitance (Farad)"
+F 5 "-" H 10800 6950 50  0001 C CNN "ESR (Ohm)"
+F 6 "Murata Electronics" H 10600 6600 50  0001 C CNN "Manufacturer"
+F 7 "GRM155R71C104KA88D" H 10600 6500 50  0001 C CNN "Manufacturer Part Number"
+F 8 "1.00x0.50mm" H 10600 6850 50  0001 C CNN "Package Size"
+F 9 "0402" H 10600 6850 50  0001 C CNN "Package Type"
+F 10 "±10%" H 10800 7050 50  0001 C CNN "Tolerance (%)"
+F 11 "16V" H 10600 6950 50  0001 C CNN "Voltage Rated (Volt)"
+	1    10600 7200
+	-1   0    0    1   
+$EndComp
+$Comp
+L IceCore-rescue:CAP-000004-00-2_HCS_Verified C53
+U 1 1 B0AEEDB1
+P 15650 5350
+F 0 "C53" V 15650 5450 50  0000 L BNN
+F 1 "CAP-000004-00" H 15650 4850 59  0001 L BNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 15650 4550 50  0001 C CNN
+F 3 "http://www.heaviside.in:8000/part/4/" H 15650 4200 50  0001 C CNN
+F 4 "0.1µF" V 15700 5550 50  0000 C CNN "Capacitance (Farad)"
+F 5 "-" H 15850 5100 50  0001 C CNN "ESR (Ohm)"
+F 6 "Murata Electronics" H 15650 4750 50  0001 C CNN "Manufacturer"
+F 7 "GRM155R71C104KA88D" H 15650 4650 50  0001 C CNN "Manufacturer Part Number"
+F 8 "1.00x0.50mm" H 15650 5000 50  0001 C CNN "Package Size"
+F 9 "0402" H 15650 5000 50  0001 C CNN "Package Type"
+F 10 "±10%" H 15850 5200 50  0001 C CNN "Tolerance (%)"
+F 11 "16V" H 15650 5100 50  0001 C CNN "Voltage Rated (Volt)"
+	1    15650 5350
+	0    1    1    0   
+$EndComp
+$Comp
+L IceCore-rescue:CAP-000004-00-2_HCS_Verified C57
+U 1 1 5AF3FFFC
+P 17200 7500
+F 0 "C57" H 17200 7650 59  0000 C CNN
+F 1 "CAP-000004-00" H 17200 7000 59  0001 R TNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 17200 6700 50  0001 C CNN
+F 3 "http://www.heaviside.in:8000/part/4/" H 17200 6350 50  0001 C CNN
+F 4 "0.1µF" H 17200 7350 50  0000 C CNN "Capacitance (Farad)"
+F 5 "-" H 17400 7250 50  0001 C CNN "ESR (Ohm)"
+F 6 "Murata Electronics" H 17200 6900 50  0001 C CNN "Manufacturer"
+F 7 "GRM155R71C104KA88D" H 17200 6800 50  0001 C CNN "Manufacturer Part Number"
+F 8 "1.00x0.50mm" H 17200 7150 50  0001 C CNN "Package Size"
+F 9 "0402" H 17200 7150 50  0001 C CNN "Package Type"
+F 10 "±10%" H 17400 7350 50  0001 C CNN "Tolerance (%)"
+F 11 "16V" H 17200 7250 50  0001 C CNN "Voltage Rated (Volt)"
+	1    17200 7500
+	1    0    0    -1  
+$EndComp
+$Comp
+L IceCore-rescue:RES-000092-00-2_HCS_Verified R9
+U 1 1 42E034A4
+P 2300 2750
+F 0 "R9" H 2300 2800 50  0000 C BNN
+F 1 "RES-000092-00" H 2300 2300 59  0001 L BNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 2300 2000 50  0001 C CNN
+F 3 "" H 2300 2400 50  0001 C CNN
+F 4 "Yageo" H 2300 2200 50  0001 C CNN "Manufacturer"
+F 5 "RC0402FR-071KL" H 2300 2100 50  0001 C CNN "Manufacturer Part Number"
+F 6 "0402" H 2300 2550 50  0001 C CNN "Package Type"
+F 7 "1/16W" H 2300 2450 50  0001 C CNN "Power (Watts)"
+F 8 "1K" H 2300 2700 50  0000 C TNN "Resistance (Ohms)"
+F 9 "±1%" H 2450 2650 50  0001 C CNN "Tolerance (%)"
+	1    2300 2750
+	-1   0    0    -1  
+$EndComp
+$Comp
+L IceCore-rescue:CAP-000004-00-2_HCS_Verified C12
+U 1 1 1A23F5AB
+P 7200 10250
+F 0 "C12" H 6200 10250 59  0000 L CNN
+F 1 "CAP-000004-00" H 7200 9750 59  0001 L BNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 7200 9450 50  0001 C CNN
+F 3 "http://www.heaviside.in:8000/part/4/" H 7200 9100 50  0001 C CNN
+F 4 "0.1µF" H 6050 10250 50  0000 C CNN "Capacitance (Farad)"
+F 5 "-" H 7400 10000 50  0001 C CNN "ESR (Ohm)"
+F 6 "Murata Electronics" H 7200 9650 50  0001 C CNN "Manufacturer"
+F 7 "GRM155R71C104KA88D" H 7200 9550 50  0001 C CNN "Manufacturer Part Number"
+F 8 "1.00x0.50mm" H 7200 9900 50  0001 C CNN "Package Size"
+F 9 "0402" H 7200 9900 50  0001 C CNN "Package Type"
+F 10 "±10%" H 7400 10100 50  0001 C CNN "Tolerance (%)"
+F 11 "16V" H 7200 10000 50  0001 C CNN "Voltage Rated (Volt)"
+	1    7200 10250
+	-1   0    0    1   
+$EndComp
+$Comp
+L IceCore-rescue:CAP-000004-00-2_HCS_Verified C19
+U 1 1 18DC28B2
+P 7600 10350
+F 0 "C19" H 7000 10350 59  0000 L CNN
+F 1 "CAP-000004-00" H 7600 9850 59  0001 L BNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 7600 9550 50  0001 C CNN
+F 3 "http://www.heaviside.in:8000/part/4/" H 7600 9200 50  0001 C CNN
+F 4 "0.1µF" H 6850 10350 50  0000 C CNN "Capacitance (Farad)"
+F 5 "-" H 7800 10100 50  0001 C CNN "ESR (Ohm)"
+F 6 "Murata Electronics" H 7600 9750 50  0001 C CNN "Manufacturer"
+F 7 "GRM155R71C104KA88D" H 7600 9650 50  0001 C CNN "Manufacturer Part Number"
+F 8 "1.00x0.50mm" H 7600 10000 50  0001 C CNN "Package Size"
+F 9 "0402" H 7600 10000 50  0001 C CNN "Package Type"
+F 10 "±10%" H 7800 10200 50  0001 C CNN "Tolerance (%)"
+F 11 "16V" H 7600 10100 50  0001 C CNN "Voltage Rated (Volt)"
+	1    7600 10350
+	-1   0    0    1   
+$EndComp
+$Comp
+L IceCore-rescue:CAP-000004-00-2_HCS_Verified C6
+U 1 1 40A3A054
+P 6800 10450
+F 0 "C6" H 5400 10450 59  0000 L CNN
+F 1 "CAP-000004-00" H 6800 9950 59  0001 L BNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 6800 9650 50  0001 C CNN
+F 3 "http://www.heaviside.in:8000/part/4/" H 6800 9300 50  0001 C CNN
+F 4 "0.1µF" H 5250 10450 50  0000 C CNN "Capacitance (Farad)"
+F 5 "-" H 7000 10200 50  0001 C CNN "ESR (Ohm)"
+F 6 "Murata Electronics" H 6800 9850 50  0001 C CNN "Manufacturer"
+F 7 "GRM155R71C104KA88D" H 6800 9750 50  0001 C CNN "Manufacturer Part Number"
+F 8 "1.00x0.50mm" H 6800 10100 50  0001 C CNN "Package Size"
+F 9 "0402" H 6800 10100 50  0001 C CNN "Package Type"
+F 10 "±10%" H 7000 10300 50  0001 C CNN "Tolerance (%)"
+F 11 "16V" H 6800 10200 50  0001 C CNN "Voltage Rated (Volt)"
+	1    6800 10450
+	-1   0    0    1   
+$EndComp
+$Comp
+L IceCore-rescue:CAP-000004-00-2_HCS_Verified C13
+U 1 1 4857DA92
+P 7200 10550
+F 0 "C13" H 6200 10550 59  0000 L CNN
+F 1 "CAP-000004-00" H 7200 10050 59  0001 L BNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 7200 9750 50  0001 C CNN
+F 3 "http://www.heaviside.in:8000/part/4/" H 7200 9400 50  0001 C CNN
+F 4 "0.1µF" H 6050 10550 50  0000 C CNN "Capacitance (Farad)"
+F 5 "-" H 7400 10300 50  0001 C CNN "ESR (Ohm)"
+F 6 "Murata Electronics" H 7200 9950 50  0001 C CNN "Manufacturer"
+F 7 "GRM155R71C104KA88D" H 7200 9850 50  0001 C CNN "Manufacturer Part Number"
+F 8 "1.00x0.50mm" H 7200 10200 50  0001 C CNN "Package Size"
+F 9 "0402" H 7200 10200 50  0001 C CNN "Package Type"
+F 10 "±10%" H 7400 10400 50  0001 C CNN "Tolerance (%)"
+F 11 "16V" H 7200 10300 50  0001 C CNN "Voltage Rated (Volt)"
+	1    7200 10550
+	-1   0    0    1   
+$EndComp
+$Comp
+L IceCore-rescue:CAP-000178-00-2_HCS_Verified C20
+U 1 1 7847EF67
+P 7600 10650
+F 0 "C20" H 7000 10650 59  0000 L CNN
+F 1 "CAP-000178-00" H 7600 10050 59  0001 L BNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 7600 9750 50  0001 C CNN
+F 3 "http://www.heaviside.in:8000/part/178/" H 7600 10100 50  0001 C CNN
+F 4 "10µF" H 6850 10650 50  0000 C CNN "Capacitance (Farad)"
+F 5 "Samsung Electro-Mechanics" H 7600 9950 50  0001 C CNN "Manufacturer"
+F 6 "CL10X106MO8NRNC" H 7600 9850 50  0001 C CNN "Manufacturer Part Number"
+F 7 "0603" H 7600 10300 50  0001 C CNN "Package Type"
+F 8 "16V" H 7600 10400 50  0001 C CNN "Rated Voltage (Volt)"
+F 9 "X6S" H 7600 10200 50  0001 C CNN "Temperature Grade"
+F 10 "±20%" H 7900 10500 50  0001 C CNN "Tolerance (%)"
+	1    7600 10650
+	-1   0    0    1   
+$EndComp
+$Comp
+L IceCore-rescue:CAP-000004-00-2_HCS_Verified C7
+U 1 1 DF65FDBE
+P 6800 10850
+F 0 "C7" H 5400 10850 59  0000 L CNN
+F 1 "CAP-000004-00" H 6800 10350 59  0001 L BNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 6800 10050 50  0001 C CNN
+F 3 "http://www.heaviside.in:8000/part/4/" H 6800 9700 50  0001 C CNN
+F 4 "0.1µF" H 5250 10850 50  0000 C CNN "Capacitance (Farad)"
+F 5 "-" H 7000 10600 50  0001 C CNN "ESR (Ohm)"
+F 6 "Murata Electronics" H 6800 10250 50  0001 C CNN "Manufacturer"
+F 7 "GRM155R71C104KA88D" H 6800 10150 50  0001 C CNN "Manufacturer Part Number"
+F 8 "1.00x0.50mm" H 6800 10500 50  0001 C CNN "Package Size"
+F 9 "0402" H 6800 10500 50  0001 C CNN "Package Type"
+F 10 "±10%" H 7000 10700 50  0001 C CNN "Tolerance (%)"
+F 11 "16V" H 6800 10600 50  0001 C CNN "Voltage Rated (Volt)"
+	1    6800 10850
+	-1   0    0    1   
+$EndComp
+$Comp
+L IceCore-rescue:CAP-000004-00-2_HCS_Verified C5
+U 1 1 0B717B5A
+P 3350 10900
+F 0 "C5" V 3300 11000 50  0000 L BNN
+F 1 "CAP-000004-00" H 3350 10400 59  0001 L BNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 3350 10100 50  0001 C CNN
+F 3 "http://www.heaviside.in:8000/part/4/" H 3350 9750 50  0001 C CNN
+F 4 "0.1µF" V 3450 11100 50  0000 C CNN "Capacitance (Farad)"
+F 5 "-" H 3550 10650 50  0001 C CNN "ESR (Ohm)"
+F 6 "Murata Electronics" H 3350 10300 50  0001 C CNN "Manufacturer"
+F 7 "GRM155R71C104KA88D" H 3350 10200 50  0001 C CNN "Manufacturer Part Number"
+F 8 "1.00x0.50mm" H 3350 10550 50  0001 C CNN "Package Size"
+F 9 "0402" H 3350 10550 50  0001 C CNN "Package Type"
+F 10 "±10%" H 3550 10750 50  0001 C CNN "Tolerance (%)"
+F 11 "16V" H 3350 10650 50  0001 C CNN "Voltage Rated (Volt)"
+	1    3350 10900
+	0    1    1    0   
+$EndComp
+$Comp
+L IceCore-rescue:RES-000092-00-2_HCS_Verified R11
+U 1 1 733DB3B0
+P 2300 3350
+F 0 "R11" H 2300 3400 50  0000 C BNN
+F 1 "RES-000092-00" H 2300 2900 59  0001 L BNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 2300 2600 50  0001 C CNN
+F 3 "" H 2300 3000 50  0001 C CNN
+F 4 "Yageo" H 2300 2800 50  0001 C CNN "Manufacturer"
+F 5 "RC0402FR-071KL" H 2300 2700 50  0001 C CNN "Manufacturer Part Number"
+F 6 "0402" H 2300 3150 50  0001 C CNN "Package Type"
+F 7 "1/16W" H 2300 3050 50  0001 C CNN "Power (Watts)"
+F 8 "1K" H 2300 3300 50  0000 C TNN "Resistance (Ohms)"
+F 9 "±1%" H 2450 3250 50  0001 C CNN "Tolerance (%)"
+	1    2300 3350
+	-1   0    0    -1  
+$EndComp
+$Comp
+L IceCore-rescue:CAP-000004-00-2_HCS_Verified C33
+U 1 1 7834A5D8
+P 12650 11550
+F 0 "C33" V 12650 11300 50  0000 L BNN
+F 1 "CAP-000004-00" H 12650 11050 59  0001 L BNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 12650 10750 50  0001 C CNN
+F 3 "http://www.heaviside.in:8000/part/4/" H 12650 10400 50  0001 C CNN
+F 4 "0.1µF" V 12700 11350 50  0000 C CNN "Capacitance (Farad)"
+F 5 "-" H 12850 11300 50  0001 C CNN "ESR (Ohm)"
+F 6 "Murata Electronics" H 12650 10950 50  0001 C CNN "Manufacturer"
+F 7 "GRM155R71C104KA88D" H 12650 10850 50  0001 C CNN "Manufacturer Part Number"
+F 8 "1.00x0.50mm" H 12650 11200 50  0001 C CNN "Package Size"
+F 9 "0402" H 12650 11200 50  0001 C CNN "Package Type"
+F 10 "±10%" H 12850 11400 50  0001 C CNN "Tolerance (%)"
+F 11 "16V" H 12650 11300 50  0001 C CNN "Voltage Rated (Volt)"
+	1    12650 11550
+	0    1    1    0   
+$EndComp
+$Comp
+L IceCore-rescue:RES-000074-00-2_HCS_Verified R29
+U 1 1 9202D126
+P 13400 12000
+F 0 "R29" H 13450 12100 50  0000 R TNN
+F 1 "RES-000074-00" H 13400 11550 59  0001 R TNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 13400 11250 50  0001 C CNN
+F 3 "" H 13400 11650 50  0001 C CNN
+F 4 "Yageo" H 13400 11450 50  0001 C CNN "Manufacturer"
+F 5 "RC0402FR-07100RL" H 13400 11350 50  0001 C CNN "Manufacturer Part Number"
+F 6 "0402" H 13400 11800 50  0001 C CNN "Package Type"
+F 7 "1/16W" H 13400 11700 50  0001 C CNN "Power (Watts)"
+F 8 "100R" H 13400 12150 50  0000 C CNN "Resistance (Ohms)"
+F 9 "±1%" H 13550 11900 50  0001 C CNN "Tolerance (%)"
+	1    13400 12000
+	-1   0    0    1   
+$EndComp
+$Comp
+L IceCore-rescue:CAP-000178-00-2_HCS_Verified C43
+U 1 1 F006C488
+P 13850 11850
+F 0 "C43" V 13850 11950 50  0000 L BNN
+F 1 "CAP-000178-00" H 13850 11250 59  0001 L BNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 13850 10950 50  0001 C CNN
+F 3 "http://www.heaviside.in:8000/part/178/" H 13850 11300 50  0001 C CNN
+F 4 "10µF" V 13900 12050 50  0000 C CNN "Capacitance (Farad)"
+F 5 "Samsung Electro-Mechanics" H 13850 11150 50  0001 C CNN "Manufacturer"
+F 6 "CL10X106MO8NRNC" H 13850 11050 50  0001 C CNN "Manufacturer Part Number"
+F 7 "0603" H 13850 11500 50  0001 C CNN "Package Type"
+F 8 "16V" H 13850 11600 50  0001 C CNN "Rated Voltage (Volt)"
+F 9 "X6S" H 13850 11400 50  0001 C CNN "Temperature Grade"
+F 10 "±20%" H 14150 11700 50  0001 C CNN "Tolerance (%)"
+	1    13850 11850
+	0    1    1    0   
+$EndComp
+$Comp
+L IceCore-rescue:RES-000074-00-2_HCS_Verified R30
+U 1 1 0381D37B
+P 14450 4900
+F 0 "R30" H 14500 4850 50  0000 R TNN
+F 1 "RES-000074-00" H 14450 4450 59  0001 R TNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 14450 4150 50  0001 C CNN
+F 3 "" H 14450 4550 50  0001 C CNN
+F 4 "Yageo" H 14450 4350 50  0001 C CNN "Manufacturer"
+F 5 "RC0402FR-07100RL" H 14450 4250 50  0001 C CNN "Manufacturer Part Number"
+F 6 "0402" H 14450 4700 50  0001 C CNN "Package Type"
+F 7 "1/16W" H 14450 4600 50  0001 C CNN "Power (Watts)"
+F 8 "100R" H 14450 5000 50  0000 C CNN "Resistance (Ohms)"
+F 9 "±1%" H 14600 4800 50  0001 C CNN "Tolerance (%)"
+	1    14450 4900
+	-1   0    0    1   
+$EndComp
+$Comp
+L IceCore-rescue:CAP-000004-00-2_HCS_Verified C40
+U 1 1 74255CBA
+P 13650 11850
+F 0 "C40" V 13700 11950 50  0000 L BNN
+F 1 "CAP-000004-00" H 13650 11350 59  0001 L BNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 13650 11050 50  0001 C CNN
+F 3 "http://www.heaviside.in:8000/part/4/" H 13650 10700 50  0001 C CNN
+F 4 "0.1µF" V 13600 12050 50  0000 C CNN "Capacitance (Farad)"
+F 5 "-" H 13850 11600 50  0001 C CNN "ESR (Ohm)"
+F 6 "Murata Electronics" H 13650 11250 50  0001 C CNN "Manufacturer"
+F 7 "GRM155R71C104KA88D" H 13650 11150 50  0001 C CNN "Manufacturer Part Number"
+F 8 "1.00x0.50mm" H 13650 11500 50  0001 C CNN "Package Size"
+F 9 "0402" H 13650 11500 50  0001 C CNN "Package Type"
+F 10 "±10%" H 13850 11700 50  0001 C CNN "Tolerance (%)"
+F 11 "16V" H 13650 11600 50  0001 C CNN "Voltage Rated (Volt)"
+	1    13650 11850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L IceCore-rescue:CAP-000004-00-2_HCS_Verified C22
+U 1 1 5B923F7C
+P 10000 11700
+F 0 "C22" V 9950 11800 50  0000 L BNN
+F 1 "CAP-000004-00" H 10000 11200 59  0001 L BNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 10000 10900 50  0001 C CNN
+F 3 "http://www.heaviside.in:8000/part/4/" H 10000 10550 50  0001 C CNN
+F 4 "0.1µF" V 10100 11900 50  0000 C CNN "Capacitance (Farad)"
+F 5 "-" H 10200 11450 50  0001 C CNN "ESR (Ohm)"
+F 6 "Murata Electronics" H 10000 11100 50  0001 C CNN "Manufacturer"
+F 7 "GRM155R71C104KA88D" H 10000 11000 50  0001 C CNN "Manufacturer Part Number"
+F 8 "1.00x0.50mm" H 10000 11350 50  0001 C CNN "Package Size"
+F 9 "0402" H 10000 11350 50  0001 C CNN "Package Type"
+F 10 "±10%" H 10200 11550 50  0001 C CNN "Tolerance (%)"
+F 11 "16V" H 10000 11450 50  0001 C CNN "Voltage Rated (Volt)"
+	1    10000 11700
+	0    1    1    0   
+$EndComp
+$Comp
+L IceCore-rescue:DIO-000186-00-2_HCS_Verified D4
+U 1 1 8D141E84
+P 17150 6700
+F 0 "D4" H 17150 6830 59  0000 R TNN
+F 1 "DIO-000186-00" H 17150 6900 59  0001 R TNN
+F 2 "Diode_SMD:D_SOD-323" H 17150 6700 50  0001 C CNN
+F 3 "http://www.heaviside.in:8000/part/186/" H 17150 6700 50  0001 C CNN
+F 4 "70mA" H 17150 6700 50  0001 C CNN "Current (Amps)"
+F 5 "1V@15mA" H 17150 6700 50  0001 C CNN "Forward Voltage (Volt)"
+F 6 "STMicroelectronics" H 17150 6700 50  0001 C CNN "Manufacturer"
+F 7 "BAS70JFILM" H 17150 6700 50  0001 C CNN "Manufacturer Part Number"
+F 8 "BAS70JFILM" H 17150 6700 50  0001 C CNN "Part Number"
+F 9 "70V" H 17150 6700 50  0001 C CNN "Rated Voltage (Volt)"
+F 10 "SOD-323" H 0   0   50  0001 C CNN "Package Type"
+	1    17150 6700
+	-1   0    0    1   
+$EndComp
+$Comp
+L IceCore-rescue:DIO-000055-00-2_HCS_Verified D8
+U 1 1 8C588BAE
+P 1950 3750
+F 0 "D8" H 1950 3600 50  0000 L BNN
+F 1 "DIO-000055-00" H 1950 3150 59  0001 L BNN
+F 2 "LED_SMD:LED_0603_1608Metric" H 1950 2850 50  0001 C CNN
+F 3 "http://127.0.0.1:8000/part/55/" H 1950 3400 50  0001 C CNN
+F 4 "-" H 1950 3500 50  0001 C CNN "Current (Amps)"
+F 5 "2V" H 1950 3400 50  0001 C CNN "Forward Voltage (Volt)"
+F 6 "Kingbright" H 1950 3050 50  0001 C CNN "Manufacturer"
+F 7 "APT1608EC" H 1950 2950 50  0001 C CNN "Manufacturer Part Number"
+F 8 "APT1608EC" H 1950 3600 50  0001 C CNN "Part Number"
+F 9 "-" H 1950 3300 50  0001 C CNN "Rated Voltage (Volt)"
+F 10 "0603" H 0   0   50  0001 C CNN "Package Type"
+	1    1950 3750
+	-1   0    0    1   
+$EndComp
+$Comp
+L IceCore-rescue:DIO-000055-00-2_HCS_Verified D9
+U 1 1 51ACECA8
+P 1950 4050
+F 0 "D9" H 1950 3900 50  0000 L BNN
+F 1 "DIO-000055-00" H 1950 3450 59  0001 L BNN
+F 2 "LED_SMD:LED_0603_1608Metric" H 1950 3150 50  0001 C CNN
+F 3 "http://127.0.0.1:8000/part/55/" H 1950 3700 50  0001 C CNN
+F 4 "-" H 1950 3800 50  0001 C CNN "Current (Amps)"
+F 5 "2V" H 1950 3700 50  0001 C CNN "Forward Voltage (Volt)"
+F 6 "Kingbright" H 1950 3350 50  0001 C CNN "Manufacturer"
+F 7 "APT1608EC" H 1950 3250 50  0001 C CNN "Manufacturer Part Number"
+F 8 "APT1608EC" H 1950 3900 50  0001 C CNN "Part Number"
+F 9 "-" H 1950 3600 50  0001 C CNN "Rated Voltage (Volt)"
+F 10 "0603" H 0   0   50  0001 C CNN "Package Type"
+	1    1950 4050
+	-1   0    0    1   
+$EndComp
+$Comp
+L IceCore-rescue:DIO-000055-00-2_HCS_Verified D10
+U 1 1 5AA96714
+P 1950 4350
+F 0 "D10" H 1950 4200 50  0000 L BNN
+F 1 "DIO-000055-00" H 1950 3750 59  0001 L BNN
+F 2 "LED_SMD:LED_0603_1608Metric" H 1950 3450 50  0001 C CNN
+F 3 "http://127.0.0.1:8000/part/55/" H 1950 4000 50  0001 C CNN
+F 4 "-" H 1950 4100 50  0001 C CNN "Current (Amps)"
+F 5 "2V" H 1950 4000 50  0001 C CNN "Forward Voltage (Volt)"
+F 6 "Kingbright" H 1950 3650 50  0001 C CNN "Manufacturer"
+F 7 "APT1608EC" H 1950 3550 50  0001 C CNN "Manufacturer Part Number"
+F 8 "APT1608EC" H 1950 4200 50  0001 C CNN "Part Number"
+F 9 "-" H 1950 3900 50  0001 C CNN "Rated Voltage (Volt)"
+F 10 "0603" H 0   0   50  0001 C CNN "Package Type"
+	1    1950 4350
+	-1   0    0    1   
+$EndComp
+$Comp
+L IceCore-rescue:DIO-000055-00-2_HCS_Verified D11
+U 1 1 2317E8DC
+P 1950 4650
+F 0 "D11" H 1900 4500 50  0000 L BNN
+F 1 "DIO-000055-00" H 1950 4050 59  0001 L BNN
+F 2 "LED_SMD:LED_0603_1608Metric" H 1950 3750 50  0001 C CNN
+F 3 "http://127.0.0.1:8000/part/55/" H 1950 4300 50  0001 C CNN
+F 4 "-" H 1950 4400 50  0001 C CNN "Current (Amps)"
+F 5 "2V" H 1950 4300 50  0001 C CNN "Forward Voltage (Volt)"
+F 6 "Kingbright" H 1950 3950 50  0001 C CNN "Manufacturer"
+F 7 "APT1608EC" H 1950 3850 50  0001 C CNN "Manufacturer Part Number"
+F 8 "APT1608EC" H 1950 4500 50  0001 C CNN "Part Number"
+F 9 "-" H 1950 4200 50  0001 C CNN "Rated Voltage (Volt)"
+F 10 "0603" H 0   0   50  0001 C CNN "Package Type"
+	1    1950 4650
+	-1   0    0    1   
+$EndComp
+$Comp
+L IceCore-rescue:DIO-000055-00-2_HCS_Verified D7
+U 1 1 459B36FB
+P 1950 3350
+F 0 "D7" H 1950 3250 50  0000 L BNN
+F 1 "DIO-000055-00" H 1950 2750 59  0001 R TNN
+F 2 "LED_SMD:LED_0603_1608Metric" H 1950 2450 50  0001 C CNN
+F 3 "http://127.0.0.1:8000/part/55/" H 1950 3000 50  0001 C CNN
+F 4 "-" H 1950 3100 50  0001 C CNN "Current (Amps)"
+F 5 "2V" H 1950 3000 50  0001 C CNN "Forward Voltage (Volt)"
+F 6 "Kingbright" H 1950 2650 50  0001 C CNN "Manufacturer"
+F 7 "APT1608EC" H 1950 2550 50  0001 C CNN "Manufacturer Part Number"
+F 8 "APT1608EC" H 1950 3200 50  0001 C CNN "Part Number"
+F 9 "-" H 1950 2900 50  0001 C CNN "Rated Voltage (Volt)"
+F 10 "0603" H 0   0   50  0001 C CNN "Package Type"
+	1    1950 3350
+	-1   0    0    1   
+$EndComp
+$Comp
+L IceCore-rescue:CAP-000004-00-2_HCS_Verified C23
+U 1 1 C7DEFF8A
+P 10200 13850
+F 0 "C23" H 10200 13700 50  0000 C BNN
+F 1 "CAP-000004-00" H 10200 13350 59  0001 L BNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 10200 13050 50  0001 C CNN
+F 3 "http://www.heaviside.in:8000/part/4/" H 10200 12700 50  0001 C CNN
+F 4 "0.1µF" H 10200 14000 50  0000 C TNN "Capacitance (Farad)"
+F 5 "-" H 10400 13600 50  0001 C CNN "ESR (Ohm)"
+F 6 "Murata Electronics" H 10200 13250 50  0001 C CNN "Manufacturer"
+F 7 "GRM155R71C104KA88D" H 10200 13150 50  0001 C CNN "Manufacturer Part Number"
+F 8 "1.00x0.50mm" H 10200 13500 50  0001 C CNN "Package Size"
+F 9 "0402" H 10200 13500 50  0001 C CNN "Package Type"
+F 10 "±10%" H 10400 13700 50  0001 C CNN "Tolerance (%)"
+F 11 "16V" H 10200 13600 50  0001 C CNN "Voltage Rated (Volt)"
+	1    10200 13850
+	-1   0    0    1   
+$EndComp
+$Comp
+L IceCore-rescue:CAP-000178-00-2_HCS_Verified C35
+U 1 1 8BB54F24
+P 13150 12200
+F 0 "C35" V 13150 11950 50  0000 L BNN
+F 1 "CAP-000178-00" H 13150 11600 59  0001 L BNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 13150 11300 50  0001 C CNN
+F 3 "http://www.heaviside.in:8000/part/178/" H 13150 11650 50  0001 C CNN
+F 4 "10µF" V 13200 12000 50  0000 C CNN "Capacitance (Farad)"
+F 5 "Samsung Electro-Mechanics" H 13150 11500 50  0001 C CNN "Manufacturer"
+F 6 "CL10X106MO8NRNC" H 13150 11400 50  0001 C CNN "Manufacturer Part Number"
+F 7 "0603" H 13150 11850 50  0001 C CNN "Package Type"
+F 8 "16V" H 13150 11950 50  0001 C CNN "Rated Voltage (Volt)"
+F 9 "X6S" H 13150 11750 50  0001 C CNN "Temperature Grade"
+F 10 "±20%" H 13450 12050 50  0001 C CNN "Tolerance (%)"
+	1    13150 12200
+	0    1    1    0   
+$EndComp
+$Comp
+L IceCore-rescue:CAP-000004-00-2_HCS_Verified C42
+U 1 1 C32919C4
+P 13850 5050
+F 0 "C42" V 13900 5150 50  0000 L BNN
+F 1 "CAP-000004-00" H 13850 4550 59  0001 L BNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 13850 4250 50  0001 C CNN
+F 3 "http://www.heaviside.in:8000/part/4/" H 13850 3900 50  0001 C CNN
+F 4 "0.1µF" V 13800 5250 50  0000 C CNN "Capacitance (Farad)"
+F 5 "-" H 14050 4800 50  0001 C CNN "ESR (Ohm)"
+F 6 "Murata Electronics" H 13850 4450 50  0001 C CNN "Manufacturer"
+F 7 "GRM155R71C104KA88D" H 13850 4350 50  0001 C CNN "Manufacturer Part Number"
+F 8 "1.00x0.50mm" H 13850 4700 50  0001 C CNN "Package Size"
+F 9 "0402" H 13850 4700 50  0001 C CNN "Package Type"
+F 10 "±10%" H 14050 4900 50  0001 C CNN "Tolerance (%)"
+F 11 "16V" H 13850 4800 50  0001 C CNN "Voltage Rated (Volt)"
+	1    13850 5050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L IceCore-rescue:RES-000076-00-2_HCS_Verified R21
+U 1 1 6A070FAE
+P 10000 14350
+F 0 "R21" H 9600 14350 50  0000 L CNN
+F 1 "RES-000076-00" H 10000 13900 59  0001 L BNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 10000 13600 50  0001 C CNN
+F 3 "" H 10000 14000 50  0001 C CNN
+F 4 "Yageo" H 10000 13800 50  0001 C CNN "Manufacturer"
+F 5 "RC0402FR-1310KL" H 10000 13700 50  0001 C CNN "Manufacturer Part Number"
+F 6 "0402" H 10000 14150 50  0001 C CNN "Package Type"
+F 7 "1/16W" H 10000 14050 50  0001 C CNN "Power (Watts)"
+F 8 "10K" H 9450 14350 50  0000 C CNN "Resistance (Ohms)"
+F 9 "±1%" H 10150 14250 50  0001 C CNN "Tolerance (%)"
+	1    10000 14350
+	1    0    0    -1  
+$EndComp
+$Comp
+L IceCore-rescue:RES-000167-00-2_HCS_Verified R19
+U 1 1 8B523A54
+P 7400 13550
+F 0 "R19" H 7400 13600 59  0000 C BNN
+F 1 "RES-000167-00" H 7250 13420 59  0001 L BNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 7400 12800 50  0001 C CNN
+F 3 "http://www.heaviside.in:8000/part/167/" H 7400 13200 50  0001 C CNN
+F 4 "Yageo" H 7400 13000 50  0001 C CNN "Manufacturer"
+F 5 "RC0402FR-0727KL" H 7400 12900 50  0001 C CNN "Manufacturer Part Number"
+F 6 "0402" H 7400 13350 50  0001 C CNN "Package Type"
+F 7 "1/16W" H 7400 13250 50  0001 C CNN "Power (Watts)"
+F 8 "27K" H 7400 13500 50  0000 C TNN "Resistance (Ohms)"
+F 9 "±1%" H 7550 13450 50  0001 C CNN "Tolerance (%)"
+	1    7400 13550
+	1    0    0    -1  
+$EndComp
+$Comp
+L IceCore-rescue:CAP-000004-00-2_HCS_Verified C2
+U 1 1 E5395218
+P 1850 7250
+F 0 "C2" V 1800 7350 50  0000 L BNN
+F 1 "CAP-000004-00" H 1850 6750 50  0001 L BNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 1850 6450 50  0001 C CNN
+F 3 "http://www.heaviside.in:8000/part/4/" H 1850 6100 50  0001 C CNN
+F 4 "0.1µF" V 1950 7350 50  0000 L CNN "Capacitance (Farad)"
+F 5 "-" H 2050 7000 50  0001 C CNN "ESR (Ohm)"
+F 6 "Murata Electronics" H 1850 6650 50  0001 C CNN "Manufacturer"
+F 7 "GRM155R71C104KA88D" H 1850 6550 50  0001 C CNN "Manufacturer Part Number"
+F 8 "1.00x0.50mm" H 1850 6900 50  0001 C CNN "Package Size"
+F 9 "0402" H 1850 6900 50  0001 C CNN "Package Type"
+F 10 "±10%" H 2050 7100 50  0001 C CNN "Tolerance (%)"
+F 11 "16V" H 1850 7000 50  0001 C CNN "Voltage Rated (Volt)"
+	1    1850 7250
+	0    1    1    0   
+$EndComp
+$Comp
+L IceCore-rescue:RES-000092-00-2_HCS_Verified R8
+U 1 1 13E5914B
+P 2300 2450
+F 0 "R8" H 2300 2500 50  0000 C BNN
+F 1 "RES-000092-00" H 2300 2000 59  0001 L BNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 2300 1700 50  0001 C CNN
+F 3 "" H 2300 2100 50  0001 C CNN
+F 4 "Yageo" H 2300 1900 50  0001 C CNN "Manufacturer"
+F 5 "RC0402FR-071KL" H 2300 1800 50  0001 C CNN "Manufacturer Part Number"
+F 6 "0402" H 2300 2250 50  0001 C CNN "Package Type"
+F 7 "1/16W" H 2300 2150 50  0001 C CNN "Power (Watts)"
+F 8 "1K" H 2300 2400 50  0000 C TNN "Resistance (Ohms)"
+F 9 "±1%" H 2450 2350 50  0001 C CNN "Tolerance (%)"
+	1    2300 2450
+	-1   0    0    -1  
+$EndComp
+$Comp
+L IceCore-rescue:CAP-000168-00-2_HCS_Verified C56
+U 1 1 E2CC3295
+P 16350 2950
+F 0 "C56" V 16300 3200 50  0000 R BNN
+F 1 "CAP-000168-00" H 16350 2350 59  0001 L BNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 16350 2050 50  0001 C CNN
+F 3 "http://www.heaviside.in:8000/part/168/" H 16350 2400 50  0001 C CNN
+F 4 "22pF" V 16450 3050 50  0000 L CNN "Capacitance (Farad)"
+F 5 "Murata Electronics" H 16350 2250 50  0001 C CNN "Manufacturer"
+F 6 "GCM1555C1H220JA16D" H 16350 2150 50  0001 C CNN "Manufacturer Part Number"
+F 7 "0402" H 16350 2600 50  0001 C CNN "Package Type"
+F 8 "50V" H 16350 2700 50  0001 C CNN "Rated Voltage (Volt)"
+F 9 "C0G, NP0" H 16350 2500 50  0001 C CNN "Temperature Grade"
+F 10 "±5%" H 16650 2800 50  0001 C CNN "Tolerance (%)"
+	1    16350 2950
+	0    -1   1    0   
+$EndComp
+$Comp
+L IceCore-rescue:CAP-000164-00-2_HCS_Verified C60
+U 1 1 DE16D4A1
+P 17250 2950
+F 0 "C60" V 17200 3050 50  0000 L BNN
+F 1 "CAP-000164-00" H 17250 2350 59  0001 L BNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 17250 2050 50  0001 C CNN
+F 3 "http://www.heaviside.in:8000/part/164/" H 17250 2400 50  0001 C CNN
+F 4 "22µF" V 17300 3150 50  0000 C CNN "Capacitance (Farad)"
+F 5 "Murata Electronics" H 17250 2250 50  0001 C CNN "Manufacturer"
+F 6 "GRM21BC81A226ME44L" H 17250 2150 50  0001 C CNN "Manufacturer Part Number"
+F 7 "0805" H 17250 2600 50  0001 C CNN "Package Type"
+F 8 "10V" H 17250 2700 50  0001 C CNN "Rated Voltage (Volt)"
+F 9 "X6S" H 17250 2500 50  0001 C CNN "Temperature Grade"
+F 10 "±20%" H 17550 2800 50  0001 C CNN "Tolerance (%)"
+	1    17250 2950
+	0    1    1    0   
+$EndComp
+$Comp
+L IceCore-rescue:CAP-000164-00-2_HCS_Verified C46
+U 1 1 15F3A63D
+P 14300 3000
+F 0 "C46" V 14200 3100 50  0000 L TNN
+F 1 "CAP-000164-00" H 14300 2400 59  0001 L BNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 14300 2100 50  0001 C CNN
+F 3 "http://www.heaviside.in:8000/part/164/" H 14300 2450 50  0001 C CNN
+F 4 "22µF" V 14400 3100 50  0000 L CNN "Capacitance (Farad)"
+F 5 "Murata Electronics" H 14300 2300 50  0001 C CNN "Manufacturer"
+F 6 "GRM21BC81A226ME44L" H 14300 2200 50  0001 C CNN "Manufacturer Part Number"
+F 7 "0805" H 14300 2650 50  0001 C CNN "Package Type"
+F 8 "10V" H 14300 2750 50  0001 C CNN "Rated Voltage (Volt)"
+F 9 "X6S" H 14300 2550 50  0001 C CNN "Temperature Grade"
+F 10 "±20%" H 14600 2850 50  0001 C CNN "Tolerance (%)"
+	1    14300 3000
+	0    -1   1    0   
+$EndComp
+$Comp
+L IceCore-rescue:PWR-000165-00-2_HCS_Verified U5
+U 1 1 54307519
+P 15300 2950
+F 0 "U5" H 15300 2950 50  0000 C CNN
+F 1 "PWR-000165-00" H 15250 2550 50  0001 C CNN
+F 2 "Package_TO_SOT_SMD:TSOT-23-5" H 15300 2250 50  0001 C CNN
+F 3 "http://www.heaviside.in:8000/part/165/" H 15250 2600 50  0001 C CNN
+F 4 "Diodes Incorporated" H 15300 2450 50  0001 C CNN "Manufacturer"
+F 5 "AP3429AKTTR-G1" H 15300 2350 50  0001 C CNN "Manufacturer Part Number"
+F 6 "AP3429AKTTR-G1" H 15300 3300 50  0000 C CNN "Part Number"
+F 7 "IC REG BUCK ADJUSTABLE 2A TSOT25" H 15300 2950 50  0001 C CNN "Description"
+F 8 "TSOT-23-5" H 0   0   50  0001 C CNN "Package Type"
+	1    15300 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L IceCore-rescue:RES-000076-00-2_HCS_Verified R31
+U 1 1 B9BAFB95
+P 14550 2500
+F 0 "R31" V 14500 2550 50  0000 L BNN
+F 1 "RES-000076-00" H 14550 2050 59  0001 L BNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 14550 1750 50  0001 C CNN
+F 3 "" H 14550 2150 50  0001 C CNN
+F 4 "Yageo" H 14550 1950 50  0001 C CNN "Manufacturer"
+F 5 "RC0402FR-1310KL" H 14550 1850 50  0001 C CNN "Manufacturer Part Number"
+F 6 "0402" H 14550 2300 50  0001 C CNN "Package Type"
+F 7 "1/16W" H 14550 2200 50  0001 C CNN "Power (Watts)"
+F 8 "10K" V 14650 2550 50  0000 L CNN "Resistance (Ohms)"
+F 9 "±1%" H 14700 2400 50  0001 C CNN "Tolerance (%)"
+	1    14550 2500
+	0    1    1    0   
+$EndComp
+$Comp
+L IceCore-rescue:RES-000166-00-2_HCS_Verified R33
+U 1 1 DDD9D057
+P 16750 2950
+F 0 "R33" V 16850 2800 50  0000 L BNN
+F 1 "RES-000166-00" H 16750 2500 59  0001 L BNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 16750 2200 50  0001 C CNN
+F 3 "http://www.heaviside.in:8000/part/166/" H 16750 2600 50  0001 C CNN
+F 4 "Yageo" H 16750 2400 50  0001 C CNN "Manufacturer"
+F 5 "RC0402FR-07120KL" H 16750 2300 50  0001 C CNN "Manufacturer Part Number"
+F 6 "0402" H 16750 2750 50  0001 C CNN "Package Type"
+F 7 "1/16W" H 16750 2650 50  0001 C CNN "Power (Watts)"
+F 8 "120K" V 16650 2800 50  0000 C CNN "Resistance (Ohms)"
+F 9 "±1%" H 16900 2850 50  0001 C CNN "Tolerance (%)"
+	1    16750 2950
+	0    1    -1   0   
+$EndComp
+$Comp
+L IceCore-rescue:RES-000166-00-2_HCS_Verified R34
+U 1 1 6307D38E
+P 17000 3150
+F 0 "R34" H 17000 3050 50  0000 C BNN
+F 1 "RES-000166-00" H 17000 2700 59  0001 L BNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 17000 2400 50  0001 C CNN
+F 3 "http://www.heaviside.in:8000/part/166/" H 17000 2800 50  0001 C CNN
+F 4 "Yageo" H 17000 2600 50  0001 C CNN "Manufacturer"
+F 5 "RC0402FR-07120KL" H 17000 2500 50  0001 C CNN "Manufacturer Part Number"
+F 6 "0402" H 17000 2950 50  0001 C CNN "Package Type"
+F 7 "1/16W" H 17000 2850 50  0001 C CNN "Power (Watts)"
+F 8 "120K" H 17000 3250 50  0000 C CNN "Resistance (Ohms)"
+F 9 "±1%" H 17150 3050 50  0001 C CNN "Tolerance (%)"
+	1    17000 3150
+	1    0    0    1   
+$EndComp
+$Comp
+L IceCore-rescue:CAP-000164-00-2_HCS_Verified C34
+U 1 1 5843C13A
+P 13150 2950
+F 0 "C34" V 13250 2900 50  0000 R BNN
+F 1 "CAP-000164-00" H 13150 2350 59  0001 L BNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 13150 2050 50  0001 C CNN
+F 3 "http://www.heaviside.in:8000/part/164/" H 13150 2400 50  0001 C CNN
+F 4 "22µF" V 13050 2800 50  0000 C CNN "Capacitance (Farad)"
+F 5 "Murata Electronics" H 13150 2250 50  0001 C CNN "Manufacturer"
+F 6 "GRM21BC81A226ME44L" H 13150 2150 50  0001 C CNN "Manufacturer Part Number"
+F 7 "0805" H 13150 2600 50  0001 C CNN "Package Type"
+F 8 "10V" H 13150 2700 50  0001 C CNN "Rated Voltage (Volt)"
+F 9 "X6S" H 13150 2500 50  0001 C CNN "Temperature Grade"
+F 10 "±20%" H 13450 2800 50  0001 C CNN "Tolerance (%)"
+	1    13150 2950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L IceCore-rescue:CAP-000164-00-2_HCS_Verified C24
+U 1 1 A1FE3B2A
+P 10250 2950
+F 0 "C24" V 10200 3050 50  0000 L BNN
+F 1 "CAP-000164-00" H 10250 2350 59  0001 L BNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 10250 2050 50  0001 C CNN
+F 3 "http://www.heaviside.in:8000/part/164/" H 10250 2400 50  0001 C CNN
+F 4 "22µF" V 10350 3050 50  0000 L CNN "Capacitance (Farad)"
+F 5 "Murata Electronics" H 10250 2250 50  0001 C CNN "Manufacturer"
+F 6 "GRM21BC81A226ME44L" H 10250 2150 50  0001 C CNN "Manufacturer Part Number"
+F 7 "0805" H 10250 2600 50  0001 C CNN "Package Type"
+F 8 "10V" H 10250 2700 50  0001 C CNN "Rated Voltage (Volt)"
+F 9 "X6S" H 10250 2500 50  0001 C CNN "Temperature Grade"
+F 10 "±20%" H 10550 2800 50  0001 C CNN "Tolerance (%)"
+	1    10250 2950
+	0    -1   1    0   
+$EndComp
+$Comp
+L IceCore-rescue:PWR-000165-00-2_HCS_Verified U3
+U 1 1 371C5F19
+P 11200 2950
+F 0 "U3" H 11200 2950 50  0000 C CNN
+F 1 "PWR-000165-00" H 11150 2550 50  0001 C CNN
+F 2 "Package_TO_SOT_SMD:TSOT-23-5" H 11200 2250 50  0001 C CNN
+F 3 "http://www.heaviside.in:8000/part/165/" H 11150 2600 50  0001 C CNN
+F 4 "Diodes Incorporated" H 11200 2450 50  0001 C CNN "Manufacturer"
+F 5 "AP3429AKTTR-G1" H 11200 2350 50  0001 C CNN "Manufacturer Part Number"
+F 6 "AP3429AKTTR-G1" H 11200 3300 50  0000 C CNN "Part Number"
+F 7 "IC REG BUCK ADJUSTABLE 2A TSOT25" H 0   0   50  0001 C CNN "Description"
+F 8 "TSOT-23-5" H 0   0   50  0001 C CNN "Package Type"
+	1    11200 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L IceCore-rescue:RES-000166-00-2_HCS_Verified R27
+U 1 1 DE77EBCC
+P 12650 2950
+F 0 "R27" V 12750 2900 50  0000 R BNN
+F 1 "RES-000166-00" H 12650 2500 59  0001 L BNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 12650 2200 50  0001 C CNN
+F 3 "http://www.heaviside.in:8000/part/166/" H 12650 2600 50  0001 C CNN
+F 4 "Yageo" H 12650 2400 50  0001 C CNN "Manufacturer"
+F 5 "RC0402FR-07120KL" H 12650 2300 50  0001 C CNN "Manufacturer Part Number"
+F 6 "0402" H 12650 2750 50  0001 C CNN "Package Type"
+F 7 "1/16W" H 12650 2650 50  0001 C CNN "Power (Watts)"
+F 8 "120K" V 12550 2900 50  0000 R CNN "Resistance (Ohms)"
+F 9 "±1%" H 12800 2850 50  0001 C CNN "Tolerance (%)"
+	1    12650 2950
+	0    1    -1   0   
+$EndComp
+$Comp
+L IceCore-rescue:CAP-000182-00-2_HCS_Verified C15
+U 1 1 017EDE15
+P 7450 6650
+F 0 "C15" H 7950 6650 50  0000 L CNN
+F 1 "CAP-000182-00" H 7450 6050 59  0001 L BNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 7450 5750 50  0001 C CNN
+F 3 "http://www.heaviside.in:8000/part/182/" H 7450 6100 50  0001 C CNN
+F 4 "0.22µF" H 8250 6650 50  0000 C CNN "Capacitance (Farad)"
+F 5 "Murata Electronics" H 7450 5950 50  0001 C CNN "Manufacturer"
+F 6 "GRM155R71C224KA12D" H 7450 5850 50  0001 C CNN "Manufacturer Part Number"
+F 7 "0402" H 7450 6300 50  0001 C CNN "Package Type"
+F 8 "16V" H 7450 6400 50  0001 C CNN "Rated Voltage (Volt)"
+F 9 "X7R" H 7450 6200 50  0001 C CNN "Temperature Grade"
+F 10 "±10%" H 7750 6500 50  0001 C CNN "Tolerance (%)"
+	1    7450 6650
+	1    0    0    1   
+$EndComp
+$Comp
+L IceCore-rescue:CAP-000182-00-2_HCS_Verified C9
+U 1 1 D7EFB57B
+P 7150 6750
+F 0 "C9" H 7950 6750 50  0000 L CNN
+F 1 "CAP-000182-00" H 7150 6150 59  0001 L BNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 7150 5850 50  0001 C CNN
+F 3 "http://www.heaviside.in:8000/part/182/" H 7150 6200 50  0001 C CNN
+F 4 "0.22µF" H 8250 6750 50  0000 C CNN "Capacitance (Farad)"
+F 5 "Murata Electronics" H 7150 6050 50  0001 C CNN "Manufacturer"
+F 6 "GRM155R71C224KA12D" H 7150 5950 50  0001 C CNN "Manufacturer Part Number"
+F 7 "0402" H 7150 6400 50  0001 C CNN "Package Type"
+F 8 "16V" H 7150 6500 50  0001 C CNN "Rated Voltage (Volt)"
+F 9 "X7R" H 7150 6300 50  0001 C CNN "Temperature Grade"
+F 10 "±10%" H 7450 6600 50  0001 C CNN "Tolerance (%)"
+	1    7150 6750
+	1    0    0    1   
+$EndComp
+$Comp
+L IceCore-rescue:CAP-000182-00-2_HCS_Verified C16
+U 1 1 31116AE8
+P 7450 6950
+F 0 "C16" H 7950 6950 50  0000 L CNN
+F 1 "CAP-000182-00" H 7450 6350 59  0001 L BNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 7450 6050 50  0001 C CNN
+F 3 "http://www.heaviside.in:8000/part/182/" H 7450 6400 50  0001 C CNN
+F 4 "0.22µF" H 8250 6950 50  0000 C CNN "Capacitance (Farad)"
+F 5 "Murata Electronics" H 7450 6250 50  0001 C CNN "Manufacturer"
+F 6 "GRM155R71C224KA12D" H 7450 6150 50  0001 C CNN "Manufacturer Part Number"
+F 7 "0402" H 7450 6600 50  0001 C CNN "Package Type"
+F 8 "16V" H 7450 6700 50  0001 C CNN "Rated Voltage (Volt)"
+F 9 "X7R" H 7450 6500 50  0001 C CNN "Temperature Grade"
+F 10 "±10%" H 7750 6800 50  0001 C CNN "Tolerance (%)"
+	1    7450 6950
+	1    0    0    1   
+$EndComp
+$Comp
+L IceCore-rescue:CAP-000182-00-2_HCS_Verified C10
+U 1 1 629146ED
+P 7150 7050
+F 0 "C10" H 7950 7050 50  0000 L CNN
+F 1 "CAP-000182-00" H 7150 6450 59  0001 L BNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 7150 6150 50  0001 C CNN
+F 3 "http://www.heaviside.in:8000/part/182/" H 7150 6500 50  0001 C CNN
+F 4 "0.22µF" H 8250 7050 50  0000 C CNN "Capacitance (Farad)"
+F 5 "Murata Electronics" H 7150 6350 50  0001 C CNN "Manufacturer"
+F 6 "GRM155R71C224KA12D" H 7150 6250 50  0001 C CNN "Manufacturer Part Number"
+F 7 "0402" H 7150 6700 50  0001 C CNN "Package Type"
+F 8 "16V" H 7150 6800 50  0001 C CNN "Rated Voltage (Volt)"
+F 9 "X7R" H 7150 6600 50  0001 C CNN "Temperature Grade"
+F 10 "±10%" H 7450 6900 50  0001 C CNN "Tolerance (%)"
+	1    7150 7050
+	1    0    0    1   
+$EndComp
+$Comp
+L IceCore-rescue:CAP-000182-00-2_HCS_Verified C17
+U 1 1 4039F557
+P 7450 7250
+F 0 "C17" H 6800 7250 50  0000 L CNN
+F 1 "CAP-000182-00" H 7450 6650 59  0001 L BNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 7450 6350 50  0001 C CNN
+F 3 "http://www.heaviside.in:8000/part/182/" H 7450 6700 50  0001 C CNN
+F 4 "0.22µF" H 6650 7250 50  0000 C CNN "Capacitance (Farad)"
+F 5 "Murata Electronics" H 7450 6550 50  0001 C CNN "Manufacturer"
+F 6 "GRM155R71C224KA12D" H 7450 6450 50  0001 C CNN "Manufacturer Part Number"
+F 7 "0402" H 7450 6900 50  0001 C CNN "Package Type"
+F 8 "16V" H 7450 7000 50  0001 C CNN "Rated Voltage (Volt)"
+F 9 "X7R" H 7450 6800 50  0001 C CNN "Temperature Grade"
+F 10 "±10%" H 7750 7100 50  0001 C CNN "Tolerance (%)"
+	1    7450 7250
+	-1   0    0    -1  
+$EndComp
+$Comp
+L IceCore-rescue:CAP-000182-00-2_HCS_Verified C11
+U 1 1 3A52C3B5
+P 7150 7350
+F 0 "C11" H 7950 7350 50  0000 L CNN
+F 1 "CAP-000182-00" H 7150 6750 59  0001 L BNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 7150 6450 50  0001 C CNN
+F 3 "http://www.heaviside.in:8000/part/182/" H 7150 6800 50  0001 C CNN
+F 4 "0.22µF" H 8250 7350 50  0000 C CNN "Capacitance (Farad)"
+F 5 "Murata Electronics" H 7150 6650 50  0001 C CNN "Manufacturer"
+F 6 "GRM155R71C224KA12D" H 7150 6550 50  0001 C CNN "Manufacturer Part Number"
+F 7 "0402" H 7150 7000 50  0001 C CNN "Package Type"
+F 8 "16V" H 7150 7100 50  0001 C CNN "Rated Voltage (Volt)"
+F 9 "X7R" H 7150 6900 50  0001 C CNN "Temperature Grade"
+F 10 "±10%" H 7450 7200 50  0001 C CNN "Tolerance (%)"
+	1    7150 7350
+	1    0    0    1   
+$EndComp
+$Comp
+L IceCore-rescue:CAP-000182-00-2_HCS_Verified C18
+U 1 1 F28CDFA2
+P 7450 7550
+F 0 "C18" H 7950 7550 50  0000 L CNN
+F 1 "CAP-000182-00" H 7450 6950 59  0001 L BNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 7450 6650 50  0001 C CNN
+F 3 "http://www.heaviside.in:8000/part/182/" H 7450 7000 50  0001 C CNN
+F 4 "0.22µF" H 8250 7550 50  0000 C CNN "Capacitance (Farad)"
+F 5 "Murata Electronics" H 7450 6850 50  0001 C CNN "Manufacturer"
+F 6 "GRM155R71C224KA12D" H 7450 6750 50  0001 C CNN "Manufacturer Part Number"
+F 7 "0402" H 7450 7200 50  0001 C CNN "Package Type"
+F 8 "16V" H 7450 7300 50  0001 C CNN "Rated Voltage (Volt)"
+F 9 "X7R" H 7450 7100 50  0001 C CNN "Temperature Grade"
+F 10 "±10%" H 7750 7400 50  0001 C CNN "Tolerance (%)"
+	1    7450 7550
+	1    0    0    1   
+$EndComp
+$Comp
+L IceCore-rescue:ICS-000172-00-2_HCS_Verified U6
+U 1 1 5ED25CA7
+P 16050 14300
+F 0 "U6" H 16000 14300 50  0000 C CNN
+F 1 "ICS-000172-00" H 16050 13900 50  0001 C CNN
+F 2 "HCS:TSOP-2-50" H 16050 13600 50  0001 C CNN
+F 3 "http://www.heaviside.in:8000/part/172/" H 16050 13950 50  0001 C CNN
+F 4 "ISSI, Integrated Silicon Solution Inc" H 16050 13800 50  0001 C CNN "Manufacturer"
+F 5 "IS42S16100H-7TLI" H 16050 13700 50  0001 C CNN "Manufacturer Part Number"
+F 6 "IS42S16100H-7TLI" H 16000 15450 50  0000 C CNN "Part Number"
+F 7 "143 MHz" H 0   0   50  0001 C CNN "Note"
+F 8 "TSOP-2-50" H 0   0   50  0001 C CNN "Package Type"
+	1    16050 14300
+	1    0    0    -1  
+$EndComp
+$Comp
+L IceCore-rescue:RES-000076-00-2_HCS_Verified R20
+U 1 1 BC243054
+P 10000 14250
+F 0 "R20" H 9600 14250 50  0000 L CNN
+F 1 "RES-000076-00" H 10000 13800 59  0001 L BNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 10000 13500 50  0001 C CNN
+F 3 "" H 10000 13900 50  0001 C CNN
+F 4 "Yageo" H 10000 13700 50  0001 C CNN "Manufacturer"
+F 5 "RC0402FR-1310KL" H 10000 13600 50  0001 C CNN "Manufacturer Part Number"
+F 6 "0402" H 10000 14050 50  0001 C CNN "Package Type"
+F 7 "1/16W" H 10000 13950 50  0001 C CNN "Power (Watts)"
+F 8 "10K" H 9450 14250 50  0000 C CNN "Resistance (Ohms)"
+F 9 "±1%" H 10150 14150 50  0001 C CNN "Tolerance (%)"
+	1    10000 14250
+	1    0    0    -1  
+$EndComp
+$Comp
+L IceCore-rescue:RES-000076-00-2_HCS_Verified R17
+U 1 1 41D07F0A
+P 7200 7850
+F 0 "R17" H 6800 7850 50  0000 L CNN
+F 1 "RES-000076-00" H 7200 7400 59  0001 R TNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 7200 7100 50  0001 C CNN
+F 3 "" H 7200 7500 50  0001 C CNN
+F 4 "Yageo" H 7200 7300 50  0001 C CNN "Manufacturer"
+F 5 "RC0402FR-1310KL" H 7200 7200 50  0001 C CNN "Manufacturer Part Number"
+F 6 "0402" H 7200 7650 50  0001 C CNN "Package Type"
+F 7 "1/16W" H 7200 7550 50  0001 C CNN "Power (Watts)"
+F 8 "10K" H 6700 7850 50  0000 C CNN "Resistance (Ohms)"
+F 9 "±1%" H 7350 7750 50  0001 C CNN "Tolerance (%)"
+	1    7200 7850
+	-1   0    0    1   
+$EndComp
+$Comp
+L IceCore-rescue:RES-000076-00-2_HCS_Verified R18
+U 1 1 6C012852
+P 7200 7950
+F 0 "R18" H 6800 7950 50  0000 L CNN
+F 1 "RES-000076-00" H 7200 7500 59  0001 R TNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 7200 7200 50  0001 C CNN
+F 3 "" H 7200 7600 50  0001 C CNN
+F 4 "Yageo" H 7200 7400 50  0001 C CNN "Manufacturer"
+F 5 "RC0402FR-1310KL" H 7200 7300 50  0001 C CNN "Manufacturer Part Number"
+F 6 "0402" H 7200 7750 50  0001 C CNN "Package Type"
+F 7 "1/16W" H 7200 7650 50  0001 C CNN "Power (Watts)"
+F 8 "10K" H 6700 7950 50  0000 C CNN "Resistance (Ohms)"
+F 9 "±1%" H 7350 7850 50  0001 C CNN "Tolerance (%)"
+	1    7200 7950
+	-1   0    0    1   
+$EndComp
+$Comp
+L IceCore-rescue:RES-000076-00-2_HCS_Verified R23
+U 1 1 A5EEF4AE
+P 12100 14150
+F 0 "R23" H 11700 14150 50  0000 L CNN
+F 1 "RES-000076-00" H 12100 13700 59  0001 L BNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 12100 13400 50  0001 C CNN
+F 3 "" H 12100 13800 50  0001 C CNN
+F 4 "Yageo" H 12100 13600 50  0001 C CNN "Manufacturer"
+F 5 "RC0402FR-1310KL" H 12100 13500 50  0001 C CNN "Manufacturer Part Number"
+F 6 "0402" H 12100 13950 50  0001 C CNN "Package Type"
+F 7 "1/16W" H 12100 13850 50  0001 C CNN "Power (Watts)"
+F 8 "10K" H 11550 14150 50  0000 C CNN "Resistance (Ohms)"
+F 9 "±1%" H 12250 14050 50  0001 C CNN "Tolerance (%)"
+	1    12100 14150
+	-1   0    0    1   
+$EndComp
+$Comp
+L IceCore-rescue:RES-000076-00-2_HCS_Verified R24
+U 1 1 6954CAE3
+P 12100 14250
+F 0 "R24" H 11700 14250 50  0000 L CNN
+F 1 "RES-000076-00" H 12100 13800 59  0001 L BNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 12100 13500 50  0001 C CNN
+F 3 "" H 12100 13900 50  0001 C CNN
+F 4 "Yageo" H 12100 13700 50  0001 C CNN "Manufacturer"
+F 5 "RC0402FR-1310KL" H 12100 13600 50  0001 C CNN "Manufacturer Part Number"
+F 6 "0402" H 12100 14050 50  0001 C CNN "Package Type"
+F 7 "1/16W" H 12100 13950 50  0001 C CNN "Power (Watts)"
+F 8 "10K" H 11550 14250 50  0000 C CNN "Resistance (Ohms)"
+F 9 "±1%" H 12250 14150 50  0001 C CNN "Tolerance (%)"
+	1    12100 14250
+	-1   0    0    1   
+$EndComp
+$Comp
+L IceCore-rescue:RES-000076-00-2_HCS_Verified R25
+U 1 1 0E8D017C
+P 12100 14350
+F 0 "R25" H 11700 14350 50  0000 L CNN
+F 1 "RES-000076-00" H 12100 13900 59  0001 L BNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 12100 13600 50  0001 C CNN
+F 3 "" H 12100 14000 50  0001 C CNN
+F 4 "Yageo" H 12100 13800 50  0001 C CNN "Manufacturer"
+F 5 "RC0402FR-1310KL" H 12100 13700 50  0001 C CNN "Manufacturer Part Number"
+F 6 "0402" H 12100 14150 50  0001 C CNN "Package Type"
+F 7 "1/16W" H 12100 14050 50  0001 C CNN "Power (Watts)"
+F 8 "10K" H 11550 14350 50  0000 C CNN "Resistance (Ohms)"
+F 9 "±1%" H 12250 14250 50  0001 C CNN "Tolerance (%)"
+	1    12100 14350
+	-1   0    0    1   
+$EndComp
+$Comp
+L IceCore-rescue:RES-000076-00-2_HCS_Verified R26
+U 1 1 DEE37B10
+P 12100 14450
+F 0 "R26" H 11700 14450 50  0000 L CNN
+F 1 "RES-000076-00" H 12100 14000 59  0001 L BNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 12100 13700 50  0001 C CNN
+F 3 "" H 12100 14100 50  0001 C CNN
+F 4 "Yageo" H 12100 13900 50  0001 C CNN "Manufacturer"
+F 5 "RC0402FR-1310KL" H 12100 13800 50  0001 C CNN "Manufacturer Part Number"
+F 6 "0402" H 12100 14250 50  0001 C CNN "Package Type"
+F 7 "1/16W" H 12100 14150 50  0001 C CNN "Power (Watts)"
+F 8 "10K" H 11550 14450 50  0000 C CNN "Resistance (Ohms)"
+F 9 "±1%" H 12250 14350 50  0001 C CNN "Tolerance (%)"
+	1    12100 14450
+	-1   0    0    1   
+$EndComp
+$Comp
+L IceCore-rescue:RES-000076-00-2_HCS_Verified R2
+U 1 1 983AEE2B
+P 2050 6350
+F 0 "R2" H 2600 6350 50  0000 C CNN
+F 1 "RES-000076-00" H 2050 5900 59  0001 L BNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 2050 5600 50  0001 C CNN
+F 3 "" H 2050 6000 50  0001 C CNN
+F 4 "Yageo" H 2050 5800 50  0001 C CNN "Manufacturer"
+F 5 "RC0402FR-1310KL" H 2050 5700 50  0001 C CNN "Manufacturer Part Number"
+F 6 "0402" H 2050 6150 50  0001 C CNN "Package Type"
+F 7 "1/16W" H 2050 6050 50  0001 C CNN "Power (Watts)"
+F 8 "10K" H 2400 6350 50  0000 C CNN "Resistance (Ohms)"
+F 9 "±1%" H 2200 6250 50  0001 C CNN "Tolerance (%)"
+	1    2050 6350
+	-1   0    0    1   
+$EndComp
+$Comp
+L IceCore-rescue:RES-000076-00-2_HCS_Verified R3
+U 1 1 211F8F6E
+P 2050 6450
+F 0 "R3" H 2600 6450 50  0000 C CNN
+F 1 "RES-000076-00" H 2050 6000 59  0001 L BNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 2050 5700 50  0001 C CNN
+F 3 "" H 2050 6100 50  0001 C CNN
+F 4 "Yageo" H 2050 5900 50  0001 C CNN "Manufacturer"
+F 5 "RC0402FR-1310KL" H 2050 5800 50  0001 C CNN "Manufacturer Part Number"
+F 6 "0402" H 2050 6250 50  0001 C CNN "Package Type"
+F 7 "1/16W" H 2050 6150 50  0001 C CNN "Power (Watts)"
+F 8 "10K" H 2400 6450 50  0000 C CNN "Resistance (Ohms)"
+F 9 "±1%" H 2200 6350 50  0001 C CNN "Tolerance (%)"
+	1    2050 6450
+	-1   0    0    1   
+$EndComp
+$Comp
+L IceCore-rescue:RES-000076-00-2_HCS_Verified R4
+U 1 1 9E817A10
+P 2050 6550
+F 0 "R4" H 2600 6550 50  0000 C CNN
+F 1 "RES-000076-00" H 2050 6100 59  0001 L BNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 2050 5800 50  0001 C CNN
+F 3 "" H 2050 6200 50  0001 C CNN
+F 4 "Yageo" H 2050 6000 50  0001 C CNN "Manufacturer"
+F 5 "RC0402FR-1310KL" H 2050 5900 50  0001 C CNN "Manufacturer Part Number"
+F 6 "0402" H 2050 6350 50  0001 C CNN "Package Type"
+F 7 "1/16W" H 2050 6250 50  0001 C CNN "Power (Watts)"
+F 8 "10K" H 2400 6550 50  0000 C CNN "Resistance (Ohms)"
+F 9 "±1%" H 2200 6450 50  0001 C CNN "Tolerance (%)"
+	1    2050 6550
+	-1   0    0    1   
+$EndComp
+$Comp
+L IceCore-rescue:RES-000076-00-2_HCS_Verified R5
+U 1 1 01E67748
+P 2050 6750
+F 0 "R5" H 2600 6750 50  0000 C CNN
+F 1 "RES-000076-00" H 2050 6300 59  0001 L BNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 2050 6000 50  0001 C CNN
+F 3 "" H 2050 6400 50  0001 C CNN
+F 4 "Yageo" H 2050 6200 50  0001 C CNN "Manufacturer"
+F 5 "RC0402FR-1310KL" H 2050 6100 50  0001 C CNN "Manufacturer Part Number"
+F 6 "0402" H 2050 6550 50  0001 C CNN "Package Type"
+F 7 "1/16W" H 2050 6450 50  0001 C CNN "Power (Watts)"
+F 8 "10K" H 2400 6750 50  0000 C CNN "Resistance (Ohms)"
+F 9 "±1%" H 2200 6650 50  0001 C CNN "Tolerance (%)"
+	1    2050 6750
+	-1   0    0    1   
+$EndComp
+$Comp
+L IceCore-rescue:RES-000076-00-2_HCS_Verified R6
+U 1 1 A86E1611
+P 2050 6950
+F 0 "R6" H 2600 6950 50  0000 C CNN
+F 1 "RES-000076-00" H 2050 6500 59  0001 L BNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 2050 6200 50  0001 C CNN
+F 3 "" H 2050 6600 50  0001 C CNN
+F 4 "Yageo" H 2050 6400 50  0001 C CNN "Manufacturer"
+F 5 "RC0402FR-1310KL" H 2050 6300 50  0001 C CNN "Manufacturer Part Number"
+F 6 "0402" H 2050 6750 50  0001 C CNN "Package Type"
+F 7 "1/16W" H 2050 6650 50  0001 C CNN "Power (Watts)"
+F 8 "10K" H 2400 6950 50  0000 C CNN "Resistance (Ohms)"
+F 9 "±1%" H 2200 6850 50  0001 C CNN "Tolerance (%)"
+	1    2050 6950
+	-1   0    0    1   
+$EndComp
+$Comp
+L IceCore-rescue:RES-000076-00-2_HCS_Verified R7
+U 1 1 148BEDB9
+P 2050 7050
+F 0 "R7" H 2600 7050 50  0000 C CNN
+F 1 "RES-000076-00" H 2050 6600 59  0001 L BNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 2050 6300 50  0001 C CNN
+F 3 "" H 2050 6700 50  0001 C CNN
+F 4 "Yageo" H 2050 6500 50  0001 C CNN "Manufacturer"
+F 5 "RC0402FR-1310KL" H 2050 6400 50  0001 C CNN "Manufacturer Part Number"
+F 6 "0402" H 2050 6850 50  0001 C CNN "Package Type"
+F 7 "1/16W" H 2050 6750 50  0001 C CNN "Power (Watts)"
+F 8 "10K" H 2400 7050 50  0000 C CNN "Resistance (Ohms)"
+F 9 "±1%" H 2200 6950 50  0001 C CNN "Tolerance (%)"
+	1    2050 7050
+	-1   0    0    1   
+$EndComp
+$Comp
+L IceCore-rescue:RES-000076-00-2_HCS_Verified R32
+U 1 1 6876DA03
+P 14850 13600
+F 0 "R32" H 14800 13759 50  0000 L BNN
+F 1 "RES-000076-00" H 14850 13150 59  0001 L BNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 14850 12850 50  0001 C CNN
+F 3 "" H 14850 13250 50  0001 C CNN
+F 4 "Yageo" H 14850 13050 50  0001 C CNN "Manufacturer"
+F 5 "RC0402FR-1310KL" H 14850 12950 50  0001 C CNN "Manufacturer Part Number"
+F 6 "0402" H 14850 13400 50  0001 C CNN "Package Type"
+F 7 "1/16W" H 14850 13300 50  0001 C CNN "Power (Watts)"
+F 8 "10K" H 14850 13500 50  0000 C CNN "Resistance (Ohms)"
+F 9 "±1%" H 15000 13500 50  0001 C CNN "Tolerance (%)"
+	1    14850 13600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L IceCore-rescue:CAP-000004-00-2_HCS_Verified C52
+U 1 1 9D46824B
+P 14550 14050
+F 0 "C52" V 14500 14100 50  0000 L BNN
+F 1 "CAP-000004-00" H 14550 13550 59  0001 L BNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 14550 13250 50  0001 C CNN
+F 3 "http://www.heaviside.in:8000/part/4/" H 14550 12900 50  0001 C CNN
+F 4 "0.1µF" V 14650 14100 50  0000 L CNN "Capacitance (Farad)"
+F 5 "-" H 14750 13800 50  0001 C CNN "ESR (Ohm)"
+F 6 "Murata Electronics" H 14550 13450 50  0001 C CNN "Manufacturer"
+F 7 "GRM155R71C104KA88D" H 14550 13350 50  0001 C CNN "Manufacturer Part Number"
+F 8 "1.00x0.50mm" H 14550 13700 50  0001 C CNN "Package Size"
+F 9 "0402" H 14550 13700 50  0001 C CNN "Package Type"
+F 10 "±10%" H 14750 13900 50  0001 C CNN "Tolerance (%)"
+F 11 "16V" H 14550 13800 50  0001 C CNN "Voltage Rated (Volt)"
+	1    14550 14050
+	0    1    1    0   
+$EndComp
+$Comp
+L IceCore-rescue:CAP-000178-00-2_HCS_Verified C45
+U 1 1 2E8309FE
+P 14150 13650
+F 0 "C45" V 14100 13450 50  0000 L BNN
+F 1 "CAP-000178-00" H 14150 13050 59  0001 L BNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 14150 12750 50  0001 C CNN
+F 3 "http://www.heaviside.in:8000/part/178/" H 14150 13100 50  0001 C CNN
+F 4 "10µF" V 14250 13500 50  0000 C CNN "Capacitance (Farad)"
+F 5 "Samsung Electro-Mechanics" H 14150 12950 50  0001 C CNN "Manufacturer"
+F 6 "CL10X106MO8NRNC" H 14150 12850 50  0001 C CNN "Manufacturer Part Number"
+F 7 "0603" H 14150 13300 50  0001 C CNN "Package Type"
+F 8 "16V" H 14150 13400 50  0001 C CNN "Rated Voltage (Volt)"
+F 9 "X6S" H 14150 13200 50  0001 C CNN "Temperature Grade"
+F 10 "±20%" H 14450 13500 50  0001 C CNN "Tolerance (%)"
+	1    14150 13650
+	0    1    1    0   
+$EndComp
+$Comp
+L IceCore-rescue:DIO-000055-00-2_HCS_Verified D5
+U 1 1 C1697492
+P 1950 2750
+F 0 "D5" H 1950 2650 50  0000 L BNN
+F 1 "DIO-000055-00" H 1950 2150 59  0001 L BNN
+F 2 "LED_SMD:LED_0603_1608Metric" H 1950 1850 50  0001 C CNN
+F 3 "http://127.0.0.1:8000/part/55/" H 1950 2400 50  0001 C CNN
+F 4 "-" H 1950 2500 50  0001 C CNN "Current (Amps)"
+F 5 "2V" H 1950 2400 50  0001 C CNN "Forward Voltage (Volt)"
+F 6 "Kingbright" H 1950 2050 50  0001 C CNN "Manufacturer"
+F 7 "APT1608EC" H 1950 1950 50  0001 C CNN "Manufacturer Part Number"
+F 8 "APT1608EC" H 1950 2600 50  0001 C CNN "Part Number"
+F 9 "-" H 1950 2300 50  0001 C CNN "Rated Voltage (Volt)"
+F 10 "0603" H 0   0   50  0001 C CNN "Package Type"
+	1    1950 2750
+	-1   0    0    1   
+$EndComp
+$Comp
+L IceCore-rescue:CAP-000004-00-2_HCS_Verified C37
+U 1 1 DA3F7FF6
+P 13350 13650
+F 0 "C37" V 13450 13850 50  0000 R CNN
+F 1 "CAP-000004-00" H 13350 13150 59  0001 L BNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 13350 12850 50  0001 C CNN
+F 3 "http://www.heaviside.in:8000/part/4/" H 13350 12500 50  0001 C CNN
+F 4 "0.1µF" V 13250 13800 50  0000 C CNN "Capacitance (Farad)"
+F 5 "-" H 13550 13400 50  0001 C CNN "ESR (Ohm)"
+F 6 "Murata Electronics" H 13350 13050 50  0001 C CNN "Manufacturer"
+F 7 "GRM155R71C104KA88D" H 13350 12950 50  0001 C CNN "Manufacturer Part Number"
+F 8 "1.00x0.50mm" H 13350 13300 50  0001 C CNN "Package Size"
+F 9 "0402" H 13350 13300 50  0001 C CNN "Package Type"
+F 10 "±10%" H 13550 13500 50  0001 C CNN "Tolerance (%)"
+F 11 "16V" H 13350 13400 50  0001 C CNN "Voltage Rated (Volt)"
+	1    13350 13650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L IceCore-rescue:DIO-000055-00-2_HCS_Verified D6
+U 1 1 77A1D85C
+P 1950 3050
+F 0 "D6" H 1950 2950 50  0000 L BNN
+F 1 "DIO-000055-00" H 1950 2450 59  0001 L BNN
+F 2 "LED_SMD:LED_0603_1608Metric" H 1950 2150 50  0001 C CNN
+F 3 "http://127.0.0.1:8000/part/55/" H 1950 2700 50  0001 C CNN
+F 4 "-" H 1950 2800 50  0001 C CNN "Current (Amps)"
+F 5 "2V" H 1950 2700 50  0001 C CNN "Forward Voltage (Volt)"
+F 6 "Kingbright" H 1950 2350 50  0001 C CNN "Manufacturer"
+F 7 "APT1608EC" H 1950 2250 50  0001 C CNN "Manufacturer Part Number"
+F 8 "APT1608EC" H 1950 2900 50  0001 C CNN "Part Number"
+F 9 "-" H 1950 2600 50  0001 C CNN "Rated Voltage (Volt)"
+F 10 "0603" H 0   0   50  0001 C CNN "Package Type"
+	1    1950 3050
+	-1   0    0    1   
+$EndComp
+$Comp
+L IceCore-rescue:RES-000092-00-2_HCS_Verified R10
+U 1 1 961435E2
+P 2300 3050
+F 0 "R10" H 2300 3100 50  0000 C BNN
+F 1 "RES-000092-00" H 2300 2600 59  0001 L BNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 2300 2300 50  0001 C CNN
+F 3 "" H 2300 2700 50  0001 C CNN
+F 4 "Yageo" H 2300 2500 50  0001 C CNN "Manufacturer"
+F 5 "RC0402FR-071KL" H 2300 2400 50  0001 C CNN "Manufacturer Part Number"
+F 6 "0402" H 2300 2850 50  0001 C CNN "Package Type"
+F 7 "1/16W" H 2300 2750 50  0001 C CNN "Power (Watts)"
+F 8 "1K" H 2300 3000 50  0000 C TNN "Resistance (Ohms)"
+F 9 "±1%" H 2450 2950 50  0001 C CNN "Tolerance (%)"
+	1    2300 3050
+	-1   0    0    -1  
+$EndComp
+$Comp
+L IceCore-rescue:CAP-000178-00-2_HCS_Verified C14
+U 1 1 69019886
+P 7250 14150
+F 0 "C14" V 7200 14250 59  0000 L BNN
+F 1 "CAP-000178-00" H 7250 13550 59  0001 L BNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 7250 13250 50  0001 C CNN
+F 3 "http://www.heaviside.in:8000/part/178/" H 7250 13600 50  0001 C CNN
+F 4 "10µF" V 7350 14350 50  0000 C CNN "Capacitance (Farad)"
+F 5 "Samsung Electro-Mechanics" H 7250 13450 50  0001 C CNN "Manufacturer"
+F 6 "CL10X106MO8NRNC" H 7250 13350 50  0001 C CNN "Manufacturer Part Number"
+F 7 "0603" H 7250 13800 50  0001 C CNN "Package Type"
+F 8 "16V" H 7250 13900 50  0001 C CNN "Rated Voltage (Volt)"
+F 9 "X6S" H 7250 13700 50  0001 C CNN "Temperature Grade"
+F 10 "±20%" H 7550 14000 50  0001 C CNN "Tolerance (%)"
+	1    7250 14150
+	0    1    1    0   
+$EndComp
+$Comp
+L IceCore-rescue:RES-000074-00-2_HCS_Verified R22
+U 1 1 3B64744F
+P 11050 3750
+F 0 "R22" H 11050 3700 59  0000 C TNN
+F 1 "RES-000074-00" H 11050 3300 59  0001 R TNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 11050 3000 50  0001 C CNN
+F 3 "" H 11050 3400 50  0001 C CNN
+F 4 "Yageo" H 11050 3200 50  0001 C CNN "Manufacturer"
+F 5 "RC0402FR-07100RL" H 11050 3100 50  0001 C CNN "Manufacturer Part Number"
+F 6 "0402" H 11050 3550 50  0001 C CNN "Package Type"
+F 7 "1/16W" H 11050 3450 50  0001 C CNN "Power (Watts)"
+F 8 "100R" H 11150 3850 50  0000 R CNN "Resistance (Ohms)"
+F 9 "±1%" H 11200 3650 50  0001 C CNN "Tolerance (%)"
+	1    11050 3750
+	1    0    0    1   
+$EndComp
+$Comp
+L IceCore-rescue:CAP-000004-00-2_HCS_Verified C31
+U 1 1 90D835A0
+P 12200 1900
+F 0 "C31" V 12150 1650 50  0000 L BNN
+F 1 "CAP-000004-00" H 12200 1400 59  0001 L BNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 12200 1100 50  0001 C CNN
+F 3 "http://www.heaviside.in:8000/part/4/" H 12200 750 50  0001 C CNN
+F 4 "0.1µF" V 12250 1800 50  0000 R CNN "Capacitance (Farad)"
+F 5 "-" H 12400 1650 50  0001 C CNN "ESR (Ohm)"
+F 6 "Murata Electronics" H 12200 1300 50  0001 C CNN "Manufacturer"
+F 7 "GRM155R71C104KA88D" H 12200 1200 50  0001 C CNN "Manufacturer Part Number"
+F 8 "1.00x0.50mm" H 12200 1550 50  0001 C CNN "Package Size"
+F 9 "0402" H 12200 1550 50  0001 C CNN "Package Type"
+F 10 "±10%" H 12400 1750 50  0001 C CNN "Tolerance (%)"
+F 11 "16V" H 12200 1650 50  0001 C CNN "Voltage Rated (Volt)"
+	1    12200 1900
+	0    -1   1    0   
+$EndComp
+Text Notes 5050 5300 0    127  ~ 0
+BlackEdge Connectors
+Text Notes 5950 9000 0    127  ~ 0
+Mini HDMI Connector
+Text Notes 9450 12500 0    127  ~ 0
+FPGA Ice40
+Text Notes 9450 15600 0    127  ~ 0
+Flash and SDRAM
+Text Notes 3750 15550 0    127  ~ 0
+Microcontroller co processor
+Wire Notes Line
+	9250 4300 18050 4300
+Wire Notes Line
+	18050 4300 18050 12600
+Wire Notes Line
+	18050 12600 9250 12600
+Wire Notes Line
+	9250 12600 9250 4300
+Wire Notes Line
+	3650 800  8750 800 
+Wire Notes Line
+	8750 5400 3650 5400
+Wire Notes Line
+	3650 5400 3650 800 
+Wire Notes Line
+	3450 800  3450 5400
+Wire Notes Line
+	4950 5700 8750 5700
+Wire Notes Line
+	8750 5700 8750 9100
+Wire Notes Line
+	8750 9100 4950 9100
+Wire Notes Line
+	4950 9100 4950 5700
+Wire Notes Line
+	1150 9400 8750 9400
+Wire Notes Line
+	8750 15700 1150 15700
+Wire Notes Line
+	9250 12800 18050 12800
+Wire Notes Line
+	18050 12800 18050 15700
+Wire Notes Line
+	18050 15700 9250 15700
+Wire Notes Line
+	9250 15700 9250 12800
+Wire Notes Line
+	1150 5700 4750 5700
+Wire Notes Line
+	4750 5700 4750 9100
+Wire Notes Line
+	4750 9100 1150 9100
+Wire Notes Line
+	1150 9100 1150 5700
+Text Notes 1700 9000 0    127  ~ 0
+SDCard and Ice40 buttons
+Text Notes 1850 5300 0    127  ~ 0
+Indicators
+Text Notes 13000 4000 0    127  ~ 0
+Power Supplies
+Wire Notes Line
+	9250 4100 18050 4100
+Wire Notes Line
+	9250 4100 9250 800 
+Wire Notes Line
+	18050 4100 18050 800 
+Wire Notes Line
+	8750 5400 8750 800 
+$Comp
+L IceCore-rescue:ICS-000170-00-2_HCS_Verified U4
+U 1 1 06F92037
+P 14100 8450
+F 0 "U4" H 14050 8650 50  0000 L BNN
+F 1 "ICS-000170-00" H 14200 7850 50  0001 C CNN
+F 2 "Package_QFP:TQFP-144_20x20mm_P0.5mm" H 14200 7550 50  0001 C CNN
+F 3 "http://www.heaviside.in:8000/part/170/" H 14200 7900 50  0001 C CNN
+F 4 "Lattice Semiconductor Corporation" H 14200 7750 50  0001 C CNN "Manufacturer"
+F 5 "ICE40HX4K-TQ144" H 14100 8500 50  0000 C CNN "Manufacturer Part Number"
+F 6 "ICE40HX4K-TQ144" H 14200 8180 50  0001 C CNN "Part Number"
+F 7 "TQFP-144" H 0   0   50  0001 C CNN "Package Type"
+	1    14100 8450
+	1    0    0    -1  
+$EndComp
+$Comp
+L IceCore-rescue:ICS-000173-00-2_HCS_Verified U2
+U 1 1 E90442EA
+P 11000 14350
+F 0 "U2" H 11000 14350 50  0000 C CNN
+F 1 "ICS-000173-00" H 11000 13950 50  0001 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 11000 13650 50  0001 C CNN
+F 3 "http://www.heaviside.in:8000/part/173" H 11000 14000 50  0001 C CNN
+F 4 "Adesto Technologies" H 11000 13850 50  0001 C CNN "Manufacturer"
+F 5 "AT25SF041B-SSHB-B" H 11000 13750 50  0001 C CNN "Manufacturer Part Number"
+F 6 "AT25SF041B-SSHB-B" H 11000 14700 50  0000 C CNN "Part Number"
+F 7 "SOIC-8" H 0   0   50  0001 C CNN "Package Type"
+	1    11000 14350
+	1    0    0    -1  
+$EndComp
+Text Notes 13100 14700 0    50   ~ 0
+C39 goes to IC3 44
+Text Notes 7500 12250 0    50   ~ 0
+C43 also going to IC2 32 ...\nso, making C44 as 0.1 uF ... is it OK?
+$Comp
+L IceCore-rescue:CON-000177-00-2_HCS_Verified J1
+U 1 1 5FC52CF9
+P 4850 3100
+F 0 "J1" H 4850 4550 50  0000 C CNN
+F 1 "CON-000177-00" H 4800 2700 50  0001 C CNN
+F 2 "Connector_PinSocket_1.27mm:PinSocket_2x25_P1.27mm_Vertical_SMD" H 4800 2400 50  0001 C CNN
+F 3 "http://www.heaviside.in:8000/part/177/" H 4800 2750 30  0001 C CNN
+F 4 "Amphenol ICC (FCI)" H 4800 2600 50  0001 C CNN "Manufacturer"
+F 5 "20021321-00050T4LF" H 4800 2500 50  0001 C CNN "Manufacturer Part Number"
+F 6 "20021321-00050T4LF" H 4850 4450 50  0000 C CNN "Part Number"
+F 7 "SMD" H 0   0   50  0001 C CNN "Package Type"
+	1    4850 3100
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	4600 3400 4300 3400
+Text Label 4300 3400 0    50   ~ 0
+P29
+Wire Wire Line
+	4600 3300 4300 3300
+Text Label 4300 3300 0    50   ~ 0
+P28
+Wire Wire Line
+	4600 3200 4300 3200
+Text Label 4300 3200 0    50   ~ 0
+P25
+Wire Wire Line
+	4600 3100 4300 3100
+Text Label 4300 3100 0    50   ~ 0
+P24
+Wire Wire Line
+	4600 2700 4300 2700
+Text Label 4300 2700 0    50   ~ 0
+P16
+Wire Wire Line
+	4600 2900 4300 2900
+Text Label 4300 2900 0    50   ~ 0
+P20
+Wire Wire Line
+	4600 2600 4300 2600
+Text Label 4300 2600 0    50   ~ 0
+P13
+Wire Wire Line
+	4600 2400 4300 2400
+Text Label 4300 2400 0    50   ~ 0
+P9
+Wire Wire Line
+	4600 2500 4300 2500
+Text Label 4300 2500 0    50   ~ 0
+P12
+Wire Wire Line
+	4600 2300 4300 2300
+Text Label 4300 2300 0    50   ~ 0
+P8
+Wire Wire Line
+	4600 3000 4300 3000
+Text Label 4300 3000 0    50   ~ 0
+P21
+Wire Wire Line
+	4600 2800 4300 2800
+Text Label 4300 2800 0    50   ~ 0
+P17
+Wire Wire Line
+	4600 1900 4300 1900
+Text Label 4300 1900 0    50   ~ 0
+P0
+Wire Wire Line
+	4600 2100 4300 2100
+Text Label 4300 2100 0    50   ~ 0
+P4
+Wire Wire Line
+	4600 2200 4300 2200
+Text Label 4300 2200 0    50   ~ 0
+P5
+Wire Wire Line
+	4600 2000 4300 2000
+Text Label 4300 2000 0    50   ~ 0
+P1
+Wire Wire Line
+	4600 3900 4300 3900
+Text Label 4300 3900 0    50   ~ 0
+P40
+Wire Wire Line
+	4600 4000 4300 4000
+Text Label 4300 4000 0    50   ~ 0
+P41
+Wire Wire Line
+	4600 4100 4300 4100
+Text Label 4300 4100 0    50   ~ 0
+P44
+Wire Wire Line
+	4600 4200 4300 4200
+Text Label 4300 4200 0    50   ~ 0
+P45
+Wire Wire Line
+	4600 3500 4300 3500
+Text Label 4300 3500 0    50   ~ 0
+P32
+Wire Wire Line
+	4600 3600 4300 3600
+Text Label 4300 3600 0    50   ~ 0
+P33
+Wire Wire Line
+	4600 3700 4300 3700
+Text Label 4300 3700 0    50   ~ 0
+P36
+Wire Wire Line
+	4600 3800 4300 3800
+Text Label 4300 3800 0    50   ~ 0
+P37
+Wire Wire Line
+	5100 3200 5400 3200
+Text Label 5400 3200 2    50   ~ 0
+P27
+Wire Wire Line
+	5100 3100 5400 3100
+Text Label 5400 3100 2    50   ~ 0
+P26
+Wire Wire Line
+	5100 3400 5400 3400
+Text Label 5400 3400 2    50   ~ 0
+P31
+Wire Wire Line
+	5100 3300 5400 3300
+Text Label 5400 3300 2    50   ~ 0
+P30
+Wire Wire Line
+	5100 2500 5400 2500
+Text Label 5400 2500 2    50   ~ 0
+P14
+Wire Wire Line
+	5100 2300 5400 2300
+Text Label 5400 2300 2    50   ~ 0
+P10
+Wire Wire Line
+	5100 3000 5400 3000
+Text Label 5400 3000 2    50   ~ 0
+P23
+Wire Wire Line
+	5100 2800 5400 2800
+Text Label 5400 2800 2    50   ~ 0
+P19
+Wire Wire Line
+	5100 2900 5400 2900
+Text Label 5400 2900 2    50   ~ 0
+P22
+Wire Wire Line
+	5100 2700 5400 2700
+Text Label 5400 2700 2    50   ~ 0
+P18
+Wire Wire Line
+	5100 1900 5400 1900
+Text Label 5400 1900 2    50   ~ 0
+P2
+Wire Wire Line
+	5100 2000 5400 2000
+Text Label 5400 2000 2    50   ~ 0
+P3
+Wire Wire Line
+	5100 2100 5400 2100
+Text Label 5400 2100 2    50   ~ 0
+P6
+Wire Wire Line
+	5100 2200 5400 2200
+Text Label 5400 2200 2    50   ~ 0
+P7
+Wire Wire Line
+	5100 2600 5400 2600
+Text Label 5400 2600 2    50   ~ 0
+P15
+Wire Wire Line
+	5100 2400 5400 2400
+Text Label 5400 2400 2    50   ~ 0
+P11
+Wire Wire Line
+	5100 3800 5400 3800
+Text Label 5400 3800 2    50   ~ 0
+P39
+Wire Wire Line
+	5100 3900 5400 3900
+Text Label 5400 3900 2    50   ~ 0
+P42
+Wire Wire Line
+	5100 4000 5400 4000
+Text Label 5400 4000 2    50   ~ 0
+P43
+Wire Wire Line
+	5100 4100 5400 4100
+Text Label 5400 4100 2    50   ~ 0
+P46
+Wire Wire Line
+	5100 4200 5400 4200
+Text Label 5400 4200 2    50   ~ 0
+P47
+Wire Wire Line
+	5100 3500 5400 3500
+Text Label 5400 3500 2    50   ~ 0
+P34
+Wire Wire Line
+	5100 3600 5400 3600
+Text Label 5400 3600 2    50   ~ 0
+P35
+Wire Wire Line
+	5100 3700 5400 3700
+Text Label 5400 3700 2    50   ~ 0
+P38
+$Comp
+L IceCore-rescue:CON-000177-00-2_HCS_Verified J3
+U 1 1 6043D242
+P 7200 3150
+F 0 "J3" H 7200 4600 50  0000 C CNN
+F 1 "CON-000177-00" H 7150 2750 50  0001 C CNN
+F 2 "Connector_PinSocket_1.27mm:PinSocket_2x25_P1.27mm_Vertical_SMD" H 7150 2450 50  0001 C CNN
+F 3 "http://www.heaviside.in:8000/part/177/" H 7150 2800 30  0001 C CNN
+F 4 "Amphenol ICC (FCI)" H 7150 2650 50  0001 C CNN "Manufacturer"
+F 5 "20021321-00050T4LF" H 7150 2550 50  0001 C CNN "Manufacturer Part Number"
+F 6 "20021321-00050T4LF" H 7200 4500 50  0000 C CNN "Part Number"
+F 7 "SMD" H 0   0   50  0001 C CNN "Package Type"
+	1    7200 3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7450 2250 8050 2250
+Text Label 8050 2250 2    50   ~ 0
+~SRST
+Wire Wire Line
+	7450 2350 8050 2350
+Text Label 8050 2350 2    50   ~ 0
+AN0
+Wire Wire Line
+	7450 2450 8050 2450
+Text Label 8050 2450 2    50   ~ 0
+AN1
+Wire Wire Line
+	7450 2550 8050 2550
+Text Label 8050 2550 2    50   ~ 0
+AN2
+Wire Wire Line
+	7450 2650 8050 2650
+Text Label 8050 2650 2    50   ~ 0
+AN3
+Wire Wire Line
+	7450 2750 8050 2750
+Text Label 8050 2750 2    50   ~ 0
+AN4
+Wire Wire Line
+	7450 2850 8050 2850
+Text Label 8050 2850 2    50   ~ 0
+AN5
+Wire Wire Line
+	7450 2950 8050 2950
+Text Label 8050 2950 2    50   ~ 0
+AN6
+Wire Wire Line
+	7450 3050 8050 3050
+Text Label 8050 3050 2    50   ~ 0
+AN7
+Wire Wire Line
+	7450 3150 8050 3150
+Text Label 8050 3150 2    50   ~ 0
+AN8
+Wire Wire Line
+	7450 3250 8050 3250
+Text Label 8050 3250 2    50   ~ 0
+AN9
+Wire Wire Line
+	7450 3350 8050 3350
+Text Label 8050 3350 2    50   ~ 0
+AN11
+Wire Wire Line
+	7450 3450 8050 3450
+Text Label 8050 3450 2    50   ~ 0
+AN13
+Wire Wire Line
+	7450 3550 8050 3550
+Text Label 8050 3550 2    50   ~ 0
+AN15
+Wire Wire Line
+	7450 3650 8050 3650
+Text Label 8050 3650 2    50   ~ 0
+AN16
+Wire Wire Line
+	7450 3750 8050 3750
+Text Label 8050 3750 2    50   ~ 0
+AN17
+Wire Wire Line
+	7450 3850 8050 3850
+Text Label 8050 3850 2    50   ~ 0
+AN18
+Wire Wire Line
+	7450 3950 8050 3950
+Text Label 8050 3950 2    50   ~ 0
+AN19
+Wire Wire Line
+	7450 4050 8050 4050
+Text Label 8050 4050 2    50   ~ 0
+AN20
+Wire Wire Line
+	7450 4150 8050 4150
+Text Label 8050 4150 2    50   ~ 0
+AN21
+Wire Wire Line
+	7450 4250 8050 4250
+Text Label 8050 4250 2    50   ~ 0
+AN22
+Wire Wire Line
+	7450 4350 8050 4350
+Text Label 8050 4350 2    50   ~ 0
+AN23
+Wire Wire Line
+	7450 2050 8050 2050
+Wire Wire Line
+	7450 2150 8050 2150
+Text Label 8050 2150 2    50   ~ 0
+EN-SWCLK
+Text Label 8050 2050 2    50   ~ 0
+~RST-SWDIO
+Wire Wire Line
+	6950 3750 6400 3750
+Text Label 6400 3750 0    50   ~ 0
+L0
+Wire Wire Line
+	6950 2150 6400 2150
+Text Label 6400 2150 0    50   ~ 0
+TX
+Wire Wire Line
+	6950 2250 6400 2250
+Text Label 6400 2250 0    50   ~ 0
+RX
+Wire Wire Line
+	6950 2350 6400 2350
+Text Label 6400 2350 0    50   ~ 0
+SCK
+Wire Wire Line
+	6950 2450 6400 2450
+Text Label 6400 2450 0    50   ~ 0
+MISO
+Wire Wire Line
+	6950 2550 6400 2550
+Text Label 6400 2550 0    50   ~ 0
+MOSI
+Wire Wire Line
+	6950 3350 6400 3350
+Text Label 6400 3350 0    50   ~ 0
+AN10
+Wire Wire Line
+	6950 4050 6400 4050
+Text Label 6400 4050 0    50   ~ 0
+SDCMD
+Wire Wire Line
+	6950 4150 6400 4150
+Text Label 6400 4150 0    50   ~ 0
+SDCLK
+Wire Wire Line
+	6950 4250 6400 4250
+Text Label 6400 4250 0    50   ~ 0
+SD0
+Wire Wire Line
+	6950 4350 6400 4350
+Text Label 6400 4350 0    50   ~ 0
+SD1
+Wire Wire Line
+	6950 3850 6400 3850
+Text Label 6400 3850 0    50   ~ 0
+SD2
+Wire Wire Line
+	6950 3950 6400 3950
+Text Label 6400 3950 0    50   ~ 0
+SD3
+Wire Wire Line
+	6950 3650 6400 3650
+Text Label 6400 3650 0    50   ~ 0
+L1
+Wire Wire Line
+	6950 3450 6400 3450
+Text Label 6400 3450 0    50   ~ 0
+AN12
+Wire Wire Line
+	6950 3550 6400 3550
+Text Label 6400 3550 0    50   ~ 0
+AN14
+Wire Wire Line
+	6950 3250 6400 3250
+Text Label 6400 3250 0    50   ~ 0
+VUSB
+Wire Wire Line
+	6950 2050 6400 2050
+Text Label 6400 2050 0    50   ~ 0
+L3
+Wire Wire Line
+	6950 2750 6400 2750
+Text Label 6400 2750 0    50   ~ 0
+CTX-SDA
+Wire Wire Line
+	6950 2650 6400 2650
+Text Label 6400 2650 0    50   ~ 0
+CRX-SCL
+Wire Wire Line
+	6950 3150 6400 3150
+Text Label 6400 3150 0    50   ~ 0
+TCK
+Wire Wire Line
+	6950 3050 6400 3050
+Text Label 6400 3050 0    50   ~ 0
+TDI
+Wire Wire Line
+	6950 2950 6400 2950
+Text Label 6400 2950 0    50   ~ 0
+TDO
+Wire Wire Line
+	6950 2850 6400 2850
+Text Label 6400 2850 0    50   ~ 0
+TMS
+NoConn ~ 7450 1950
+$Comp
+L IceCore-rescue:CON-000174-00-2_HCS_Verified J6
+U 1 1 618DB065
+P 3550 6750
+F 0 "J6" H 3550 7450 50  0000 C CNN
+F 1 "CON-000174-00" H 3550 6350 50  0001 C CNN
+F 2 "HCS:AMPHENOL_1140084168" H 3550 6050 50  0001 C CNN
+F 3 "http://www.heaviside.in:8000/part/174/" H 3550 6400 30  0001 C CNN
+F 4 "Amphenol ICC (Commercial Products)" H 3550 6250 50  0001 C CNN "Manufacturer"
+F 5 "114-00841-68" H 3550 6150 50  0001 C CNN "Manufacturer Part Number"
+F 6 "114-00841-68" H 4000 6850 50  0000 C CNN "Part Number"
+F 7 "SMD" H 0   0   50  0001 C CNN "Package Type"
+	1    3550 6750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4350 7250 4400 7250
+Wire Wire Line
+	4400 7250 4400 7300
+$Comp
+L IceCore-rescue:CON-000176-00-2_HCS_Verified J2
+U 1 1 61C7024B
+P 5900 7350
+F 0 "J2" H 5900 8950 50  0000 C CNN
+F 1 "CON-000176-00" H 5900 6950 50  0001 C CNN
+F 2 "HCS:HDMI_Mini_Female_2001-1-2-21-00-BK" H 5900 6650 50  0001 C CNN
+F 3 "http://www.heaviside.in:8000/part/176/" H 5900 7000 30  0001 C CNN
+F 4 "CNC Tech" H 5900 6850 50  0001 C CNN "Manufacturer"
+F 5 "2001-1-2-21-00-BK" H 5900 6750 50  0001 C CNN "Manufacturer Part Number"
+F 6 "2001-1-2-21-00-BK" H 5900 8850 50  0000 C CNN "Part Number"
+F 7 "HDMI supplies 5V to sink so that it can talk to sink even when sink is powered off." H 0   0   50  0001 C CNN "Note"
+F 8 "Through Hole" H 0   0   50  0001 C CNN "Package Type"
+	1    5900 7350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5800 8850 5800 8900
+NoConn ~ 7450 3550
+NoConn ~ 7450 3650
+NoConn ~ 7450 3750
+NoConn ~ 7450 3850
+NoConn ~ 7450 3950
+NoConn ~ 7450 4050
+NoConn ~ 7450 4150
+NoConn ~ 7450 4250
+NoConn ~ 7450 4350
+NoConn ~ 2650 7150
+NoConn ~ 2650 7250
+NoConn ~ 6950 2850
+NoConn ~ 6950 2950
+NoConn ~ 6950 3050
+NoConn ~ 6950 3150
+NoConn ~ 6500 8050
+NoConn ~ 14450 11000
+NoConn ~ 13650 11000
+NoConn ~ 13750 11000
+NoConn ~ 16650 9800
+NoConn ~ 13450 5900
+NoConn ~ 11550 10100
+NoConn ~ 11550 10200
+NoConn ~ 15850 5900
+$Comp
+L IceCore-rescue:CAP-000168-00-2_HCS_Verified C32
+U 1 1 B3FA7F3E
+P 12250 2950
+F 0 "C32" V 12150 3050 50  0000 L TNN
+F 1 "CAP-000168-00" H 12250 2350 59  0001 L BNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 12250 2050 50  0001 C CNN
+F 3 "http://www.heaviside.in:8000/part/168/" H 12250 2400 50  0001 C CNN
+F 4 "22pF" V 12300 3050 50  0000 L TNN "Capacitance (Farad)"
+F 5 "Murata Electronics" H 12250 2250 50  0001 C CNN "Manufacturer"
+F 6 "GCM1555C1H220JA16D" H 12250 2150 50  0001 C CNN "Manufacturer Part Number"
+F 7 "0402" H 12250 2600 50  0001 C CNN "Package Type"
+F 8 "50V" H 12250 2700 50  0001 C CNN "Rated Voltage (Volt)"
+F 9 "C0G, NP0" H 12250 2500 50  0001 C CNN "Temperature Grade"
+F 10 "±5%" H 12550 2800 50  0001 C CNN "Tolerance (%)"
+	1    12250 2950
+	0    -1   1    0   
+$EndComp
+$Comp
+L IceCore-rescue:CAP-000004-00-2_HCS_Verified C51
+U 1 1 21F188E2
+P 14550 3000
+F 0 "C51" V 14500 2800 50  0000 L BNN
+F 1 "CAP-000004-00" H 14550 2500 59  0001 L BNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 14550 2200 50  0001 C CNN
+F 3 "http://www.heaviside.in:8000/part/4/" H 14550 1850 50  0001 C CNN
+F 4 "0.1µF" V 14600 2800 50  0000 C TNN "Capacitance (Farad)"
+F 5 "-" H 14750 2750 50  0001 C CNN "ESR (Ohm)"
+F 6 "Murata Electronics" H 14550 2400 50  0001 C CNN "Manufacturer"
+F 7 "GRM155R71C104KA88D" H 14550 2300 50  0001 C CNN "Manufacturer Part Number"
+F 8 "1.00x0.50mm" H 14550 2650 50  0001 C CNN "Package Size"
+F 9 "0402" H 14550 2650 50  0001 C CNN "Package Type"
+F 10 "±10%" H 14750 2850 50  0001 C CNN "Tolerance (%)"
+F 11 "16V" H 14550 2750 50  0001 C CNN "Voltage Rated (Volt)"
+	1    14550 3000
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	14300 3150 14550 3150
+Connection ~ 14550 2850
+Connection ~ 14550 3150
+Wire Wire Line
+	14550 3150 14850 3150
+$Comp
+L IceCore-rescue:CAP-000004-00-2_HCS_Verified C29
+U 1 1 A9410038
+P 11200 1900
+F 0 "C29" V 11150 2000 50  0000 L BNN
+F 1 "CAP-000004-00" H 11200 1400 59  0001 L BNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 11200 1100 50  0001 C CNN
+F 3 "http://www.heaviside.in:8000/part/4/" H 11200 750 50  0001 C CNN
+F 4 "0.1µF" V 11300 2100 50  0000 C CNN "Capacitance (Farad)"
+F 5 "-" H 11400 1650 50  0001 C CNN "ESR (Ohm)"
+F 6 "Murata Electronics" H 11200 1300 50  0001 C CNN "Manufacturer"
+F 7 "GRM155R71C104KA88D" H 11200 1200 50  0001 C CNN "Manufacturer Part Number"
+F 8 "1.00x0.50mm" H 11200 1550 50  0001 C CNN "Package Size"
+F 9 "0402" H 11200 1550 50  0001 C CNN "Package Type"
+F 10 "±10%" H 11400 1750 50  0001 C CNN "Tolerance (%)"
+F 11 "16V" H 11200 1650 50  0001 C CNN "Voltage Rated (Volt)"
+	1    11200 1900
+	0    -1   1    0   
+$EndComp
+$Comp
+L IceCore-rescue:CAP-000004-00-2_HCS_Verified C30
+U 1 1 ADABDCBC
+P 11800 1900
+F 0 "C30" V 11750 2000 50  0000 L BNN
+F 1 "CAP-000004-00" H 11800 1400 59  0001 L BNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 11800 1100 50  0001 C CNN
+F 3 "http://www.heaviside.in:8000/part/4/" H 11800 750 50  0001 C CNN
+F 4 "0.1µF" V 11900 2100 50  0000 C CNN "Capacitance (Farad)"
+F 5 "-" H 12000 1650 50  0001 C CNN "ESR (Ohm)"
+F 6 "Murata Electronics" H 11800 1300 50  0001 C CNN "Manufacturer"
+F 7 "GRM155R71C104KA88D" H 11800 1200 50  0001 C CNN "Manufacturer Part Number"
+F 8 "1.00x0.50mm" H 11800 1550 50  0001 C CNN "Package Size"
+F 9 "0402" H 11800 1550 50  0001 C CNN "Package Type"
+F 10 "±10%" H 12000 1750 50  0001 C CNN "Tolerance (%)"
+F 11 "16V" H 11800 1650 50  0001 C CNN "Voltage Rated (Volt)"
+	1    11800 1900
+	0    -1   1    0   
+$EndComp
+$Comp
+L IceCore-rescue:CAP-000178-00-2_HCS_Verified C49
+U 1 1 60793C42
+P 14400 15150
+F 0 "C49" V 14300 15200 50  0000 L CNN
+F 1 "CAP-000178-00" H 14400 14550 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 14400 14250 50  0001 C CNN
+F 3 "http://www.heaviside.in:8000/part/178/" H 14400 14600 50  0001 C CNN
+F 4 "Samsung Electro-Mechanics" H 14400 14450 50  0001 C CNN "Manufacturer"
+F 5 "CL10X106MO8NRNC" H 14400 14350 50  0001 C CNN "Manufacturer Part Number"
+F 6 "10µF" V 14500 15200 50  0000 L CNN "Capacitance (Farad)"
+F 7 "±20%" H 14700 15000 50  0001 C CNN "Tolerance (%)"
+F 8 "16V" H 14400 14900 50  0001 C CNN "Rated Voltage (Volt)"
+F 9 "X6S" H 14400 14700 50  0001 C CNN "Temperature Grade"
+F 10 "0603" H 14400 14800 50  0001 C CNN "Package Type"
+	1    14400 15150
+	0    1    1    0   
+$EndComp
+$Comp
+L IceCore-rescue:CAP-000178-00-2_HCS_Verified C55
+U 1 1 6079482E
+P 16300 11250
+F 0 "C55" V 16250 11350 50  0000 L CNN
+F 1 "CAP-000178-00" H 16300 10650 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 16300 10350 50  0001 C CNN
+F 3 "http://www.heaviside.in:8000/part/178/" H 16300 10700 50  0001 C CNN
+F 4 "Samsung Electro-Mechanics" H 16300 10550 50  0001 C CNN "Manufacturer"
+F 5 "CL10X106MO8NRNC" H 16300 10450 50  0001 C CNN "Manufacturer Part Number"
+F 6 "10µF" V 16350 11350 50  0000 L CNN "Capacitance (Farad)"
+F 7 "±20%" H 16600 11100 50  0001 C CNN "Tolerance (%)"
+F 8 "16V" H 16300 11000 50  0001 C CNN "Rated Voltage (Volt)"
+F 9 "X6S" H 16300 10800 50  0001 C CNN "Temperature Grade"
+F 10 "0603" H 16300 10900 50  0001 C CNN "Package Type"
+	1    16300 11250
+	0    1    1    0   
+$EndComp
+$Comp
+L IceCore-rescue:CAP-000178-00-2_HCS_Verified C26
+U 1 1 60794DE3
+P 10850 7400
+F 0 "C26" V 10750 7450 50  0000 L CNN
+F 1 "CAP-000178-00" H 10850 6800 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 10850 6500 50  0001 C CNN
+F 3 "http://www.heaviside.in:8000/part/178/" H 10850 6850 50  0001 C CNN
+F 4 "Samsung Electro-Mechanics" H 10850 6700 50  0001 C CNN "Manufacturer"
+F 5 "CL10X106MO8NRNC" H 10850 6600 50  0001 C CNN "Manufacturer Part Number"
+F 6 "10µF" V 10950 7450 50  0000 L CNN "Capacitance (Farad)"
+F 7 "±20%" H 11150 7250 50  0001 C CNN "Tolerance (%)"
+F 8 "16V" H 10850 7150 50  0001 C CNN "Rated Voltage (Volt)"
+F 9 "X6S" H 10850 6950 50  0001 C CNN "Temperature Grade"
+F 10 "0603" H 10850 7050 50  0001 C CNN "Package Type"
+	1    10850 7400
+	0    1    1    0   
+$EndComp
+$Comp
+L IceCore-rescue:CAP-000178-00-2_HCS_Verified C61
+U 1 1 60795434
+P 17600 15100
+F 0 "C61" V 17500 15150 50  0000 L CNN
+F 1 "CAP-000178-00" H 17600 14500 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 17600 14200 50  0001 C CNN
+F 3 "http://www.heaviside.in:8000/part/178/" H 17600 14550 50  0001 C CNN
+F 4 "Samsung Electro-Mechanics" H 17600 14400 50  0001 C CNN "Manufacturer"
+F 5 "CL10X106MO8NRNC" H 17600 14300 50  0001 C CNN "Manufacturer Part Number"
+F 6 "10µF" V 17700 15150 50  0000 L CNN "Capacitance (Farad)"
+F 7 "±20%" H 17900 14950 50  0001 C CNN "Tolerance (%)"
+F 8 "16V" H 17600 14850 50  0001 C CNN "Rated Voltage (Volt)"
+F 9 "X6S" H 17600 14650 50  0001 C CNN "Temperature Grade"
+F 10 "0603" H 17600 14750 50  0001 C CNN "Package Type"
+	1    17600 15100
+	0    1    1    0   
+$EndComp
+$Comp
+L IceCore-rescue:CAP-000178-00-2_HCS_Verified C38
+U 1 1 60795809
+P 13450 15150
+F 0 "C38" V 13350 15200 50  0000 L CNN
+F 1 "CAP-000178-00" H 13450 14550 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 13450 14250 50  0001 C CNN
+F 3 "http://www.heaviside.in:8000/part/178/" H 13450 14600 50  0001 C CNN
+F 4 "Samsung Electro-Mechanics" H 13450 14450 50  0001 C CNN "Manufacturer"
+F 5 "CL10X106MO8NRNC" H 13450 14350 50  0001 C CNN "Manufacturer Part Number"
+F 6 "10µF" V 13550 15200 50  0000 L CNN "Capacitance (Farad)"
+F 7 "±20%" H 13750 15000 50  0001 C CNN "Tolerance (%)"
+F 8 "16V" H 13450 14900 50  0001 C CNN "Rated Voltage (Volt)"
+F 9 "X6S" H 13450 14700 50  0001 C CNN "Temperature Grade"
+F 10 "0603" H 13450 14800 50  0001 C CNN "Package Type"
+	1    13450 15150
+	0    1    1    0   
+$EndComp
+$Comp
+L IceCore-rescue:CAP-000004-00-2_HCS_Verified C21
+U 1 1 60795D6A
+P 8050 12700
+F 0 "C21" V 7950 12750 50  0000 L CNN
+F 1 "CAP-000004-00" H 8050 12200 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 8050 11900 50  0001 C CNN
+F 3 "http://www.heaviside.in:8000/part/4/" H 8050 11550 50  0001 C CNN
+F 4 "Murata Electronics" H 8050 12100 50  0001 C CNN "Manufacturer"
+F 5 "GRM155R71C104KA88D" H 8050 12000 50  0001 C CNN "Manufacturer Part Number"
+F 6 "0.1µF" V 8150 12750 50  0000 L CNN "Capacitance (Farad)"
+F 7 "±10%" H 8250 12550 50  0001 C CNN "Tolerance (%)"
+F 8 "0402" H 8050 12350 50  0001 C CNN "Package Type"
+F 9 "-" H 8250 12450 50  0001 C CNN "ESR (Ohm)"
+F 10 "1.00x0.50mm" H 8050 12350 50  0001 C CNN "Package Size"
+F 11 "16V" H 8050 12450 50  0001 C CNN "Voltage Rated (Volt)"
+	1    8050 12700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8050 12900 8050 12850
+Wire Wire Line
+	13450 15300 13450 15350
+Wire Wire Line
+	17600 15250 17600 15300
+Wire Wire Line
+	10850 7550 10850 7600
+Wire Wire Line
+	16300 11400 16300 11450
+Wire Wire Line
+	11300 3750 11250 3750
+$Comp
+L power:+5V #PWR044
+U 1 1 61AAEFA3
+P 12200 1650
+F 0 "#PWR044" H 12200 1500 50  0001 C CNN
+F 1 "+5V" H 12200 1800 50  0000 C CNN
+F 2 "" H 12200 1650 50  0001 C CNN
+F 3 "" H 12200 1650 50  0001 C CNN
+	1    12200 1650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12200 1650 12200 1700
+$Comp
+L power:GND #PWR041
+U 1 1 61BB1528
+P 11200 2100
+F 0 "#PWR041" H 11200 1850 50  0001 C CNN
+F 1 "GND" H 11200 1950 50  0000 C CNN
+F 2 "" H 11200 2100 50  0001 C CNN
+F 3 "" H 11200 2100 50  0001 C CNN
+	1    11200 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR042
+U 1 1 61C2E120
+P 11800 2100
+F 0 "#PWR042" H 11800 1850 50  0001 C CNN
+F 1 "GND" H 11800 1950 50  0000 C CNN
+F 2 "" H 11800 2100 50  0001 C CNN
+F 3 "" H 11800 2100 50  0001 C CNN
+	1    11800 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR045
+U 1 1 61C2E4DE
+P 12200 2100
+F 0 "#PWR045" H 12200 1850 50  0001 C CNN
+F 1 "GND" H 12200 1950 50  0000 C CNN
+F 2 "" H 12200 2100 50  0001 C CNN
+F 3 "" H 12200 2100 50  0001 C CNN
+	1    12200 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11200 2050 11200 2100
+Wire Wire Line
+	11800 2050 11800 2100
+Wire Wire Line
+	12200 2050 12200 2100
+Wire Wire Line
+	12200 1750 12200 1700
+Connection ~ 12200 1700
+Wire Wire Line
+	11800 1750 11800 1700
+Wire Wire Line
+	11200 1750 11200 1700
+Connection ~ 11200 1700
+$Comp
+L power:+5V #PWR033
+U 1 1 62095EC4
+P 10050 2700
+F 0 "#PWR033" H 10050 2550 50  0001 C CNN
+F 1 "+5V" H 10050 2840 50  0000 C CNN
+F 2 "" H 10050 2700 50  0001 C CNN
+F 3 "" H 10050 2700 50  0001 C CNN
+	1    10050 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10050 2700 10050 2750
+Wire Wire Line
+	14550 2250 14550 2300
+$Comp
+L power:+5V #PWR055
+U 1 1 6241CA61
+P 14100 2700
+F 0 "#PWR055" H 14100 2550 50  0001 C CNN
+F 1 "+5V" H 14100 2840 50  0000 C CNN
+F 2 "" H 14100 2700 50  0001 C CNN
+F 3 "" H 14100 2700 50  0001 C CNN
+	1    14100 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14100 2700 14100 2750
+$Comp
+L power:GND #PWR037
+U 1 1 6251A547
+P 10550 3250
+F 0 "#PWR037" H 10550 3000 50  0001 C CNN
+F 1 "GND" H 10550 3100 50  0000 C CNN
+F 2 "" H 10550 3250 50  0001 C CNN
+F 3 "" H 10550 3250 50  0001 C CNN
+	1    10550 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10550 3250 10550 3150
+Connection ~ 10550 3150
+Wire Wire Line
+	10550 3150 10250 3150
+$Comp
+L power:GND #PWR050
+U 1 1 62598546
+P 13150 3250
+F 0 "#PWR050" H 13150 3000 50  0001 C CNN
+F 1 "GND" H 13150 3100 50  0000 C CNN
+F 2 "" H 13150 3250 50  0001 C CNN
+F 3 "" H 13150 3250 50  0001 C CNN
+	1    13150 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L IceCore-rescue:RES-000167-00-2_HCS_Verified R28
+U 1 1 CA467785
+P 12900 3150
+F 0 "R28" H 12900 3100 50  0000 C TNN
+F 1 "RES-000167-00" H 12900 2700 59  0001 L BNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 12900 2400 50  0001 C CNN
+F 3 "http://www.heaviside.in:8000/part/167/" H 12900 2800 50  0001 C CNN
+F 4 "Yageo" H 12900 2600 50  0001 C CNN "Manufacturer"
+F 5 "RC0402FR-0727KL" H 12900 2500 50  0001 C CNN "Manufacturer Part Number"
+F 6 "0402" H 12900 2950 50  0001 C CNN "Package Type"
+F 7 "1/16W" H 12900 2850 50  0001 C CNN "Power (Watts)"
+F 8 "27K" H 12900 3250 50  0000 C CNN "Resistance (Ohms)"
+F 9 "±1%" H 13050 3050 50  0001 C CNN "Tolerance (%)"
+	1    12900 3150
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	10050 2750 10250 2750
+Wire Wire Line
+	10250 3100 10250 3150
+Wire Wire Line
+	10250 2800 10250 2750
+Connection ~ 10250 2750
+Wire Wire Line
+	10250 2750 10550 2750
+Wire Wire Line
+	11650 3150 12250 3150
+Wire Wire Line
+	12250 2800 12250 2750
+Wire Wire Line
+	12250 3100 12250 3150
+Connection ~ 12250 3150
+Wire Wire Line
+	12250 3150 12650 3150
+Wire Wire Line
+	8050 12450 8050 12550
+Wire Wire Line
+	14400 14950 14400 15000
+Wire Wire Line
+	17600 14900 17600 14950
+Wire Wire Line
+	13450 14950 13450 15000
+$Comp
+L power:GND #PWR058
+U 1 1 62D0D329
+P 14400 15350
+F 0 "#PWR058" H 14400 15100 50  0001 C CNN
+F 1 "GND" H 14400 15200 50  0000 C CNN
+F 2 "" H 14400 15350 50  0001 C CNN
+F 3 "" H 14400 15350 50  0001 C CNN
+	1    14400 15350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14400 15350 14400 15300
+$Comp
+L power:GND #PWR070
+U 1 1 62D88546
+P 16300 11450
+F 0 "#PWR070" H 16300 11200 50  0001 C CNN
+F 1 "GND" H 16300 11300 50  0000 C CNN
+F 2 "" H 16300 11450 50  0001 C CNN
+F 3 "" H 16300 11450 50  0001 C CNN
+	1    16300 11450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR039
+U 1 1 62D887FE
+P 10850 7600
+F 0 "#PWR039" H 10850 7350 50  0001 C CNN
+F 1 "GND" H 10850 7450 50  0000 C CNN
+F 2 "" H 10850 7600 50  0001 C CNN
+F 3 "" H 10850 7600 50  0001 C CNN
+	1    10850 7600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR077
+U 1 1 62D88A6D
+P 17600 15300
+F 0 "#PWR077" H 17600 15050 50  0001 C CNN
+F 1 "GND" H 17600 15150 50  0000 C CNN
+F 2 "" H 17600 15300 50  0001 C CNN
+F 3 "" H 17600 15300 50  0001 C CNN
+	1    17600 15300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR053
+U 1 1 62D88DFF
+P 13450 15350
+F 0 "#PWR053" H 13450 15100 50  0001 C CNN
+F 1 "GND" H 13450 15200 50  0000 C CNN
+F 2 "" H 13450 15350 50  0001 C CNN
+F 3 "" H 13450 15350 50  0001 C CNN
+	1    13450 15350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR028
+U 1 1 62D890B3
+P 8050 12900
+F 0 "#PWR028" H 8050 12650 50  0001 C CNN
+F 1 "GND" H 8050 12750 50  0000 C CNN
+F 2 "" H 8050 12900 50  0001 C CNN
+F 3 "" H 8050 12900 50  0001 C CNN
+	1    8050 12900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR049
+U 1 1 631E918E
+P 13150 2700
+F 0 "#PWR049" H 13150 2550 50  0001 C CNN
+F 1 "+3V3" H 13150 2840 50  0000 C CNN
+F 2 "" H 13150 2700 50  0001 C CNN
+F 3 "" H 13150 2700 50  0001 C CNN
+	1    13150 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR059
+U 1 1 631E973F
+P 14550 2250
+F 0 "#PWR059" H 14550 2100 50  0001 C CNN
+F 1 "+3V3" H 14550 2390 50  0000 C CNN
+F 2 "" H 14550 2250 50  0001 C CNN
+F 3 "" H 14550 2250 50  0001 C CNN
+	1    14550 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR072
+U 1 1 632F0A4C
+P 17250 2700
+F 0 "#PWR072" H 17250 2550 50  0001 C CNN
+F 1 "VCC" H 17250 2850 50  0000 C CNN
+F 2 "" H 17250 2700 50  0001 C CNN
+F 3 "" H 17250 2700 50  0001 C CNN
+	1    17250 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR060
+U 1 1 6336C5A4
+P 14550 3250
+F 0 "#PWR060" H 14550 3000 50  0001 C CNN
+F 1 "GND" H 14550 3100 50  0000 C CNN
+F 2 "" H 14550 3250 50  0001 C CNN
+F 3 "" H 14550 3250 50  0001 C CNN
+	1    14550 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14550 3250 14550 3150
+$Comp
+L power:GND #PWR073
+U 1 1 634623E2
+P 17250 3250
+F 0 "#PWR073" H 17250 3000 50  0001 C CNN
+F 1 "GND" H 17250 3100 50  0000 C CNN
+F 2 "" H 17250 3250 50  0001 C CNN
+F 3 "" H 17250 3250 50  0001 C CNN
+	1    17250 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	15750 3150 16350 3150
+Wire Wire Line
+	16350 2800 16350 2750
+Wire Wire Line
+	16350 3100 16350 3150
+Connection ~ 16350 3150
+Wire Wire Line
+	16350 3150 16750 3150
+Wire Notes Line
+	8750 9400 8750 15700
+Wire Notes Line
+	1150 15700 1150 9400
+Wire Notes Line
+	1150 5400 1150 800 
+Wire Notes Line
+	1150 5400 3450 5400
+Wire Notes Line
+	1150 800  3450 800 
+$Comp
+L IceCore-rescue:DIO-000179-00-2_HCS_Verified D3
+U 1 1 5FD564BE
+P 10750 1700
+F 0 "D3" H 10700 1800 50  0000 C CNN
+F 1 "DIO-000179-00" H 10750 1100 50  0001 C CNN
+F 2 "Diode_SMD:D_SOD-123F" H 10750 800 50  0001 C CNN
+F 3 "http://www.heaviside.in:8000/part/179/" H 10750 1350 30  0001 C CNN
+F 4 "ON Semiconductor" H 10750 1000 50  0001 C CNN "Manufacturer"
+F 5 "SS24FL" H 10750 900 50  0001 C CNN "Manufacturer Part Number"
+F 6 "SS24FL" H 10750 1550 50  0001 C CNN "Part Number"
+F 7 "550mV@2A" H 10750 1350 50  0001 C CNN "Forward Voltage (Volt)"
+F 8 "2A" H 10700 1600 50  0000 C CNN "Current (Amps)"
+F 9 "40V" H 10750 1250 50  0001 C CNN "Rated Voltage (Volt)"
+F 10 "SOD-123F" H 0   0   50  0001 C CNN "Package Type"
+	1    10750 1700
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	9250 800  18050 800 
+$Comp
+L IceCore-rescue:DIO-000179-00-2_HCS_Verified D2
+U 1 1 5FF55618
+P 10750 1350
+F 0 "D2" H 10700 1450 50  0000 C CNN
+F 1 "DIO-000179-00" H 10750 750 50  0001 C CNN
+F 2 "Diode_SMD:D_SOD-123F" H 10750 450 50  0001 C CNN
+F 3 "http://www.heaviside.in:8000/part/179/" H 10750 1000 30  0001 C CNN
+F 4 "ON Semiconductor" H 10750 650 50  0001 C CNN "Manufacturer"
+F 5 "SS24FL" H 10750 550 50  0001 C CNN "Manufacturer Part Number"
+F 6 "SS24FL" H 10750 1200 50  0001 C CNN "Part Number"
+F 7 "550mV@2A" H 10750 1000 50  0001 C CNN "Forward Voltage (Volt)"
+F 8 "2A" H 10700 1250 50  0000 C CNN "Current (Amps)"
+F 9 "40V" H 10750 900 50  0001 C CNN "Rated Voltage (Volt)"
+F 10 "SOD-123F" H 0   0   50  0001 C CNN "Package Type"
+	1    10750 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L IceCore-rescue:IND-000180-00-2_HCS_Verified FB1
+U 1 1 6014E6D3
+P 11500 1700
+F 0 "FB1" H 11500 2050 50  0000 C CNN
+F 1 "IND-000180-00" H 11500 1300 50  0001 C CNN
+F 2 "Inductor_SMD:L_0603_1608Metric" H 11500 1000 50  0001 C CNN
+F 3 "http://www.heaviside.in:8000/part/180/" H 11500 650 60  0001 C CNN
+F 4 "Murata Electronics" H 11500 1200 50  0001 C CNN "Manufacturer"
+F 5 "BLM18KG221SN1D" H 11500 1100 50  0001 C CNN "Manufacturer Part Number"
+F 6 "220Ohms@100MHz" H 11500 1850 50  0000 C CNN "Inductance (Henry)"
+F 7 "2.2A" H 11500 1950 50  0000 C CNN "Current Rating (Ampere)"
+F 8 "-" H 11500 1450 50  0001 C CNN "ESR (Ohm)"
+F 9 "Since rated current is 2.2A, use this upto 0.44 A only (20%)" H 11500 1700 50  0001 C CNN "Note"
+F 10 "0603" H 0   0   50  0001 C CNN "Package Type"
+	1    11500 1700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11250 1700 11200 1700
+Wire Wire Line
+	11750 1700 11800 1700
+Connection ~ 11800 1700
+$Comp
+L IceCore-rescue:PRO-000190-00-2_HCS_Verified F1
+U 1 1 602D58F0
+P 12000 1700
+F 0 "F1" H 12000 1600 50  0000 C CNN
+F 1 "PRO-000190-00" H 12700 1750 50  0001 C CNN
+F 2 "Fuse:Fuse_1210_3225Metric" H 12700 1450 50  0001 C CNN
+F 3 "http://www.heaviside.in:8000/part/190/" H 12700 2000 30  0001 C CNN
+F 4 "Bel Fuse Inc." H 12700 1650 50  0001 C CNN "Manufacturer"
+F 5 "0ZCH0075AF2E" H 12700 1550 50  0001 C CNN "Manufacturer Part Number"
+F 6 "0ZCH0075AF2E" H 12700 1350 50  0001 C CNN "Part Number"
+F 7 "-" H 12700 2100 50  0001 C CNN "Standoff Voltage"
+F 8 "-" H 12700 2000 50  0001 C CNN "Breakdown Voltage"
+F 9 "-" H 12700 1900 50  0001 C CNN "Peak Power (Watts)"
+F 10 "1210" H 0   0   50  0001 C CNN "Package Type"
+	1    12000 1700
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	11850 1700 11800 1700
+Wire Wire Line
+	12150 1700 12200 1700
+$Comp
+L IceCore-rescue:IND-000181-00-2_HCS_Verified L1
+U 1 1 604CFB20
+P 11950 2750
+F 0 "L1" H 11950 3050 50  0000 C CNN
+F 1 "IND-000181-00" H 11950 2350 50  0001 C CNN
+F 2 "Inductor_SMD:L_Taiyo-Yuden_NR-40xx" H 11950 2050 50  0001 C CNN
+F 3 "http://www.heaviside.in:8000/part/181/" H 11950 1700 60  0001 C CNN
+F 4 "Taiyo Yuden" H 11950 2250 50  0001 C CNN "Manufacturer"
+F 5 "NRS4018T2R2MDGJ" H 11950 2150 50  0001 C CNN "Manufacturer Part Number"
+F 6 "2.2µH" H 11950 2950 50  0000 C CNN "Inductance (Henry)"
+F 7 "2.2A" H 11950 2850 50  0000 C CNN "Current Rating (Ampere)"
+F 8 "50.4mR" H 11950 2500 50  0001 C CNN "ESR (Ohm)"
+F 9 "SMD" H 0   0   50  0001 C CNN "Package Type"
+	1    11950 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11700 2750 11650 2750
+Wire Wire Line
+	12200 2750 12250 2750
+Connection ~ 12250 2750
+$Comp
+L IceCore-rescue:IND-000181-00-2_HCS_Verified L2
+U 1 1 6064BB04
+P 16050 2750
+F 0 "L2" H 16050 3045 50  0000 C CNN
+F 1 "IND-000181-00" H 16050 2350 50  0001 C CNN
+F 2 "Inductor_SMD:L_Taiyo-Yuden_NR-40xx" H 16050 2050 50  0001 C CNN
+F 3 "http://www.heaviside.in:8000/part/181/" H 16050 1700 60  0001 C CNN
+F 4 "Taiyo Yuden" H 16050 2250 50  0001 C CNN "Manufacturer"
+F 5 "NRS4018T2R2MDGJ" H 16050 2150 50  0001 C CNN "Manufacturer Part Number"
+F 6 "2.2µH" H 16050 2950 50  0000 C CNN "Inductance (Henry)"
+F 7 "2.2A" H 16050 2850 50  0000 C CNN "Current Rating (Ampere)"
+F 8 "50.4mR" H 16050 2500 50  0001 C CNN "ESR (Ohm)"
+F 9 "SMD" H 0   0   50  0001 C CNN "Package Type"
+	1    16050 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	15750 2750 15800 2750
+Wire Wire Line
+	16300 2750 16350 2750
+Connection ~ 16350 2750
+Wire Wire Line
+	12700 3150 12650 3150
+Connection ~ 12650 3150
+Wire Wire Line
+	13100 3150 13150 3150
+Wire Wire Line
+	13150 3150 13150 3100
+Wire Wire Line
+	13150 3250 13150 3150
+Connection ~ 13150 3150
+Wire Wire Line
+	13150 2750 13150 2800
+Wire Wire Line
+	12650 2750 13150 2750
+Wire Wire Line
+	13150 2700 13150 2750
+Connection ~ 13150 2750
+Wire Wire Line
+	17250 3250 17250 3150
+Wire Wire Line
+	17250 2800 17250 2750
+Wire Wire Line
+	17250 2700 17250 2750
+Connection ~ 17250 2750
+Wire Wire Line
+	16750 2750 17250 2750
+Wire Wire Line
+	16800 3150 16750 3150
+Wire Wire Line
+	17200 3150 17250 3150
+Connection ~ 17250 3150
+Wire Wire Line
+	17250 3150 17250 3100
+$Comp
+L Mechanical:MountingHole_Pad H4
+U 1 1 777B985C
+P 2600 1550
+F 0 "H4" H 2600 1550 50  0001 C CNN
+F 1 "MountingHole_Pad" H 2600 1550 50  0001 C CNN
+F 2 "HCS:2.5MM-HOLE" H 2600 1550 50  0001 C CNN
+F 3 "~" H 2600 1550 50  0001 C CNN
+	1    2600 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H2
+U 1 1 A8B04D1A
+P 2200 1550
+F 0 "H2" H 2200 1550 50  0001 C CNN
+F 1 "MountingHole_Pad" H 2200 1550 50  0001 C CNN
+F 2 "HCS:2.5MM-HOLE" H 2200 1550 50  0001 C CNN
+F 3 "~" H 2200 1550 50  0001 C CNN
+	1    2200 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H3
+U 1 1 BABD3B23
+P 2400 1550
+F 0 "H3" H 2400 1550 50  0001 C CNN
+F 1 "MountingHole_Pad" H 2400 1550 50  0001 C CNN
+F 2 "HCS:2.5MM-HOLE" H 2400 1550 50  0001 C CNN
+F 3 "~" H 2400 1550 50  0001 C CNN
+	1    2400 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR021
+U 1 1 60F52C4D
+P 6250 2000
+F 0 "#PWR021" H 6250 1750 50  0001 C CNN
+F 1 "GND" H 6250 1850 50  0000 C CNN
+F 2 "" H 6250 2000 50  0001 C CNN
+F 3 "" H 6250 2000 50  0001 C CNN
+	1    6250 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR018
+U 1 1 60F532F2
+P 4550 4350
+F 0 "#PWR018" H 4550 4100 50  0001 C CNN
+F 1 "GND" H 4550 4200 50  0000 C CNN
+F 2 "" H 4550 4350 50  0001 C CNN
+F 3 "" H 4550 4350 50  0001 C CNN
+	1    4550 4350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4550 4350 4550 4300
+Wire Wire Line
+	4550 4300 4600 4300
+Wire Wire Line
+	6250 2000 6250 1950
+Wire Wire Line
+	6250 1950 6950 1950
+$Comp
+L power:GND #PWR011
+U 1 1 61153F8B
+P 2750 3400
+F 0 "#PWR011" H 2750 3150 50  0001 C CNN
+F 1 "GND" H 2750 3250 50  0000 C CNN
+F 2 "" H 2750 3400 50  0001 C CNN
+F 3 "" H 2750 3400 50  0001 C CNN
+	1    2750 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2750 3400 2750 3350
+Wire Wire Line
+	2500 3050 2600 3050
+$Comp
+L power:+3V3 #PWR019
+U 1 1 5FCC9B21
+P 5300 4300
+F 0 "#PWR019" H 5300 4150 50  0001 C CNN
+F 1 "+3V3" V 5400 4350 50  0000 C CNN
+F 2 "" H 5300 4300 50  0001 C CNN
+F 3 "" H 5300 4300 50  0001 C CNN
+	1    5300 4300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1800 2250 1800 2450
+Connection ~ 1800 2450
+$Comp
+L IceCore-rescue:DIO-000055-00-2_HCS_Verified D1
+U 1 1 465A9B13
+P 1950 2450
+F 0 "D1" H 1950 2350 50  0000 L BNN
+F 1 "DIO-000055-00" H 1950 1850 59  0001 L BNN
+F 2 "LED_SMD:LED_0603_1608Metric" H 1950 1550 50  0001 C CNN
+F 3 "http://127.0.0.1:8000/part/55/" H 1950 2100 50  0001 C CNN
+F 4 "-" H 1950 2200 50  0001 C CNN "Current (Amps)"
+F 5 "2V" H 1950 2100 50  0001 C CNN "Forward Voltage (Volt)"
+F 6 "Kingbright" H 1950 1750 50  0001 C CNN "Manufacturer"
+F 7 "APT1608EC" H 1950 1650 50  0001 C CNN "Manufacturer Part Number"
+F 8 "APT1608EC" H 1950 2300 50  0001 C CNN "Part Number"
+F 9 "-" H 1950 2000 50  0001 C CNN "Rated Voltage (Volt)"
+F 10 "0603" H 0   0   50  0001 C CNN "Package Type"
+	1    1950 2450
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR06
+U 1 1 60F7E177
+P 2300 1750
+F 0 "#PWR06" H 2300 1500 50  0001 C CNN
+F 1 "GND" H 2300 1600 50  0000 C CNN
+F 2 "" H 2300 1750 50  0001 C CNN
+F 3 "" H 2300 1750 50  0001 C CNN
+	1    2300 1750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2300 1750 2300 1700
+$Comp
+L IceCore-rescue:RES-000092-00-2_HCS_Verified R15
+U 1 1 29F8CE43
+P 2300 4650
+F 0 "R15" H 2300 4550 50  0000 C BNN
+F 1 "RES-000092-00" H 2300 4200 59  0001 L BNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 2300 3900 50  0001 C CNN
+F 3 "" H 2300 4300 50  0001 C CNN
+F 4 "Yageo" H 2300 4100 50  0001 C CNN "Manufacturer"
+F 5 "RC0402FR-071KL" H 2300 4000 50  0001 C CNN "Manufacturer Part Number"
+F 6 "0402" H 2300 4450 50  0001 C CNN "Package Type"
+F 7 "1/16W" H 2300 4350 50  0001 C CNN "Power (Watts)"
+F 8 "1K" H 2300 4750 50  0000 C TNN "Resistance (Ohms)"
+F 9 "±1%" H 2450 4550 50  0001 C CNN "Tolerance (%)"
+	1    2300 4650
+	1    0    0    1   
+$EndComp
+$Comp
+L power:+3V3 #PWR03
+U 1 1 5FCD1BE2
+P 1850 6250
+F 0 "#PWR03" H 1850 6100 50  0001 C CNN
+F 1 "+3V3" H 1850 6390 50  0000 C CNN
+F 2 "" H 1850 6250 50  0001 C CNN
+F 3 "" H 1850 6250 50  0001 C CNN
+	1    1850 6250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1850 6650 1850 6750
+Wire Wire Line
+	1850 6550 1850 6650
+Connection ~ 1850 6650
+Wire Wire Line
+	1850 6650 2650 6650
+Wire Wire Line
+	1850 7450 1850 7400
+Wire Wire Line
+	1850 6250 1850 6350
+$Comp
+L power:GND #PWR04
+U 1 1 5FF02EF5
+P 1850 7450
+F 0 "#PWR04" H 1850 7200 50  0001 C CNN
+F 1 "GND" H 1850 7300 50  0000 C CNN
+F 2 "" H 1850 7450 50  0001 C CNN
+F 3 "" H 1850 7450 50  0001 C CNN
+	1    1850 7450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR09
+U 1 1 6023A4A3
+P 2500 7250
+F 0 "#PWR09" H 2500 7000 50  0001 C CNN
+F 1 "GND" H 2500 7100 50  0000 C CNN
+F 2 "" H 2500 7250 50  0001 C CNN
+F 3 "" H 2500 7250 50  0001 C CNN
+	1    2500 7250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR017
+U 1 1 6023BF4B
+P 4400 7300
+F 0 "#PWR017" H 4400 7050 50  0001 C CNN
+F 1 "GND" H 4400 7150 50  0000 C CNN
+F 2 "" H 4400 7300 50  0001 C CNN
+F 3 "" H 4400 7300 50  0001 C CNN
+	1    4400 7300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR013
+U 1 1 6023DAB1
+P 3000 8500
+F 0 "#PWR013" H 3000 8250 50  0001 C CNN
+F 1 "GND" H 3000 8350 50  0000 C CNN
+F 2 "" H 3000 8500 50  0001 C CNN
+F 3 "" H 3000 8500 50  0001 C CNN
+	1    3000 8500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3000 8500 3000 8450
+Connection ~ 3000 8450
+$Comp
+L power:GND #PWR020
+U 1 1 602CBB7A
+P 5800 8900
+F 0 "#PWR020" H 5800 8650 50  0001 C CNN
+F 1 "GND" H 5800 8750 50  0000 C CNN
+F 2 "" H 5800 8900 50  0001 C CNN
+F 3 "" H 5800 8900 50  0001 C CNN
+	1    5800 8900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR023
+U 1 1 602CC04A
+P 6600 8350
+F 0 "#PWR023" H 6600 8100 50  0001 C CNN
+F 1 "GND" H 6600 8200 50  0000 C CNN
+F 2 "" H 6600 8350 50  0001 C CNN
+F 3 "" H 6600 8350 50  0001 C CNN
+	1    6600 8350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10850 1350 11200 1350
+Wire Wire Line
+	11200 1350 11200 1700
+Text Label 10350 1350 0    50   ~ 0
+VBUS2
+Wire Wire Line
+	10350 1350 10550 1350
+Wire Wire Line
+	1850 7050 1850 7100
+Wire Wire Line
+	7600 6650 7800 6650
+Wire Wire Line
+	7300 6750 7800 6750
+Wire Wire Line
+	7600 6950 7800 6950
+Wire Wire Line
+	7300 7050 7800 7050
+Wire Wire Line
+	7300 7350 7800 7350
+Wire Wire Line
+	6500 7250 7300 7250
+Wire Wire Line
+	7600 7550 7800 7550
+$Comp
+L power:GND #PWR015
+U 1 1 60F9B100
+P 3350 11100
+F 0 "#PWR015" H 3350 10850 50  0001 C CNN
+F 1 "GND" H 3350 10950 50  0000 C CNN
+F 2 "" H 3350 11100 50  0001 C CNN
+F 3 "" H 3350 11100 50  0001 C CNN
+	1    3350 11100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3350 11100 3350 11050
+Wire Wire Line
+	3350 10250 3350 10750
+$Comp
+L power:GND #PWR05
+U 1 1 61131312
+P 2200 14700
+F 0 "#PWR05" H 2200 14450 50  0001 C CNN
+F 1 "GND" H 2200 14550 50  0000 C CNN
+F 2 "" H 2200 14700 50  0001 C CNN
+F 3 "" H 2200 14700 50  0001 C CNN
+	1    2200 14700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR016
+U 1 1 611B7624
+P 3450 14650
+F 0 "#PWR016" H 3450 14400 50  0001 C CNN
+F 1 "GND" H 3450 14500 50  0000 C CNN
+F 2 "" H 3450 14650 50  0001 C CNN
+F 3 "" H 3450 14650 50  0001 C CNN
+	1    3450 14650
+	1    0    0    -1  
+$EndComp
+Text Label 3450 14350 0    50   ~ 0
+OD_N
+Text Label 3450 14450 0    50   ~ 0
+OD_P
+$Comp
+L power:GND #PWR026
+U 1 1 5FC4FA30
+P 7650 13600
+F 0 "#PWR026" H 7650 13350 50  0001 C CNN
+F 1 "GND" H 7650 13450 50  0000 C CNN
+F 2 "" H 7650 13600 50  0001 C CNN
+F 3 "" H 7650 13600 50  0001 C CNN
+	1    7650 13600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7650 13600 7650 13550
+$Comp
+L power:GND #PWR024
+U 1 1 5FE73BF5
+P 7250 14350
+F 0 "#PWR024" H 7250 14100 50  0001 C CNN
+F 1 "GND" H 7250 14200 50  0000 C CNN
+F 2 "" H 7250 14350 50  0001 C CNN
+F 3 "" H 7250 14350 50  0001 C CNN
+	1    7250 14350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7250 14350 7250 14300
+$Comp
+L power:GND #PWR022
+U 1 1 5FEFB9E3
+P 6450 15050
+F 0 "#PWR022" H 6450 14800 50  0001 C CNN
+F 1 "GND" H 6450 14900 50  0000 C CNN
+F 2 "" H 6450 15050 50  0001 C CNN
+F 3 "" H 6450 15050 50  0001 C CNN
+	1    6450 15050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR031
+U 1 1 5FEFBF8A
+P 10000 11900
+F 0 "#PWR031" H 10000 11650 50  0001 C CNN
+F 1 "GND" H 10000 11750 50  0000 C CNN
+F 2 "" H 10000 11900 50  0001 C CNN
+F 3 "" H 10000 11900 50  0001 C CNN
+	1    10000 11900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10000 11900 10000 11850
+$Comp
+L power:GND #PWR027
+U 1 1 5FF953A1
+P 7800 10000
+F 0 "#PWR027" H 7800 9750 50  0001 C CNN
+F 1 "GND" H 7800 9850 50  0000 C CNN
+F 2 "" H 7800 10000 50  0001 C CNN
+F 3 "" H 7800 10000 50  0001 C CNN
+	1    7800 10000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR025
+U 1 1 60023DD9
+P 7650 11250
+F 0 "#PWR025" H 7650 11100 50  0001 C CNN
+F 1 "+3V3" H 7650 11390 50  0000 C CNN
+F 2 "" H 7650 11250 50  0001 C CNN
+F 3 "" H 7650 11250 50  0001 C CNN
+	1    7650 11250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR014
+U 1 1 60024BE3
+P 3350 9750
+F 0 "#PWR014" H 3350 9600 50  0001 C CNN
+F 1 "+3V3" H 3350 9900 50  0000 C CNN
+F 2 "" H 3350 9750 50  0001 C CNN
+F 3 "" H 3350 9750 50  0001 C CNN
+	1    3350 9750
+	1    0    0    -1  
+$EndComp
+Text Label 6650 11250 0    50   ~ 0
+AN9
+$Comp
+L power:GND #PWR035
+U 1 1 6003F0DA
+P 10350 14500
+F 0 "#PWR035" H 10350 14250 50  0001 C CNN
+F 1 "GND" H 10350 14350 50  0000 C CNN
+F 2 "" H 10350 14500 50  0001 C CNN
+F 3 "" H 10350 14500 50  0001 C CNN
+	1    10350 14500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10350 14500 10350 14450
+Wire Wire Line
+	10350 14450 10400 14450
+$Comp
+L power:GND #PWR032
+U 1 1 600C90E3
+P 10000 13850
+F 0 "#PWR032" H 10000 13600 50  0001 C CNN
+F 1 "GND" H 10000 13700 50  0000 C CNN
+F 2 "" H 10000 13850 50  0001 C CNN
+F 3 "" H 10000 13850 50  0001 C CNN
+	1    10000 13850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	10000 13850 10050 13850
+$Comp
+L power:+3V3 #PWR029
+U 1 1 6015A0AF
+P 9800 14150
+F 0 "#PWR029" H 9800 14000 50  0001 C CNN
+F 1 "+3V3" H 9800 14290 50  0000 C CNN
+F 2 "" H 9800 14150 50  0001 C CNN
+F 3 "" H 9800 14150 50  0001 C CNN
+	1    9800 14150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR046
+U 1 1 6015A401
+P 12300 13950
+F 0 "#PWR046" H 12300 13800 50  0001 C CNN
+F 1 "+3V3" H 12300 14090 50  0000 C CNN
+F 2 "" H 12300 13950 50  0001 C CNN
+F 3 "" H 12300 13950 50  0001 C CNN
+	1    12300 13950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10400 13850 10350 13850
+$Comp
+L power:+3V3 #PWR063
+U 1 1 601F4FE9
+P 15050 13200
+F 0 "#PWR063" H 15050 13050 50  0001 C CNN
+F 1 "+3V3" H 15050 13340 50  0000 C CNN
+F 2 "" H 15050 13200 50  0001 C CNN
+F 3 "" H 15050 13200 50  0001 C CNN
+	1    15050 13200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR054
+U 1 1 601F5E1B
+P 13750 14250
+F 0 "#PWR054" H 13750 14000 50  0001 C CNN
+F 1 "GND" H 13750 14100 50  0000 C CNN
+F 2 "" H 13750 14250 50  0001 C CNN
+F 3 "" H 13750 14250 50  0001 C CNN
+	1    13750 14250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR056
+U 1 1 601F6345
+P 14350 14250
+F 0 "#PWR056" H 14350 14000 50  0001 C CNN
+F 1 "GND" H 14350 14100 50  0000 C CNN
+F 2 "" H 14350 14250 50  0001 C CNN
+F 3 "" H 14350 14250 50  0001 C CNN
+	1    14350 14250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14350 14250 14350 14200
+Connection ~ 14350 14200
+$Comp
+L power:GND #PWR071
+U 1 1 60309CB0
+P 17050 13400
+F 0 "#PWR071" H 17050 13150 50  0001 C CNN
+F 1 "GND" H 17050 13250 50  0000 C CNN
+F 2 "" H 17050 13400 50  0001 C CNN
+F 3 "" H 17050 13400 50  0001 C CNN
+	1    17050 13400
+	1    0    0    -1  
+$EndComp
+$Comp
+L IceCore-rescue:ICS-000169-00-2_HCS_Verified U1
+U 1 1 541775CA
+P 5150 12450
+F 0 "U1" H 5150 15000 50  0000 C BNN
+F 1 "ICS-000169-00" H 5150 12050 69  0001 L BNN
+F 2 "Package_QFP:LQFP-64_10x10mm_P0.5mm" H 5150 11750 50  0001 C CNN
+F 3 "http://www.heaviside.in:8000/part/169/" H 5150 12100 50  0001 C CNN
+F 4 "STMicroelectronics" H 5150 11950 50  0001 C CNN "Manufacturer"
+F 5 "STM32F730R8T6" H 5150 11850 50  0001 C CNN "Manufacturer Part Number"
+F 6 "STM32F730R8T6" H 5150 14900 50  0000 C CNN "Part Number"
+F 7 "LQFP-64" H 0   0   50  0001 C CNN "Package Type"
+	1    5150 12450
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR051
+U 1 1 603A7D71
+P 13150 12400
+F 0 "#PWR051" H 13150 12150 50  0001 C CNN
+F 1 "GND" H 13150 12250 50  0000 C CNN
+F 2 "" H 13150 12400 50  0001 C CNN
+F 3 "" H 13150 12400 50  0001 C CNN
+	1    13150 12400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR066
+U 1 1 603A86A7
+P 15550 11750
+F 0 "#PWR066" H 15550 11500 50  0001 C CNN
+F 1 "GND" H 15550 11600 50  0000 C CNN
+F 2 "" H 15550 11750 50  0001 C CNN
+F 3 "" H 15550 11750 50  0001 C CNN
+	1    15550 11750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR061
+U 1 1 603A88FC
+P 14550 11750
+F 0 "#PWR061" H 14550 11500 50  0001 C CNN
+F 1 "GND" H 14550 11600 50  0000 C CNN
+F 2 "" H 14550 11750 50  0001 C CNN
+F 3 "" H 14550 11750 50  0001 C CNN
+	1    14550 11750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR047
+U 1 1 603A8B67
+P 12950 11750
+F 0 "#PWR047" H 12950 11500 50  0001 C CNN
+F 1 "GND" H 12950 11600 50  0000 C CNN
+F 2 "" H 12950 11750 50  0001 C CNN
+F 3 "" H 12950 11750 50  0001 C CNN
+	1    12950 11750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13150 12400 13150 12350
+Wire Wire Line
+	12650 11700 12950 11700
+Wire Wire Line
+	12950 11750 12950 11700
+Connection ~ 12950 11700
+Wire Wire Line
+	12950 11700 13250 11700
+Wire Wire Line
+	14550 11750 14550 11700
+Connection ~ 14550 11700
+Wire Wire Line
+	15550 11750 15550 11700
+Connection ~ 15550 11700
+$Comp
+L power:GND #PWR075
+U 1 1 605CDEF8
+P 17350 8950
+F 0 "#PWR075" H 17350 8700 50  0001 C CNN
+F 1 "GND" H 17350 8800 50  0000 C CNN
+F 2 "" H 17350 8950 50  0001 C CNN
+F 3 "" H 17350 8950 50  0001 C CNN
+	1    17350 8950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR069
+U 1 1 605CE3ED
+P 16150 5300
+F 0 "#PWR069" H 16150 5050 50  0001 C CNN
+F 1 "GND" H 16150 5150 50  0000 C CNN
+F 2 "" H 16150 5300 50  0001 C CNN
+F 3 "" H 16150 5300 50  0001 C CNN
+	1    16150 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR043
+U 1 1 605CEA88
+P 12150 5300
+F 0 "#PWR043" H 12150 5050 50  0001 C CNN
+F 1 "GND" H 12150 5150 50  0000 C CNN
+F 2 "" H 12150 5300 50  0001 C CNN
+F 3 "" H 12150 5300 50  0001 C CNN
+	1    12150 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR034
+U 1 1 605CEFCA
+P 10350 7300
+F 0 "#PWR034" H 10350 7050 50  0001 C CNN
+F 1 "GND" H 10350 7150 50  0000 C CNN
+F 2 "" H 10350 7300 50  0001 C CNN
+F 3 "" H 10350 7300 50  0001 C CNN
+	1    10350 7300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR040
+U 1 1 605CF442
+P 10850 8100
+F 0 "#PWR040" H 10850 7850 50  0001 C CNN
+F 1 "GND" H 10850 7950 50  0000 C CNN
+F 2 "" H 10850 8100 50  0001 C CNN
+F 3 "" H 10850 8100 50  0001 C CNN
+	1    10850 8100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR038
+U 1 1 605CF6A1
+P 10750 9650
+F 0 "#PWR038" H 10750 9400 50  0001 C CNN
+F 1 "GND" H 10750 9500 50  0000 C CNN
+F 2 "" H 10750 9650 50  0001 C CNN
+F 3 "" H 10750 9650 50  0001 C CNN
+	1    10750 9650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	17350 8950 17350 8900
+Connection ~ 17350 8900
+$Comp
+L power:+3V3 #PWR074
+U 1 1 6065BB38
+P 17350 6400
+F 0 "#PWR074" H 17350 6250 50  0001 C CNN
+F 1 "+3V3" H 17350 6540 50  0000 C CNN
+F 2 "" H 17350 6400 50  0001 C CNN
+F 3 "" H 17350 6400 50  0001 C CNN
+	1    17350 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR062
+U 1 1 60665CD9
+P 14750 4700
+F 0 "#PWR062" H 14750 4550 50  0001 C CNN
+F 1 "VCC" H 14765 4873 50  0000 C CNN
+F 2 "" H 14750 4700 50  0001 C CNN
+F 3 "" H 14750 4700 50  0001 C CNN
+	1    14750 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR048
+U 1 1 6066640C
+P 12950 12000
+F 0 "#PWR048" H 12950 11850 50  0001 C CNN
+F 1 "VCC" H 12950 12150 50  0000 C CNN
+F 2 "" H 12950 12000 50  0001 C CNN
+F 3 "" H 12950 12000 50  0001 C CNN
+	1    12950 12000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L IceCore-rescue:CAP-000004-00-2_HCS_Verified C28
+U 1 1 BFFA351D
+P 10950 9600
+F 0 "C28" H 10650 9600 50  0000 C CNN
+F 1 "CAP-000004-00" H 10950 9100 59  0001 R TNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 10950 8800 50  0001 C CNN
+F 3 "http://www.heaviside.in:8000/part/4/" H 10950 8450 50  0001 C CNN
+F 4 "0.1µF" H 10450 9600 50  0000 C CNN "Capacitance (Farad)"
+F 5 "-" H 11150 9350 50  0001 C CNN "ESR (Ohm)"
+F 6 "Murata Electronics" H 10950 9000 50  0001 C CNN "Manufacturer"
+F 7 "GRM155R71C104KA88D" H 10950 8900 50  0001 C CNN "Manufacturer Part Number"
+F 8 "1.00x0.50mm" H 10950 9250 50  0001 C CNN "Package Size"
+F 9 "0402" H 10950 9250 50  0001 C CNN "Package Type"
+F 10 "±10%" H 11150 9450 50  0001 C CNN "Tolerance (%)"
+F 11 "16V" H 10950 9350 50  0001 C CNN "Voltage Rated (Volt)"
+	1    10950 9600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	16300 11050 15850 11050
+Wire Wire Line
+	16300 11050 16300 11100
+Connection ~ 15850 11050
+Wire Wire Line
+	15850 11050 15850 11400
+Wire Wire Line
+	10850 7200 10850 7250
+Connection ~ 10850 7200
+Wire Wire Line
+	10850 7200 11550 7200
+Wire Wire Line
+	10400 13750 10400 13850
+Connection ~ 10400 13850
+Wire Wire Line
+	10400 13850 10400 14150
+Text Notes 9550 11250 0    50   ~ 0
+c36 goes to FPGA 46 pin ... \nthere is already one 0.1uF on p46!
+Text Notes 14000 14700 0    50   ~ 0
+C41 goes to IC3 38
+Text Notes 17200 14700 0    50   ~ 0
+C54 goes to IC3 25
+Wire Wire Line
+	5100 4300 5300 4300
+$Comp
+L Mechanical:MountingHole_Pad H1
+U 1 1 CB8F9854
+P 2000 1550
+F 0 "H1" H 2000 1550 50  0001 C CNN
+F 1 "MountingHole_Pad" H 2000 1725 50  0001 C CNN
+F 2 "HCS:2.5MM-HOLE" H 2000 1550 50  0001 C CNN
+F 3 "~" H 2000 1550 50  0001 C CNN
+	1    2000 1550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2000 1650 2000 1700
+Wire Wire Line
+	2000 1700 2200 1700
+Wire Wire Line
+	2600 1700 2600 1650
+Wire Wire Line
+	2400 1650 2400 1700
+Connection ~ 2400 1700
+Wire Wire Line
+	2400 1700 2600 1700
+Wire Wire Line
+	2200 1650 2200 1700
+Connection ~ 2200 1700
+Wire Wire Line
+	2200 1700 2300 1700
+Connection ~ 2300 1700
+Wire Wire Line
+	2300 1700 2400 1700
+$Comp
+L IceCore-rescue:CAP-000182-00-2_HCS_Verified C8
+U 1 1 49FBE036
+P 7150 6450
+F 0 "C8" H 8000 6450 50  0000 C CNN
+F 1 "CAP-000182-00" H 7150 5850 59  0001 L BNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 7150 5550 50  0001 C CNN
+F 3 "http://www.heaviside.in:8000/part/182/" H 7150 5900 50  0001 C CNN
+F 4 "0.22µF" H 8250 6450 50  0000 C CNN "Capacitance (Farad)"
+F 5 "Murata Electronics" H 7150 5750 50  0001 C CNN "Manufacturer"
+F 6 "GRM155R71C224KA12D" H 7150 5650 50  0001 C CNN "Manufacturer Part Number"
+F 7 "0402" H 7150 6100 50  0001 C CNN "Package Type"
+F 8 "16V" H 7150 6200 50  0001 C CNN "Rated Voltage (Volt)"
+F 9 "X7R" H 7150 6000 50  0001 C CNN "Temperature Grade"
+F 10 "±10%" H 7450 6300 50  0001 C CNN "Tolerance (%)"
+	1    7150 6450
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	7400 8150 7800 8150
+Wire Wire Line
+	6500 8150 7400 8150
+Wire Wire Line
+	7150 11250 7150 10950
+Wire Wire Line
+	7600 11250 7650 11250
+Wire Wire Line
+	7800 10000 7800 9950
+Wire Wire Line
+	7800 9950 7950 9950
+Wire Wire Line
+	7950 9950 7950 10250
+Wire Wire Line
+	7600 13550 7650 13550
+Wire Wire Line
+	7250 14000 7250 13950
+Wire Wire Line
+	6350 13550 7150 13550
+Wire Wire Line
+	7200 11250 7150 11250
+Wire Wire Line
+	7150 11250 7150 13550
+Connection ~ 7150 11250
+Connection ~ 7150 13550
+Wire Wire Line
+	7150 13550 7200 13550
+Wire Wire Line
+	3350 9750 3350 9800
+Wire Wire Line
+	3350 10200 3350 10250
+Connection ~ 3350 10250
+$Comp
+L power:+3V3 #PWR036
+U 1 1 623B9D89
+P 10400 13750
+F 0 "#PWR036" H 10400 13600 50  0001 C CNN
+F 1 "+3V3" H 10400 13890 50  0000 C CNN
+F 2 "" H 10400 13750 50  0001 C CNN
+F 3 "" H 10400 13750 50  0001 C CNN
+	1    10400 13750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR052
+U 1 1 624EB551
+P 13450 14950
+F 0 "#PWR052" H 13450 14800 50  0001 C CNN
+F 1 "+3V3" H 13450 15090 50  0000 C CNN
+F 2 "" H 13450 14950 50  0001 C CNN
+F 3 "" H 13450 14950 50  0001 C CNN
+	1    13450 14950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR057
+U 1 1 624EB92A
+P 14400 14950
+F 0 "#PWR057" H 14400 14800 50  0001 C CNN
+F 1 "+3V3" H 14400 15090 50  0000 C CNN
+F 2 "" H 14400 14950 50  0001 C CNN
+F 3 "" H 14400 14950 50  0001 C CNN
+	1    14400 14950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR076
+U 1 1 624EBCB4
+P 17600 14900
+F 0 "#PWR076" H 17600 14750 50  0001 C CNN
+F 1 "+3V3" H 17600 15040 50  0000 C CNN
+F 2 "" H 17600 14900 50  0001 C CNN
+F 3 "" H 17600 14900 50  0001 C CNN
+	1    17600 14900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10800 9300 10750 9300
+Wire Wire Line
+	10750 9300 10750 9600
+Wire Wire Line
+	10800 9600 10750 9600
+Connection ~ 10750 9600
+Wire Wire Line
+	10750 9600 10750 9650
+$Comp
+L IceCore-rescue:CAP-000004-00-2_HCS_Verified C39
+U 1 1 0FEA0920
+P 13650 5350
+F 0 "C39" V 13650 5250 50  0000 R TNN
+F 1 "CAP-000004-00" H 13650 4850 59  0001 R TNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 13650 4550 50  0001 C CNN
+F 3 "http://www.heaviside.in:8000/part/4/" H 13650 4200 50  0001 C CNN
+F 4 "0.1µF" V 13600 5150 50  0000 C CNN "Capacitance (Farad)"
+F 5 "-" H 13850 5100 50  0001 C CNN "ESR (Ohm)"
+F 6 "Murata Electronics" H 13650 4750 50  0001 C CNN "Manufacturer"
+F 7 "GRM155R71C104KA88D" H 13650 4650 50  0001 C CNN "Manufacturer Part Number"
+F 8 "1.00x0.50mm" H 13650 5000 50  0001 C CNN "Package Size"
+F 9 "0402" H 13650 5000 50  0001 C CNN "Package Type"
+F 10 "±10%" H 13850 5200 50  0001 C CNN "Tolerance (%)"
+F 11 "16V" H 13650 5100 50  0001 C CNN "Voltage Rated (Volt)"
+	1    13650 5350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+3V3 #PWR030
+U 1 1 63431F99
+P 10000 11500
+F 0 "#PWR030" H 10000 11350 50  0001 C CNN
+F 1 "+3V3" H 10000 11640 50  0000 C CNN
+F 2 "" H 10000 11500 50  0001 C CNN
+F 3 "" H 10000 11500 50  0001 C CNN
+	1    10000 11500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10000 11550 10000 11500
+Wire Wire Line
+	12950 12000 13150 12000
+Wire Wire Line
+	13150 12050 13150 12000
+Connection ~ 13150 12000
+Wire Wire Line
+	13150 12000 13200 12000
+Wire Wire Line
+	13250 11000 13250 11400
+Text Label 13250 11300 1    50   ~ 0
++3V3
+Text Notes 10250 1150 0    50   ~ 0
+reverse polarity protection
+Text Notes 10300 1600 2    50   ~ 0
+(5V from \nUSB connectors)
+Text Notes 11850 1450 0    50   ~ 0
+(5V - Schottky Fwd)
+Text Notes 16800 2450 0    50   ~ 0
+(VCC=1.2V for FPGA core)
+Text Notes 11650 3750 0    50   ~ 0
+(for 100R and 0.1uF, fc=16KHz)
+Wire Notes Line
+	13250 2450 14350 2150
+Wire Notes Line
+	14350 2150 14250 2150
+Wire Notes Line
+	14350 2150 14300 2200
+Text Label 11050 1700 2    50   ~ 0
+VUSB
+Text Notes 3200 8200 0    50   ~ 10
+if L0/L1 FPGA pin is pulled high \nand button is pressed?! ... BOOM!!!
+NoConn ~ 3950 10550
+$Comp
+L IceCore-rescue:CLK-000185-00-2_HCS_Verified Y2
+U 1 1 602591DD
+P 2450 10450
+F 0 "Y2" H 2550 10700 50  0000 L CNN
+F 1 "CLK-000185-00" H 2450 9800 50  0001 C CNN
+F 2 "Oscillator:Oscillator_SMD_Abracon_ASE-4Pin_3.2x2.5mm" H 2450 9500 50  0001 C CNN
+F 3 "http://www.heaviside.in:8000/part/185/" H 2450 9450 50  0001 C CNN
+F 4 "Abracon LLC" H 2450 9700 50  0001 C CNN "Manufacturer"
+F 5 "ASEDV-16.000MHZ-LR-T" H 2450 9800 50  0000 C CNN "Manufacturer Part Number"
+F 6 "ASEDV-16.000MHZ-LR-T" H 2450 9350 50  0001 C CNN "Part Number"
+F 7 "16MHz" H 2450 9250 50  0001 C CNN "Frequency"
+F 8 "-" H 2450 10050 50  0001 C CNN "Load Capacitance (Farad)"
+F 9 "3.20x2.50mm" H 2450 9950 50  0001 C CNN "Package Size"
+F 10 "SMD" H 0   0   50  0001 C CNN "Package Type"
+	1    2450 10450
+	1    0    0    -1  
+$EndComp
+$Comp
+L IceCore-rescue:CAP-000017-00-2_HCS_Verified C1
+U 1 1 6025A7A8
+P 1700 10350
+F 0 "C1" V 1746 10245 50  0000 R CNN
+F 1 "CAP-000017-00" H 1700 9750 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 1700 9450 50  0001 C CNN
+F 3 "" H 1700 9800 50  0001 C CNN
+F 4 "Murata Electronics" H 1700 9650 50  0001 C CNN "Manufacturer"
+F 5 "GCM155R71H103KA55D" H 1700 9550 50  0001 C CNN "Manufacturer Part Number"
+F 6 "0.01uF" V 1655 10245 50  0000 R CNN "Capacitance (Farad)"
+F 7 "±10%" H 2000 10200 50  0001 C CNN "Tolerance (%)"
+F 8 "50V" H 1700 10100 50  0001 C CNN "Rated Voltage (Volt)"
+F 9 "X7R" H 1700 9900 50  0001 C CNN "Temperature Grade"
+F 10 "0402" H 1700 10000 50  0001 C CNN "Package Type"
+	1    1700 10350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+3V3 #PWR07
+U 1 1 602E89FE
+P 2450 9900
+F 0 "#PWR07" H 2450 9750 50  0001 C CNN
+F 1 "+3V3" H 2450 10050 50  0000 C CNN
+F 2 "" H 2450 9900 50  0001 C CNN
+F 3 "" H 2450 9900 50  0001 C CNN
+	1    2450 9900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2450 9900 2450 9950
+Connection ~ 2450 9950
+Wire Wire Line
+	2450 9950 2450 10100
+Wire Wire Line
+	2150 10450 2100 10450
+Wire Wire Line
+	2100 10450 2100 10100
+Connection ~ 2450 10100
+Wire Wire Line
+	2450 10100 2450 10150
+$Comp
+L power:GND #PWR08
+U 1 1 60873D03
+P 2450 10850
+F 0 "#PWR08" H 2450 10600 50  0001 C CNN
+F 1 "GND" H 2450 10700 50  0000 C CNN
+F 2 "" H 2450 10850 50  0001 C CNN
+F 3 "" H 2450 10850 50  0001 C CNN
+	1    2450 10850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2450 10850 2450 10800
+Wire Wire Line
+	1700 10200 1700 9950
+Wire Wire Line
+	1700 9950 2450 9950
+Wire Wire Line
+	2100 10100 2450 10100
+Wire Wire Line
+	1700 10500 1700 10800
+Wire Wire Line
+	1700 10800 2450 10800
+Connection ~ 2450 10800
+Wire Wire Line
+	2450 10800 2450 10750
+Wire Wire Line
+	2750 10450 3950 10450
+Text Notes 4250 13200 0    50   ~ 0
+If more flash is required, \none can use pin comopatible \nSTM32F732RET6!
+$Comp
+L power:+3V3 #PWR02
+U 1 1 608600EB
+P 1800 2250
+F 0 "#PWR02" H 1800 2100 50  0001 C CNN
+F 1 "+3V3" H 1800 2390 50  0000 C CNN
+F 2 "" H 1800 2250 50  0001 C CNN
+F 3 "" H 1800 2250 50  0001 C CNN
+	1    1800 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR064
+U 1 1 60E494DA
+P 15200 1550
+F 0 "#PWR064" H 15200 1400 50  0001 C CNN
+F 1 "+3V3" H 15200 1690 50  0000 C CNN
+F 2 "" H 15200 1550 50  0001 C CNN
+F 3 "" H 15200 1550 50  0001 C CNN
+	1    15200 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR068
+U 1 1 60E4A24C
+P 15950 1600
+F 0 "#PWR068" H 15950 1350 50  0001 C CNN
+F 1 "GND" H 15950 1450 50  0000 C CNN
+F 2 "" H 15950 1600 50  0001 C CNN
+F 3 "" H 15950 1600 50  0001 C CNN
+	1    15950 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR065
+U 1 1 60E4A69C
+P 15450 1550
+F 0 "#PWR065" H 15450 1400 50  0001 C CNN
+F 1 "VCC" H 15450 1700 50  0000 C CNN
+F 2 "" H 15450 1550 50  0001 C CNN
+F 3 "" H 15450 1550 50  0001 C CNN
+	1    15450 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR067
+U 1 1 60E51A5B
+P 15700 1550
+F 0 "#PWR067" H 15700 1400 50  0001 C CNN
+F 1 "+5V" H 15700 1700 50  0000 C CNN
+F 2 "" H 15700 1550 50  0001 C CNN
+F 3 "" H 15700 1550 50  0001 C CNN
+	1    15700 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG01
+U 1 1 60EECC90
+P 15200 1600
+F 0 "#FLG01" H 15200 1675 50  0001 C CNN
+F 1 "PWR_FLAG" H 15200 1773 50  0001 C CNN
+F 2 "" H 15200 1600 50  0001 C CNN
+F 3 "~" H 15200 1600 50  0001 C CNN
+	1    15200 1600
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	15200 1600 15200 1550
+$Comp
+L power:PWR_FLAG #FLG02
+U 1 1 60F7DB53
+P 15450 1600
+F 0 "#FLG02" H 15450 1675 50  0001 C CNN
+F 1 "PWR_FLAG" H 15450 1773 50  0001 C CNN
+F 2 "" H 15450 1600 50  0001 C CNN
+F 3 "~" H 15450 1600 50  0001 C CNN
+	1    15450 1600
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG03
+U 1 1 60F7E67D
+P 15700 1600
+F 0 "#FLG03" H 15700 1675 50  0001 C CNN
+F 1 "PWR_FLAG" H 15700 1773 50  0001 C CNN
+F 2 "" H 15700 1600 50  0001 C CNN
+F 3 "~" H 15700 1600 50  0001 C CNN
+	1    15700 1600
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG04
+U 1 1 60F7EF9B
+P 15950 1550
+F 0 "#FLG04" H 15950 1625 50  0001 C CNN
+F 1 "PWR_FLAG" H 15950 1723 50  0001 C CNN
+F 2 "" H 15950 1550 50  0001 C CNN
+F 3 "~" H 15950 1550 50  0001 C CNN
+	1    15950 1550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	15450 1550 15450 1600
+Wire Wire Line
+	15700 1550 15700 1600
+Wire Wire Line
+	15950 1550 15950 1600
+$Comp
+L IceCore-rescue:CON-000183-00-2_HCS_Verified J5
+U 1 1 5FEC5498
+P 3100 14450
+F 0 "J5" H 3164 15173 50  0000 C CNN
+F 1 "CON-000183-00" H 3100 14050 50  0001 C CNN
+F 2 "HCS:USB_Micro_B_Female_10118193-0001LF" H 3100 13750 50  0001 C CNN
+F 3 "http://www.heaviside.in:8000/part/183/" H 3100 14100 30  0001 C CNN
+F 4 "Amphenol ICC (FCI)" H 3100 13950 50  0001 C CNN "Manufacturer"
+F 5 "10118193-0001LF" H 3100 13850 50  0001 C CNN "Manufacturer Part Number"
+F 6 "10118193-0001LF" H 3164 15082 50  0000 C CNN "Part Number"
+F 7 "Through Hole" H 0   0   50  0001 C CNN "Package Type"
+	1    3100 14450
+	1    0    0    -1  
+$EndComp
+Text Label 2200 14250 0    50   ~ 0
+VBUS1
+Wire Wire Line
+	3400 14250 3450 14250
+Wire Wire Line
+	3400 14350 3450 14350
+Wire Wire Line
+	3400 14450 3450 14450
+Wire Wire Line
+	3400 14550 3450 14550
+Wire Wire Line
+	3400 14650 3450 14650
+NoConn ~ 3400 14550
+$Comp
+L power:GND #PWR012
+U 1 1 60365150
+P 3000 15100
+F 0 "#PWR012" H 3000 14850 50  0001 C CNN
+F 1 "GND" H 3000 14950 50  0000 C CNN
+F 2 "" H 3000 15100 50  0001 C CNN
+F 3 "" H 3000 15100 50  0001 C CNN
+	1    3000 15100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3000 15100 3000 15050
+$Comp
+L IceCore-rescue:CON-000183-00-2_HCS_Verified J4
+U 1 1 605B2113
+P 1850 14450
+F 0 "J4" H 1914 15173 50  0000 C CNN
+F 1 "CON-000183-00" H 1850 14050 50  0001 C CNN
+F 2 "HCS:USB_Micro_B_Female_10118193-0001LF" H 1850 13750 50  0001 C CNN
+F 3 "http://www.heaviside.in:8000/part/183/" H 1850 14100 30  0001 C CNN
+F 4 "Amphenol ICC (FCI)" H 1850 13950 50  0001 C CNN "Manufacturer"
+F 5 "10118193-0001LF" H 1850 13850 50  0001 C CNN "Manufacturer Part Number"
+F 6 "10118193-0001LF" H 1914 15082 50  0000 C CNN "Part Number"
+F 7 "Through Hole" H 0   0   50  0001 C CNN "Package Type"
+	1    1850 14450
+	1    0    0    -1  
+$EndComp
+NoConn ~ 2150 14550
+$Comp
+L power:GND #PWR01
+U 1 1 60645BE2
+P 1750 15100
+F 0 "#PWR01" H 1750 14850 50  0001 C CNN
+F 1 "GND" H 1750 14950 50  0000 C CNN
+F 2 "" H 1750 15100 50  0001 C CNN
+F 3 "" H 1750 15100 50  0001 C CNN
+	1    1750 15100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1750 15100 1750 15050
+Wire Wire Line
+	2150 14250 2200 14250
+Wire Wire Line
+	2150 14350 2200 14350
+Wire Wire Line
+	2150 14450 2200 14450
+Wire Wire Line
+	2150 14650 2200 14650
+Wire Wire Line
+	2200 14700 2200 14650
+Text Label 13200 2750 0    50   ~ 0
++3V3
+Text Label 17300 2750 0    50   ~ 0
+VCC
+Wire Wire Line
+	17300 2750 17250 2750
+Wire Wire Line
+	13200 2750 13150 2750
+$Comp
+L IceCore-rescue:CLK-000184-00-2_HCS_Verified Y1
+U 1 1 5FE29341
+P 2450 12350
+F 0 "Y1" H 2550 12600 50  0000 L CNN
+F 1 "CLK-000184-00" H 2450 11700 50  0001 C CNN
+F 2 "Oscillator:Oscillator_SMD_Abracon_ASE-4Pin_3.2x2.5mm" H 2450 11400 50  0001 C CNN
+F 3 "http://www.heaviside.in:8000/part/184/" H 2450 11350 50  0001 C CNN
+F 4 "Abracon LLC" H 2450 11600 50  0001 C CNN "Manufacturer"
+F 5 "ASEK-32.768KHZ-LRT" H 2450 11500 50  0001 C CNN "Manufacturer Part Number"
+F 6 "ASEK-32.768KHZ-LRT" H 2450 11700 50  0000 C CNN "Part Number"
+F 7 "32.768kHz" H 2894 12259 50  0001 L CNN "Frequency"
+F 8 "-" H 2450 11950 50  0001 C CNN "Load Capacitance (Farad)"
+F 9 "3.20x2.50mm" H 2450 11850 50  0001 C CNN "Package Size"
+F 10 "SMD" H 0   0   50  0001 C CNN "Package Type"
+	1    2450 12350
+	1    0    0    -1  
+$EndComp
+$Comp
+L IceCore-rescue:CAP-000017-00-2_HCS_Verified C3
+U 1 1 5FEBE317
+P 1700 12300
+F 0 "C3" V 1746 12195 50  0000 R CNN
+F 1 "CAP-000017-00" H 1700 11700 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 1700 11400 50  0001 C CNN
+F 3 "" H 1700 11750 50  0001 C CNN
+F 4 "Murata Electronics" H 1700 11600 50  0001 C CNN "Manufacturer"
+F 5 "GCM155R71H103KA55D" H 1700 11500 50  0001 C CNN "Manufacturer Part Number"
+F 6 "0.01uF" V 1655 12195 50  0000 R CNN "Capacitance (Farad)"
+F 7 "±10%" H 2000 12150 50  0001 C CNN "Tolerance (%)"
+F 8 "50V" H 1700 12050 50  0001 C CNN "Rated Voltage (Volt)"
+F 9 "X7R" H 1700 11850 50  0001 C CNN "Temperature Grade"
+F 10 "0402" H 1700 11950 50  0001 C CNN "Package Type"
+	1    1700 12300
+	0    -1   -1   0   
+$EndComp
+NoConn ~ 3950 12450
+$Comp
+L power:+3V3 #PWR010
+U 1 1 5FFDB1B4
+P 2450 11800
+F 0 "#PWR010" H 2450 11650 50  0001 C CNN
+F 1 "+3V3" H 2450 11950 50  0000 C CNN
+F 2 "" H 2450 11800 50  0001 C CNN
+F 3 "" H 2450 11800 50  0001 C CNN
+	1    2450 11800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2450 11800 2450 11850
+$Comp
+L power:GND #PWR078
+U 1 1 600699D4
+P 2450 12750
+F 0 "#PWR078" H 2450 12500 50  0001 C CNN
+F 1 "GND" H 2450 12600 50  0000 C CNN
+F 2 "" H 2450 12750 50  0001 C CNN
+F 3 "" H 2450 12750 50  0001 C CNN
+	1    2450 12750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2450 12750 2450 12700
+Wire Wire Line
+	2150 12350 2100 12350
+Wire Wire Line
+	2100 12350 2100 12000
+Wire Wire Line
+	2100 12000 2450 12000
+Connection ~ 2450 12000
+Wire Wire Line
+	2450 12000 2450 12050
+Wire Wire Line
+	2450 11850 1700 11850
+Wire Wire Line
+	1700 11850 1700 12150
+Connection ~ 2450 11850
+Wire Wire Line
+	2450 11850 2450 12000
+Wire Wire Line
+	1700 12450 1700 12700
+Wire Wire Line
+	1700 12700 2450 12700
+Connection ~ 2450 12700
+Wire Wire Line
+	2450 12700 2450 12650
+Wire Wire Line
+	2750 12350 3950 12350
+$Comp
+L power:+3V3 #PWR0101
+U 1 1 5FCFD29C
+P 8050 12450
+F 0 "#PWR0101" H 8050 12300 50  0001 C CNN
+F 1 "+3V3" H 8050 12600 50  0000 C CNN
+F 2 "" H 8050 12450 50  0001 C CNN
+F 3 "" H 8050 12450 50  0001 C CNN
+	1    8050 12450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR0102
+U 1 1 5FD9281A
+P 10800 3700
+F 0 "#PWR0102" H 10800 3550 50  0001 C CNN
+F 1 "+3V3" H 10800 3840 50  0000 C CNN
+F 2 "" H 10800 3700 50  0001 C CNN
+F 3 "" H 10800 3700 50  0001 C CNN
+	1    10800 3700
+	1    0    0    -1  
+$EndComp
+Text Notes 2800 13600 0    50   ~ 0
+were DM and DP got \ninterchanged in ico-core?
+Text Notes 19650 14750 0    50   ~ 0
+1) add 0.1 uf to pin 7 of SDRAM\n2) what about 37 th pin of SDRAM?\n3) does C2 belongs to SDRAM?\n4) check PWR trace widths and vias\n5) check copper pouring and anti-pad clearances in inner layers and outer layers\n6) what about thermal spokes?\n7) do via stiching
+$Comp
+L IceCore-rescue:MEC-000189-00-2_HCS_Verified S2
+U 1 1 60342CD3
+P 2600 8150
+F 0 "S2" V 2600 8106 50  0000 R CNN
+F 1 "MEC-000189-00" H 2600 7750 50  0001 C CNN
+F 2 "HCS:PTS636SL43SMTRLFS" H 2600 7450 50  0001 C CNN
+F 3 "http://www.heaviside.in:8000/part/189/" H 2600 7800 30  0001 C CNN
+F 4 "C&K" H 2600 7650 50  0001 C CNN "Manufacturer"
+F 5 "PTS636 SL43 SMTR LFS" H 2600 7550 50  0001 C CNN "Manufacturer Part Number"
+F 6 "PTS636 SL43 SMTR LFS" H 2600 7850 50  0001 C CNN "Part Number"
+F 7 "SMD" H 0   0   50  0001 C CNN "Package Type"
+	1    2600 8150
+	0    -1   1    0   
+$EndComp
+$Comp
+L IceCore-rescue:MEC-000189-00-2_HCS_Verified S3
+U 1 1 603432B2
+P 3000 8150
+F 0 "S3" V 3000 8106 50  0000 R CNN
+F 1 "MEC-000189-00" H 3000 7750 50  0001 C CNN
+F 2 "HCS:PTS636SL43SMTRLFS" H 3000 7450 50  0001 C CNN
+F 3 "http://www.heaviside.in:8000/part/189/" H 3000 7800 30  0001 C CNN
+F 4 "C&K" H 3000 7650 50  0001 C CNN "Manufacturer"
+F 5 "PTS636 SL43 SMTR LFS" H 3000 7550 50  0001 C CNN "Manufacturer Part Number"
+F 6 "PTS636 SL43 SMTR LFS" H 3000 7850 50  0001 C CNN "Part Number"
+F 7 "SMD" H 0   0   50  0001 C CNN "Package Type"
+	1    3000 8150
+	0    -1   1    0   
+$EndComp
+$Comp
+L IceCore-rescue:MEC-000189-00-2_HCS_Verified S1
+U 1 1 60376427
+P 7400 11250
+F 0 "S1" H 7400 11413 50  0000 C CNN
+F 1 "MEC-000189-00" H 7400 10850 50  0001 C CNN
+F 2 "HCS:PTS636SL43SMTRLFS" H 7400 10550 50  0001 C CNN
+F 3 "http://www.heaviside.in:8000/part/189/" H 7400 10900 30  0001 C CNN
+F 4 "C&K" H 7400 10750 50  0001 C CNN "Manufacturer"
+F 5 "PTS636 SL43 SMTR LFS" H 7400 10650 50  0001 C CNN "Manufacturer Part Number"
+F 6 "PTS636 SL43 SMTR LFS" H 7400 10950 50  0001 C CNN "Part Number"
+F 7 "SMD" H 0   0   50  0001 C CNN "Package Type"
+	1    7400 11250
+	1    0    0    -1  
+$EndComp
+$Comp
+L IceCore-rescue:BlankPCB-2_HCS_Verified PCB1
+U 1 1 600F89A3
+P 18600 1100
+F 0 "PCB1" H 18500 1300 50  0000 L CNN
+F 1 "BlankPCB" H 18600 800 50  0001 C CNN
+F 2 "" H 18600 1100 50  0001 C CNN
+F 3 "~" H 18600 1100 50  0001 C CNN
+	1    18600 1100
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
